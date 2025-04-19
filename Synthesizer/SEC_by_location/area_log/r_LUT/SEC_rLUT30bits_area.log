@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : SEC_rLUT30bits
+Version: U-2022.12-SP6
+Date   : Tue Apr  8 15:57:30 2025
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                           22
+Number of nets:                           355
+Number of cells:                          340
+Number of combinational cells:            340
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         57
+Number of references:                      25
+
+Combinational area:               4118.486398
+Buf/Inv area:                      356.227196
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                  4118.486398
+Total area:                 undefined
+1
