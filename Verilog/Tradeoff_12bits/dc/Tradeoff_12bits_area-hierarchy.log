@@ -1,0 +1,54 @@
+ 
+****************************************
+Report : area
+Design : Tradeoff_12bits
+Version: U-2022.12-SP6
+Date   : Wed Apr 30 18:52:17 2025
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                          708
+Number of nets:                          2780
+Number of cells:                         2032
+Number of combinational cells:           1911
+Number of sequential cells:               110
+Number of macros/black boxes:               0
+Number of buf/inv:                        268
+Number of references:                      45
+
+Combinational area:              39844.324457
+Buf/Inv area:                     1728.014381
+Noncombinational area:            6468.336006
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 46312.660463
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  -----------------------------
+Tradeoff_12bits                   46312.6605    100.0   5996.4912  6468.3360  0.0000  Tradeoff_12bits
+div_118                           10380.5855     22.4  10380.5855     0.0000  0.0000  Tradeoff_12bits_DW_div_uns_0
+div_85                             9974.3615     21.5   9974.3615     0.0000  0.0000  Tradeoff_12bits_DW_div_uns_6
+lLUT_inst                          1790.5104      3.9   1790.5104     0.0000  0.0000  SEC_lLUT12bits
+mult_113                           1665.5183      3.6   1665.5183     0.0000  0.0000  Tradeoff_12bits_DW_mult_uns_1
+mult_113_2                         1665.5183      3.6   1665.5183     0.0000  0.0000  Tradeoff_12bits_DW_mult_uns_2
+mult_89                            1321.7904      2.9   1321.7904     0.0000  0.0000  Tradeoff_12bits_DW_mult_uns_0
+rLUT_inst                          2259.2304      4.9   2259.2304     0.0000  0.0000  SEC_rLUT12bits
+sub_0_root_sub_0_root_sub_113_4    1621.7712      3.5   1621.7712     0.0000  0.0000  Tradeoff_12bits_DW01_sub_5
+sub_1_root_sub_0_root_sub_113_4    1621.7712      3.5   1621.7712     0.0000  0.0000  Tradeoff_12bits_DW01_sub_6
+sub_59                              778.0752      1.7    778.0752     0.0000  0.0000  Tradeoff_12bits_DW01_sub_1
+sub_89                              768.7008      1.7    768.7008     0.0000  0.0000  Tradeoff_12bits_DW01_sub_4
+--------------------------------  ----------  -------  ----------  ---------  ------  -----------------------------
+Total                                                  39844.3245  6468.3360  0.0000
+
+1
