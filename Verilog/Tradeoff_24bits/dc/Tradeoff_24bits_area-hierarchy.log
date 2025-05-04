@@ -1,0 +1,116 @@
+ 
+****************************************
+Report : area
+Design : Tradeoff_24bits
+Version: U-2022.12-SP6
+Date   : Wed Apr 30 20:32:14 2025
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                         4189
+Number of nets:                         10279
+Number of cells:                         7556
+Number of combinational cells:           7326
+Number of sequential cells:               157
+Number of macros/black boxes:               0
+Number of buf/inv:                       1853
+Number of references:                      49
+
+Combinational area:             115789.463314
+Buf/Inv area:                    12742.934271
+Noncombinational area:            9149.414429
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                124938.877742
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area             Local cell area
+                                  --------------------  ------------------------------ 
+Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-  Black-
+                                  Total        Total    national     national   boxes   Design
+--------------------------------  -----------  -------  -----------  ---------  ------  -----------------------------
+Tradeoff_24bits                   124938.8777    100.0    7530.7680  9149.4144  0.0000  Tradeoff_24bits
+add_0_root_add_46_C113_2_ni          237.4848      0.2     237.4848     0.0000  0.0000  Tradeoff_24bits_DW01_inc_2
+add_0_root_add_46_C113_ni            237.4848      0.2     237.4848     0.0000  0.0000  Tradeoff_24bits_DW01_inc_1
+div_118                            64717.7325     51.8   18055.0945     0.0000  0.0000  Tradeoff_24bits_DW_div_uns_2
+div_118/u_div_u_add_PartRem_0_1      271.8576      0.2     271.8576     0.0000  0.0000  Tradeoff_24bits_DW01_add_156
+div_118/u_div_u_add_PartRem_0_2      253.1088      0.2     253.1088     0.0000  0.0000  Tradeoff_24bits_DW01_add_157
+div_118/u_div_u_add_PartRem_0_3      284.3568      0.2     284.3568     0.0000  0.0000  Tradeoff_24bits_DW01_add_158
+div_118/u_div_u_add_PartRem_0_4      212.4864      0.2     212.4864     0.0000  0.0000  Tradeoff_24bits_DW01_add_159
+div_118/u_div_u_add_PartRem_0_5      237.4848      0.2     237.4848     0.0000  0.0000  Tradeoff_24bits_DW01_add_160
+div_118/u_div_u_add_PartRem_0_6      293.7312      0.2     293.7312     0.0000  0.0000  Tradeoff_24bits_DW01_add_161
+div_118/u_div_u_add_PartRem_0_7      343.7280      0.3     343.7280     0.0000  0.0000  Tradeoff_24bits_DW01_add_162
+div_118/u_div_u_add_PartRem_1_1      903.0672      0.7     903.0672     0.0000  0.0000  Tradeoff_24bits_DW01_add_149
+div_118/u_div_u_add_PartRem_1_2      821.8224      0.7     821.8224     0.0000  0.0000  Tradeoff_24bits_DW01_add_150
+div_118/u_div_u_add_PartRem_1_3      906.1920      0.7     906.1920     0.0000  0.0000  Tradeoff_24bits_DW01_add_151
+div_118/u_div_u_add_PartRem_1_4      774.9504      0.6     774.9504     0.0000  0.0000  Tradeoff_24bits_DW01_add_152
+div_118/u_div_u_add_PartRem_1_5      859.3200      0.7     859.3200     0.0000  0.0000  Tradeoff_24bits_DW01_add_153
+div_118/u_div_u_add_PartRem_1_6      840.5712      0.7     840.5712     0.0000  0.0000  Tradeoff_24bits_DW01_add_154
+div_118/u_div_u_add_PartRem_1_7      909.3168      0.7     909.3168     0.0000  0.0000  Tradeoff_24bits_DW01_add_155
+div_118/u_div_u_add_PartRem_2_1      903.0672      0.7     903.0672     0.0000  0.0000  Tradeoff_24bits_DW01_add_142
+div_118/u_div_u_add_PartRem_2_2      824.9472      0.7     824.9472     0.0000  0.0000  Tradeoff_24bits_DW01_add_143
+div_118/u_div_u_add_PartRem_2_3      918.6912      0.7     918.6912     0.0000  0.0000  Tradeoff_24bits_DW01_add_144
+div_118/u_div_u_add_PartRem_2_4      790.5744      0.6     790.5744     0.0000  0.0000  Tradeoff_24bits_DW01_add_145
+div_118/u_div_u_add_PartRem_2_5      853.0704      0.7     853.0704     0.0000  0.0000  Tradeoff_24bits_DW01_add_146
+div_118/u_div_u_add_PartRem_2_6      831.1968      0.7     831.1968     0.0000  0.0000  Tradeoff_24bits_DW01_add_147
+div_118/u_div_u_add_PartRem_2_7      940.5648      0.8     940.5648     0.0000  0.0000  Tradeoff_24bits_DW01_add_148
+div_118/u_div_u_add_PartRem_3_1      896.8176      0.7     896.8176     0.0000  0.0000  Tradeoff_24bits_DW01_add_135
+div_118/u_div_u_add_PartRem_3_2      815.5728      0.7     815.5728     0.0000  0.0000  Tradeoff_24bits_DW01_add_136
+div_118/u_div_u_add_PartRem_3_3      899.9424      0.7     899.9424     0.0000  0.0000  Tradeoff_24bits_DW01_add_137
+div_118/u_div_u_add_PartRem_3_4      793.6992      0.6     793.6992     0.0000  0.0000  Tradeoff_24bits_DW01_add_138
+div_118/u_div_u_add_PartRem_3_5      840.5712      0.7     840.5712     0.0000  0.0000  Tradeoff_24bits_DW01_add_139
+div_118/u_div_u_add_PartRem_3_6      837.4464      0.7     837.4464     0.0000  0.0000  Tradeoff_24bits_DW01_add_140
+div_118/u_div_u_add_PartRem_3_7      921.8160      0.7     921.8160     0.0000  0.0000  Tradeoff_24bits_DW01_add_141
+div_118/u_div_u_add_PartRem_4_1      903.0672      0.7     903.0672     0.0000  0.0000  Tradeoff_24bits_DW01_add_128
+div_118/u_div_u_add_PartRem_4_2      824.9472      0.7     824.9472     0.0000  0.0000  Tradeoff_24bits_DW01_add_129
+div_118/u_div_u_add_PartRem_4_3      906.1920      0.7     906.1920     0.0000  0.0000  Tradeoff_24bits_DW01_add_130
+div_118/u_div_u_add_PartRem_4_4      787.4496      0.6     787.4496     0.0000  0.0000  Tradeoff_24bits_DW01_add_131
+div_118/u_div_u_add_PartRem_4_5      862.4448      0.7     862.4448     0.0000  0.0000  Tradeoff_24bits_DW01_add_132
+div_118/u_div_u_add_PartRem_4_6      831.1968      0.7     831.1968     0.0000  0.0000  Tradeoff_24bits_DW01_add_133
+div_118/u_div_u_add_PartRem_4_7      928.0656      0.7     928.0656     0.0000  0.0000  Tradeoff_24bits_DW01_add_134
+div_118/u_div_u_add_PartRem_5_1      909.3168      0.7     909.3168     0.0000  0.0000  Tradeoff_24bits_DW01_add_121
+div_118/u_div_u_add_PartRem_5_2      806.1984      0.6     806.1984     0.0000  0.0000  Tradeoff_24bits_DW01_add_122
+div_118/u_div_u_add_PartRem_5_3      899.9424      0.7     899.9424     0.0000  0.0000  Tradeoff_24bits_DW01_add_123
+div_118/u_div_u_add_PartRem_5_4      774.9504      0.6     774.9504     0.0000  0.0000  Tradeoff_24bits_DW01_add_124
+div_118/u_div_u_add_PartRem_5_5      862.4448      0.7     862.4448     0.0000  0.0000  Tradeoff_24bits_DW01_add_125
+div_118/u_div_u_add_PartRem_5_6      828.0720      0.7     828.0720     0.0000  0.0000  Tradeoff_24bits_DW01_add_126
+div_118/u_div_u_add_PartRem_5_7      962.4384      0.8     962.4384     0.0000  0.0000  Tradeoff_24bits_DW01_add_127
+div_118/u_div_u_add_PartRem_6_1      896.8176      0.7     896.8176     0.0000  0.0000  Tradeoff_24bits_DW01_add_114
+div_118/u_div_u_add_PartRem_6_2      812.4480      0.7     812.4480     0.0000  0.0000  Tradeoff_24bits_DW01_add_115
+div_118/u_div_u_add_PartRem_6_3      924.9408      0.7     924.9408     0.0000  0.0000  Tradeoff_24bits_DW01_add_116
+div_118/u_div_u_add_PartRem_6_4      784.3248      0.6     784.3248     0.0000  0.0000  Tradeoff_24bits_DW01_add_117
+div_118/u_div_u_add_PartRem_6_5      874.9440      0.7     874.9440     0.0000  0.0000  Tradeoff_24bits_DW01_add_118
+div_118/u_div_u_add_PartRem_6_6      853.0704      0.7     853.0704     0.0000  0.0000  Tradeoff_24bits_DW01_add_119
+div_118/u_div_u_add_PartRem_6_7      974.9376      0.8     974.9376     0.0000  0.0000  Tradeoff_24bits_DW01_add_120
+div_118/u_div_u_add_PartRem_7_1      909.3168      0.7     909.3168     0.0000  0.0000  Tradeoff_24bits_DW01_add_107
+div_118/u_div_u_add_PartRem_7_2      821.8224      0.7     821.8224     0.0000  0.0000  Tradeoff_24bits_DW01_add_108
+div_118/u_div_u_add_PartRem_7_3      899.9424      0.7     899.9424     0.0000  0.0000  Tradeoff_24bits_DW01_add_109
+div_118/u_div_u_add_PartRem_7_4      793.6992      0.6     793.6992     0.0000  0.0000  Tradeoff_24bits_DW01_add_110
+div_118/u_div_u_add_PartRem_7_5      868.6944      0.7     868.6944     0.0000  0.0000  Tradeoff_24bits_DW01_add_111
+div_118/u_div_u_add_PartRem_7_6      834.3216      0.7     834.3216     0.0000  0.0000  Tradeoff_24bits_DW01_add_112
+div_118/u_div_u_add_PartRem_7_7      928.0656      0.7     928.0656     0.0000  0.0000  Tradeoff_24bits_DW01_add_113
+div_118/u_div_u_add_PartRem_8_1      828.0720      0.7     828.0720     0.0000  0.0000  Tradeoff_24bits_DW01_add_100
+div_118/u_div_u_add_PartRem_8_2      778.0752      0.6     778.0752     0.0000  0.0000  Tradeoff_24bits_DW01_add_101
+div_118/u_div_u_add_PartRem_8_3      812.4480      0.7     812.4480     0.0000  0.0000  Tradeoff_24bits_DW01_add_102
+div_85                             22101.7101     17.7   22101.7101     0.0000  0.0000  Tradeoff_24bits_DW_div_uns_7
+lLUT_inst                           3106.0512      2.5    3106.0512     0.0000  0.0000  SEC_lLUT24bits
+mult_113                            2640.4559      2.1    2640.4559     0.0000  0.0000  Tradeoff_24bits_DW_mult_uns_1
+mult_113_2                          2640.4559      2.1    2640.4559     0.0000  0.0000  Tradeoff_24bits_DW_mult_uns_2
+mult_89                             1771.7616      1.4    1771.7616     0.0000  0.0000  Tradeoff_24bits_DW_mult_uns_0
+r468                                 237.4848      0.2     237.4848     0.0000  0.0000  Tradeoff_24bits_DW01_inc_0
+rLUT_inst                           3677.8896      2.9    3677.8896     0.0000  0.0000  SEC_rLUT24bits
+sub_0_root_sub_0_root_sub_113_4     2540.4624      2.0    2540.4624     0.0000  0.0000  Tradeoff_24bits_DW01_sub_5
+sub_1_root_sub_0_root_sub_113_4     2540.4624      2.0    2540.4624     0.0000  0.0000  Tradeoff_24bits_DW01_sub_6
+sub_59                               909.3168      0.7     909.3168     0.0000  0.0000  Tradeoff_24bits_DW01_sub_1
+sub_89                               899.9424      0.7     899.9424     0.0000  0.0000  Tradeoff_24bits_DW01_sub_3
+--------------------------------  -----------  -------  -----------  ---------  ------  -----------------------------
+Total                                                   115789.4633  9149.4144  0.0000
+
+1
