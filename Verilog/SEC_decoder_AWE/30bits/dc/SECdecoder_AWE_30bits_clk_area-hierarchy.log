@@ -1,0 +1,113 @@
+ 
+****************************************
+Report : area
+Design : SECdecoder_AWE_30bits_clk
+Version: U-2022.12-SP6
+Date   : Fri May 23 18:16:24 2025
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                         1488
+Number of nets:                          3974
+Number of cells:                         3011
+Number of combinational cells:           2848
+Number of sequential cells:               111
+Number of macros/black boxes:               0
+Number of buf/inv:                        707
+Number of references:                      39
+
+Combinational area:              47034.489259
+Buf/Inv area:                     4443.465553
+Noncombinational area:            5915.246521
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 52949.735780
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------------------------------------
+SECdecoder_AWE_30bits_clk         52949.7358    100.0   5799.6288  5915.2465  0.0000  SECdecoder_AWE_30bits_clk
+div_130                           13586.6302     25.7  13586.6302     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW_div_uns_14
+div_143                           24732.7918     46.7   9789.9984     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW_div_uns_8
+div_143/u_div_u_add_PartRem_0_0_1   149.9904      0.3    149.9904     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_288
+div_143/u_div_u_add_PartRem_0_0_2   165.6144      0.3    165.6144     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_289
+div_143/u_div_u_add_PartRem_0_0_3   109.3680      0.2    109.3680     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_290
+div_143/u_div_u_add_PartRem_0_10_1
+                                    337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_258
+div_143/u_div_u_add_PartRem_0_10_2
+                                    346.8528      0.7    346.8528     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_259
+div_143/u_div_u_add_PartRem_0_10_3
+                                    274.9824      0.5    274.9824     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_260
+div_143/u_div_u_add_PartRem_0_11_1
+                                    337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_255
+div_143/u_div_u_add_PartRem_0_11_2
+                                    353.1024      0.7    353.1024     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_256
+div_143/u_div_u_add_PartRem_0_11_3
+                                    278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_257
+div_143/u_div_u_add_PartRem_0_12_1
+                                    337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_252
+div_143/u_div_u_add_PartRem_0_12_2
+                                    371.8512      0.7    371.8512     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_253
+div_143/u_div_u_add_PartRem_0_12_3
+                                    278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_254
+div_143/u_div_u_add_PartRem_0_13_1
+                                    337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_249
+div_143/u_div_u_add_PartRem_0_13_2
+                                    346.8528      0.7    346.8528     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_250
+div_143/u_div_u_add_PartRem_0_13_3
+                                    287.4816      0.5    287.4816     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_251
+div_143/u_div_u_add_PartRem_0_14_1
+                                    337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_246
+div_143/u_div_u_add_PartRem_0_14_2
+                                    365.6016      0.7    365.6016     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_247
+div_143/u_div_u_add_PartRem_0_14_3
+                                    274.9824      0.5    274.9824     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_248
+div_143/u_div_u_add_PartRem_0_1_1   337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_285
+div_143/u_div_u_add_PartRem_0_1_2   353.1024      0.7    353.1024     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_286
+div_143/u_div_u_add_PartRem_0_1_3   278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_287
+div_143/u_div_u_add_PartRem_0_2_1   337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_282
+div_143/u_div_u_add_PartRem_0_2_2   353.1024      0.7    353.1024     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_283
+div_143/u_div_u_add_PartRem_0_2_3   278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_284
+div_143/u_div_u_add_PartRem_0_3_1   337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_279
+div_143/u_div_u_add_PartRem_0_3_2   353.1024      0.7    353.1024     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_280
+div_143/u_div_u_add_PartRem_0_3_3   278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_281
+div_143/u_div_u_add_PartRem_0_4_1   337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_276
+div_143/u_div_u_add_PartRem_0_4_2   353.1024      0.7    353.1024     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_277
+div_143/u_div_u_add_PartRem_0_4_3   278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_278
+div_143/u_div_u_add_PartRem_0_5_1   337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_273
+div_143/u_div_u_add_PartRem_0_5_2   353.1024      0.7    353.1024     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_274
+div_143/u_div_u_add_PartRem_0_5_3   278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_275
+div_143/u_div_u_add_PartRem_0_6_1   337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_270
+div_143/u_div_u_add_PartRem_0_6_2   353.1024      0.7    353.1024     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_271
+div_143/u_div_u_add_PartRem_0_6_3   278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_272
+div_143/u_div_u_add_PartRem_0_7_1   337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_267
+div_143/u_div_u_add_PartRem_0_7_2   353.1024      0.7    353.1024     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_268
+div_143/u_div_u_add_PartRem_0_7_3   278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_269
+div_143/u_div_u_add_PartRem_0_8_1   337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_264
+div_143/u_div_u_add_PartRem_0_8_2   353.1024      0.7    353.1024     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_265
+div_143/u_div_u_add_PartRem_0_8_3   278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_266
+div_143/u_div_u_add_PartRem_0_9_1   337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_261
+div_143/u_div_u_add_PartRem_0_9_2   371.8512      0.7    371.8512     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_262
+div_143/u_div_u_add_PartRem_0_9_3   278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_263
+div_143/u_div_u_add_PartRem_1_15_1
+                                    324.9792      0.6    324.9792     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_243
+div_143/u_div_u_add_PartRem_1_15_2
+                                    312.4800      0.6    312.4800     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_244
+div_143/u_div_u_add_PartRem_1_15_3
+                                    278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_add_245
+sub_134                             440.5968      0.8    440.5968     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_sub_1
+sub_138                            2474.8416      4.7   2474.8416     0.0000  0.0000  SECdecoder_AWE_30bits_clk_DW01_sub_0
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------------------------------------
+Total                                                  47034.4893  5915.2465  0.0000
+
+1

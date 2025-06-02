@@ -1,0 +1,299 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : DEC_LUT_Decoder20bits_clk
+Version: U-2022.12-SP6
+Date   : Mon May  5 21:16:58 2025
+****************************************
+
+Operating Conditions: WCCOM   Library: fsa0m_a_generic_core_ss1p62v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: R_reg_8_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: N_reg_16_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  DEC_LUT_Decoder20bits_clk
+                     enG30K                fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder20bits_clk_DW01_sub_4
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder20bits_clk_DW01_absval_1
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder20bits_clk_DW01_inc_1
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder20bits_clk_DW_div_tc_1
+                     enG10K                fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder20bits_clk_DW01_add_89
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder20bits_clk_DW01_add_97
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder20bits_clk_DW01_add_106
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder20bits_clk_DW01_add_111
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder20bits_clk_DW01_add_117
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder20bits_clk_DW01_add_125
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder20bits_clk_DW01_add_134
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder20bits_clk_DW01_add_139
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder20bits_clk_DW_inc_1
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+
+  Point                                                                                  Incr       Path
+  ---------------------------------------------------------------------------------------------------------
+  clock clk (rise edge)                                                                  0.00       0.00
+  clock network delay (ideal)                                                            1.00       1.00
+  R_reg_8_/CK (QDFFP)                                                                    0.00       1.00 r
+  R_reg_8_/Q (QDFFP)                                                                     0.36       1.36 r
+  U5212/O (BUF6)                                                                         0.30       1.66 r
+  U5213/O (INV6)                                                                         0.19       1.85 f
+  U5476/O (ND2)                                                                          0.23       2.08 r
+  U4960/O (INV2)                                                                         0.10       2.19 f
+  U7369/O (BUF12CK)                                                                      0.20       2.38 f
+  U6034/O (AN2T)                                                                         0.29       2.68 f
+  U5604/O (AN2B1S)                                                                       0.30       2.97 f
+  U5176/O (ND2)                                                                          0.16       3.14 r
+  U5175/O (BUF3)                                                                         0.30       3.44 r
+  U5804/O (INV12)                                                                        0.13       3.56 f
+  U4980/O (AN2)                                                                          0.29       3.86 f
+  U5268/O (AN2)                                                                          0.27       4.13 f
+  U7228/O (AO13S)                                                                        0.55       4.68 f
+  U4874/O (NR2T)                                                                         0.16       4.84 r
+  U7229/O (ND3P)                                                                         0.10       4.94 f
+  U5414/O (NR2)                                                                          0.23       5.17 r
+  U5641/O (AN2)                                                                          0.26       5.43 r
+  U5640/O (ND3)                                                                          0.21       5.64 f
+  U7039/O (AN4B1)                                                                        0.14       5.78 r
+  U5851/O (AN2T)                                                                         0.22       6.00 r
+  U8070/O (AN3)                                                                          0.27       6.27 r
+  U8071/O (AN4B1)                                                                        0.24       6.51 r
+  U6412/O (AN2T)                                                                         0.23       6.75 r
+  U5802/O (ND2P)                                                                         0.06       6.80 f
+  U6771/O (AN3B2S)                                                                       0.30       7.11 r
+  U6162/O (AN4)                                                                          0.30       7.41 r
+  U4774/O (ND3HT)                                                                        0.13       7.54 f
+  U4773/O (NR2T)                                                                         0.15       7.69 r
+  U5993/O (OAI12H)                                                                       0.13       7.82 f
+  U5567/O (INV2CK)                                                                       0.09       7.91 r
+  U6312/O (ND3P)                                                                         0.11       8.02 f
+  U5148/O (NR2P)                                                                         0.19       8.21 r
+  U5344/O (AN4B1)                                                                        0.24       8.45 r
+  U5780/O (AN4S)                                                                         0.26       8.71 r
+  U8360/O (AN4B1)                                                                        0.27       8.98 r
+  U5449/O (ND2P)                                                                         0.08       9.06 f
+  sub_2087/B[10] (DEC_LUT_Decoder20bits_clk_DW01_sub_4)                                  0.00       9.06 f
+  sub_2087/U408/O (INV1S)                                                                0.17       9.23 r
+  sub_2087/U425/O (ND2)                                                                  0.20       9.43 f
+  sub_2087/U348/O (OAI12HS)                                                              0.27       9.70 r
+  sub_2087/U358/O (AOI12H)                                                               0.13       9.82 f
+  sub_2087/U473/O (INV2CK)                                                               0.19      10.01 r
+  sub_2087/U504/O (AO12S)                                                                0.27      10.28 r
+  sub_2087/U575/O (XOR2HS)                                                               0.16      10.44 r
+  sub_2087/DIFF[15] (DEC_LUT_Decoder20bits_clk_DW01_sub_4)                               0.00      10.44 r
+  div_2111/a[15] (DEC_LUT_Decoder20bits_clk_DW_div_tc_1)                                 0.00      10.44 r
+  div_2111/u_div_u_absval_AAbs/A[15] (DEC_LUT_Decoder20bits_clk_DW01_absval_1)           0.00      10.44 r
+  div_2111/u_div_u_absval_AAbs/U5/O (INV1S)                                              0.29      10.73 f
+  div_2111/u_div_u_absval_AAbs/NEG/A[15] (DEC_LUT_Decoder20bits_clk_DW01_inc_1)          0.00      10.73 f
+  div_2111/u_div_u_absval_AAbs/NEG/U18/O (ND3P)                                          0.26      10.99 r
+  div_2111/u_div_u_absval_AAbs/NEG/U9/O (INV2CK)                                         0.09      11.08 f
+  div_2111/u_div_u_absval_AAbs/NEG/U8/O (ND3P)                                           0.13      11.21 r
+  div_2111/u_div_u_absval_AAbs/NEG/U15/O (INV2CK)                                        0.13      11.34 f
+  div_2111/u_div_u_absval_AAbs/NEG/U95/O (ND3HT)                                         0.15      11.50 r
+  div_2111/u_div_u_absval_AAbs/NEG/U12/O (INV3CK)                                        0.09      11.58 f
+  div_2111/u_div_u_absval_AAbs/NEG/U93/O (ND3HT)                                         0.13      11.71 r
+  div_2111/u_div_u_absval_AAbs/NEG/U4/O (INV4)                                           0.06      11.77 f
+  div_2111/u_div_u_absval_AAbs/NEG/U3/O (ND3HT)                                          0.13      11.90 r
+  div_2111/u_div_u_absval_AAbs/NEG/U2/O (INV3CK)                                         0.08      11.98 f
+  div_2111/u_div_u_absval_AAbs/NEG/U5/O (ND3P)                                           0.13      12.11 r
+  div_2111/u_div_u_absval_AAbs/NEG/U7/O (INV2)                                           0.09      12.20 f
+  div_2111/u_div_u_absval_AAbs/NEG/U91/O (ND3HT)                                         0.13      12.33 r
+  div_2111/u_div_u_absval_AAbs/NEG/U88/O (INV2CK)                                        0.10      12.44 f
+  div_2111/u_div_u_absval_AAbs/NEG/U87/O (ND3HT)                                         0.13      12.56 r
+  div_2111/u_div_u_absval_AAbs/NEG/U17/O (INV2CK)                                        0.12      12.68 f
+  div_2111/u_div_u_absval_AAbs/NEG/U81/O (XOR2HS)                                        0.16      12.84 f
+  div_2111/u_div_u_absval_AAbs/NEG/SUM[30] (DEC_LUT_Decoder20bits_clk_DW01_inc_1)        0.00      12.84 f
+  div_2111/u_div_u_absval_AAbs/U45/O (MUX2S)                                             0.33      13.17 f
+  div_2111/u_div_u_absval_AAbs/ABSVAL[30] (DEC_LUT_Decoder20bits_clk_DW01_absval_1)      0.00      13.17 f
+  div_2111/U286/O (INV1S)                                                                0.15      13.32 r
+  div_2111/U387/O (INV1S)                                                                0.15      13.47 f
+  div_2111/u_div_u_add_PartRem_7_1/A[9] (DEC_LUT_Decoder20bits_clk_DW01_add_89)          0.00      13.47 f
+  div_2111/u_div_u_add_PartRem_7_1/U138/O (OR3)                                          0.31      13.77 f
+  div_2111/u_div_u_add_PartRem_7_1/U127/O (INV2)                                         0.15      13.92 r
+  div_2111/u_div_u_add_PartRem_7_1/U151/O (OAI12H)                                       0.11      14.04 f
+  div_2111/u_div_u_add_PartRem_7_1/CO (DEC_LUT_Decoder20bits_clk_DW01_add_89)            0.00      14.04 f
+  div_2111/U72/O (INV2)                                                                  0.14      14.17 r
+  div_2111/U187/O (INV2)                                                                 0.06      14.23 f
+  div_2111/U132/O (BUF6)                                                                 0.19      14.43 f
+  div_2111/U364/O (AN2)                                                                  0.25      14.68 f
+  div_2111/U998/O (OR2T)                                                                 0.21      14.89 f
+  div_2111/U1/O (BUF12CK)                                                                0.13      15.02 f
+  div_2111/u_div_u_add_PartRem_6_2/A[4] (DEC_LUT_Decoder20bits_clk_DW01_add_97)          0.00      15.02 f
+  div_2111/u_div_u_add_PartRem_6_2/U141/O (OR2S)                                         0.27      15.29 f
+  div_2111/u_div_u_add_PartRem_6_2/U131/O (AOI12HS)                                      0.28      15.57 r
+  div_2111/u_div_u_add_PartRem_6_2/U125/O (AO22T)                                        0.34      15.91 r
+  div_2111/u_div_u_add_PartRem_6_2/U124/O (INV2)                                         0.10      16.01 f
+  div_2111/u_div_u_add_PartRem_6_2/U127/O (ND3P)                                         0.13      16.14 r
+  div_2111/u_div_u_add_PartRem_6_2/U167/O (ND3HT)                                        0.16      16.30 f
+  div_2111/u_div_u_add_PartRem_6_2/CO (DEC_LUT_Decoder20bits_clk_DW01_add_97)            0.00      16.30 f
+  div_2111/U871/OB (MXL2HT)                                                              0.20      16.50 r
+  div_2111/U38/O (INV2CK)                                                                0.10      16.60 f
+  div_2111/U377/O (AN3)                                                                  0.30      16.91 f
+  div_2111/U457/O (OR2T)                                                                 0.17      17.08 f
+  div_2111/U472/O (AN3B1T)                                                               0.48      17.56 r
+  div_2111/U416/O (OR2P)                                                                 0.32      17.88 r
+  div_2111/U95/O (INV6)                                                                  0.13      18.01 f
+  div_2111/U930/O (AOI22S)                                                               0.26      18.27 r
+  div_2111/U154/O (ND2)                                                                  0.14      18.41 f
+  div_2111/U389/O (NR2P)                                                                 0.15      18.56 r
+  div_2111/U84/O (INV1S)                                                                 0.26      18.83 f
+  div_2111/u_div_u_add_PartRem_5_4/A[9] (DEC_LUT_Decoder20bits_clk_DW01_add_106)         0.00      18.83 f
+  div_2111/u_div_u_add_PartRem_5_4/U127/O (INV1S)                                        0.20      19.02 r
+  div_2111/u_div_u_add_PartRem_5_4/U120/O (AN2)                                          0.30      19.32 r
+  div_2111/u_div_u_add_PartRem_5_4/U128/O (ND2)                                          0.15      19.48 f
+  div_2111/u_div_u_add_PartRem_5_4/U130/O (INV1S)                                        0.15      19.63 r
+  div_2111/u_div_u_add_PartRem_5_4/U170/O (NR3HP)                                        0.10      19.73 f
+  div_2111/u_div_u_add_PartRem_5_4/U169/O (OR2T)                                         0.28      20.01 f
+  div_2111/u_div_u_add_PartRem_5_4/CO (DEC_LUT_Decoder20bits_clk_DW01_add_106)           0.00      20.01 f
+  div_2111/U342/O (INV1S)                                                                0.12      20.13 r
+  div_2111/U31/O (BUF4)                                                                  0.19      20.32 r
+  div_2111/U55/O (AN3)                                                                   0.36      20.68 r
+  div_2111/U932/O (NR2P)                                                                 0.11      20.79 f
+  div_2111/U1073/O (ND3HT)                                                               0.19      20.98 r
+  div_2111/U83/O (OR2)                                                                   0.31      21.28 r
+  div_2111/U93/O (INV4)                                                                  0.17      21.45 f
+  div_2111/U238/O (AOI22S)                                                               0.25      21.70 r
+  div_2111/U269/O (ND2)                                                                  0.14      21.84 f
+  div_2111/U358/O (NR2P)                                                                 0.25      22.09 r
+  div_2111/U348/O (INV3)                                                                 0.11      22.20 f
+  div_2111/u_div_u_add_PartRem_4_2/A[5] (DEC_LUT_Decoder20bits_clk_DW01_add_111)         0.00      22.20 f
+  div_2111/u_div_u_add_PartRem_4_2/U125/O (INV1S)                                        0.19      22.39 r
+  div_2111/u_div_u_add_PartRem_4_2/U132/O (ND2P)                                         0.09      22.49 f
+  div_2111/u_div_u_add_PartRem_4_2/U130/O (AOI12H)                                       0.19      22.68 r
+  div_2111/u_div_u_add_PartRem_4_2/U129/O (AO22)                                         0.43      23.11 r
+  div_2111/u_div_u_add_PartRem_4_2/U159/O (INV1)                                         0.17      23.28 f
+  div_2111/u_div_u_add_PartRem_4_2/U144/O (OR3B2)                                        0.17      23.45 r
+  div_2111/u_div_u_add_PartRem_4_2/U131/O (ND3P)                                         0.12      23.56 f
+  div_2111/u_div_u_add_PartRem_4_2/CO (DEC_LUT_Decoder20bits_clk_DW01_add_111)           0.00      23.56 f
+  div_2111/U425/OB (MXL2H)                                                               0.18      23.75 r
+  div_2111/U29/O (INV3)                                                                  0.08      23.83 f
+  div_2111/U129/O (INV2)                                                                 0.20      24.03 r
+  div_2111/U337/O (ND3)                                                                  0.16      24.19 f
+  div_2111/U9/O (BUF4CK)                                                                 0.18      24.37 f
+  div_2111/U12/O (ND3HT)                                                                 0.14      24.51 r
+  div_2111/U859/O (OR2S)                                                                 0.21      24.72 r
+  div_2111/U324/O (BUF2)                                                                 0.25      24.97 r
+  div_2111/U240/O (INV8CK)                                                               0.13      25.11 f
+  div_2111/U235/O (AOI22S)                                                               0.23      25.34 r
+  div_2111/U264/O (ND2)                                                                  0.11      25.44 f
+  div_2111/U263/O (OR2)                                                                  0.26      25.70 f
+  div_2111/U74/O (BUF1CK)                                                                0.30      26.00 f
+  div_2111/u_div_u_add_PartRem_3_1/A[3] (DEC_LUT_Decoder20bits_clk_DW01_add_117)         0.00      26.00 f
+  div_2111/u_div_u_add_PartRem_3_1/U149/O (INV1S)                                        0.20      26.19 r
+  div_2111/u_div_u_add_PartRem_3_1/U187/O (ND2)                                          0.14      26.34 f
+  div_2111/u_div_u_add_PartRem_3_1/U162/O (AOI12HS)                                      0.27      26.61 r
+  div_2111/u_div_u_add_PartRem_3_1/U130/O (AO22P)                                        0.41      27.01 r
+  div_2111/u_div_u_add_PartRem_3_1/U131/O (INV1S)                                        0.27      27.28 f
+  div_2111/u_div_u_add_PartRem_3_1/U185/O (ND2)                                          0.18      27.46 r
+  div_2111/u_div_u_add_PartRem_3_1/U145/O (OAI112HS)                                     0.19      27.65 f
+  div_2111/u_div_u_add_PartRem_3_1/CO (DEC_LUT_Decoder20bits_clk_DW01_add_117)           0.00      27.65 f
+  div_2111/U32/O (ND3P)                                                                  0.15      27.80 r
+  div_2111/U911/O (INV3)                                                                 0.10      27.89 f
+  div_2111/U28/O (NR2T)                                                                  0.13      28.02 r
+  div_2111/U27/O (ND3HT)                                                                 0.12      28.14 f
+  div_2111/U158/O (INV6CK)                                                               0.12      28.26 r
+  div_2111/U1111/O (OR2T)                                                                0.29      28.55 r
+  div_2111/U173/O (INV12)                                                                0.08      28.64 f
+  div_2111/U79/O (AOI22S)                                                                0.25      28.89 r
+  div_2111/U1110/O (ND2)                                                                 0.10      29.00 f
+  div_2111/U77/O (OR2)                                                                   0.27      29.27 f
+  div_2111/U462/O (BUF8CK)                                                               0.19      29.46 f
+  div_2111/u_div_u_add_PartRem_2_2/A[4] (DEC_LUT_Decoder20bits_clk_DW01_add_125)         0.00      29.46 f
+  div_2111/u_div_u_add_PartRem_2_2/U123/O (OR2P)                                         0.23      29.69 f
+  div_2111/u_div_u_add_PartRem_2_2/U163/O (AOI12H)                                       0.20      29.89 r
+  div_2111/u_div_u_add_PartRem_2_2/U130/O (AO22P)                                        0.39      30.28 r
+  div_2111/u_div_u_add_PartRem_2_2/U124/O (INV3)                                         0.09      30.37 f
+  div_2111/u_div_u_add_PartRem_2_2/U127/O (ND3HT)                                        0.11      30.47 r
+  div_2111/u_div_u_add_PartRem_2_2/U125/O (ND3P)                                         0.15      30.62 f
+  div_2111/u_div_u_add_PartRem_2_2/CO (DEC_LUT_Decoder20bits_clk_DW01_add_125)           0.00      30.62 f
+  div_2111/U341/OB (MXL2HP)                                                              0.24      30.86 r
+  div_2111/U380/O (AN3)                                                                  0.37      31.23 r
+  div_2111/U455/O (NR2)                                                                  0.10      31.33 f
+  div_2111/U372/O (AN3T)                                                                 0.38      31.71 f
+  div_2111/U200/O (OR2T)                                                                 0.22      31.93 f
+  div_2111/U398/O (INV4)                                                                 0.21      32.13 r
+  div_2111/U1024/O (ND2)                                                                 0.10      32.23 f
+  div_2111/U481/O (OA12S)                                                                0.26      32.49 f
+  div_2111/U295/O (AN2)                                                                  0.24      32.73 f
+  div_2111/U152/O (ND3)                                                                  0.21      32.94 r
+  div_2111/U151/O (INV2)                                                                 0.07      33.01 f
+  div_2111/U117/O (INV1S)                                                                0.18      33.19 r
+  div_2111/u_div_u_add_PartRem_1_4/A[15] (DEC_LUT_Decoder20bits_clk_DW01_add_134)        0.00      33.19 r
+  div_2111/u_div_u_add_PartRem_1_4/U123/O (OR2)                                          0.25      33.44 r
+  div_2111/u_div_u_add_PartRem_1_4/U135/O (INV1S)                                        0.08      33.52 f
+  div_2111/u_div_u_add_PartRem_1_4/U125/O (AN2)                                          0.26      33.77 f
+  div_2111/u_div_u_add_PartRem_1_4/U170/O (NR3HP)                                        0.17      33.95 r
+  div_2111/u_div_u_add_PartRem_1_4/U169/O (OR2T)                                         0.32      34.27 r
+  div_2111/u_div_u_add_PartRem_1_4/CO (DEC_LUT_Decoder20bits_clk_DW01_add_134)           0.00      34.27 r
+  div_2111/U404/OB (MXL2HT)                                                              0.19      34.46 r
+  div_2111/U402/O (INV3)                                                                 0.07      34.53 f
+  div_2111/U401/O (ND3P)                                                                 0.15      34.68 r
+  div_2111/U339/O (INV1S)                                                                0.23      34.91 f
+  div_2111/U468/O (NR3HT)                                                                0.26      35.17 r
+  div_2111/U430/O (OR2)                                                                  0.38      35.55 r
+  div_2111/U378/O (INV2)                                                                 0.10      35.65 f
+  div_2111/U50/O (BUF6)                                                                  0.21      35.86 f
+  div_2111/U834/O (AOI22S)                                                               0.25      36.11 r
+  div_2111/U1049/O (ND2)                                                                 0.14      36.25 f
+  div_2111/U443/O (NR2P)                                                                 0.18      36.43 r
+  div_2111/U709/O (INV1S)                                                                0.19      36.61 f
+  div_2111/u_div_u_add_PartRem_0_2/A[4] (DEC_LUT_Decoder20bits_clk_DW01_add_139)         0.00      36.61 f
+  div_2111/u_div_u_add_PartRem_0_2/U127/O (OR2T)                                         0.20      36.81 f
+  div_2111/u_div_u_add_PartRem_0_2/U126/O (AOI12H)                                       0.18      37.00 r
+  div_2111/u_div_u_add_PartRem_0_2/U124/O (AO22)                                         0.30      37.30 r
+  div_2111/u_div_u_add_PartRem_0_2/U125/O (OR3)                                          0.26      37.56 r
+  div_2111/u_div_u_add_PartRem_0_2/U123/O (ND3HT)                                        0.13      37.69 f
+  div_2111/u_div_u_add_PartRem_0_2/CO (DEC_LUT_Decoder20bits_clk_DW01_add_139)           0.00      37.69 f
+  div_2111/U415/OB (MXL2HP)                                                              0.19      37.88 r
+  div_2111/U6/O (OR2P)                                                                   0.20      38.07 r
+  div_2111/U128/O (NR2)                                                                  0.10      38.17 f
+  div_2111/U256/O (AOI12H)                                                               0.19      38.36 r
+  div_2111/U36/O (ND3HT)                                                                 0.13      38.49 f
+  div_2111/U344/O (XNR2H)                                                                0.15      38.64 r
+  div_2111/u_div_u_inc_QInc/a[0] (DEC_LUT_Decoder20bits_clk_DW_inc_1)                    0.00      38.64 r
+  div_2111/u_div_u_inc_QInc/U153/O (AN2T)                                                0.29      38.94 r
+  div_2111/u_div_u_inc_QInc/U139/O (ND3HT)                                               0.15      39.09 f
+  div_2111/u_div_u_inc_QInc/U138/O (INV4)                                                0.13      39.22 r
+  div_2111/u_div_u_inc_QInc/U151/O (ND3HT)                                               0.14      39.35 f
+  div_2111/u_div_u_inc_QInc/U152/O (NR2F)                                                0.25      39.60 r
+  div_2111/u_div_u_inc_QInc/U140/O (ND2F)                                                0.08      39.68 f
+  div_2111/u_div_u_inc_QInc/U144/O (INV4CK)                                              0.10      39.79 r
+  div_2111/u_div_u_inc_QInc/U154/O (MUX2S)                                               0.27      40.06 f
+  div_2111/u_div_u_inc_QInc/sum[16] (DEC_LUT_Decoder20bits_clk_DW_inc_1)                 0.00      40.06 f
+  div_2111/quotient[16] (DEC_LUT_Decoder20bits_clk_DW_div_tc_1)                          0.00      40.06 f
+  U9608/O (AO222)                                                                        0.49      40.55 f
+  N_reg_16_/D (QDFFN)                                                                    0.00      40.55 f
+  data arrival time                                                                                40.55
+
+  clock clk (rise edge)                                                                 40.00      40.00
+  clock network delay (ideal)                                                            1.00      41.00
+  clock uncertainty                                                                     -0.30      40.70
+  N_reg_16_/CK (QDFFN)                                                                   0.00      40.70 r
+  library setup time                                                                    -0.13      40.57
+  data required time                                                                               40.57
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                                               40.57
+  data arrival time                                                                               -40.55
+  ---------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                                       0.02
+
+
+1

@@ -1,0 +1,54 @@
+ 
+****************************************
+Report : area
+Design : Tradeoff_8bits
+Version: U-2022.12-SP6
+Date   : Mon May  5 19:59:56 2025
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                          589
+Number of nets:                          2146
+Number of cells:                         1529
+Number of combinational cells:           1424
+Number of sequential cells:                94
+Number of macros/black boxes:               0
+Number of buf/inv:                        225
+Number of references:                      41
+
+Combinational area:              29170.007733
+Buf/Inv area:                     1449.907185
+Noncombinational area:            5521.521606
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 34691.529340
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  ----------------------------
+Tradeoff_8bits                    34691.5293    100.0   5455.9008  5521.5216  0.0000  Tradeoff_8bits
+div_118                            6068.3615     17.5   6068.3615     0.0000  0.0000  Tradeoff_8bits_DW_div_uns_0
+div_85                             6380.8415     18.4   6380.8415     0.0000  0.0000  Tradeoff_8bits_DW_div_uns_6
+lLUT_inst                          1496.7792      4.3   1496.7792     0.0000  0.0000  SEC_lLUT8bits
+mult_113                           1321.7904      3.8   1321.7904     0.0000  0.0000  Tradeoff_8bits_DW_mult_uns_1
+mult_113_2                         1346.7888      3.9   1346.7888     0.0000  0.0000  Tradeoff_8bits_DW_mult_uns_2
+mult_89                            1124.9280      3.2   1124.9280     0.0000  0.0000  Tradeoff_8bits_DW_mult_uns_0
+rLUT_inst                          1971.7488      5.7   1971.7488     0.0000  0.0000  SEC_rLUT8bits
+sub_0_root_sub_0_root_sub_113_4    1293.6672      3.7   1293.6672     0.0000  0.0000  Tradeoff_8bits_DW01_sub_5
+sub_1_root_sub_0_root_sub_113_4    1293.6672      3.7   1293.6672     0.0000  0.0000  Tradeoff_8bits_DW01_sub_6
+sub_59                              712.4544      2.1    712.4544     0.0000  0.0000  Tradeoff_8bits_DW01_sub_1
+sub_89                              703.0800      2.0    703.0800     0.0000  0.0000  Tradeoff_8bits_DW01_sub_4
+--------------------------------  ----------  -------  ----------  ---------  ------  ----------------------------
+Total                                                  29170.0077  5521.5216  0.0000
+
+1

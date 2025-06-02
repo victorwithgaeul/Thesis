@@ -1,0 +1,51 @@
+ 
+****************************************
+Report : area
+Design : SECdecoder_location_28bits_clk
+Version: U-2022.12-SP6
+Date   : Fri May 23 17:28:59 2025
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                          691
+Number of nets:                          5182
+Number of cells:                         4644
+Number of combinational cells:           4532
+Number of sequential cells:               105
+Number of macros/black boxes:               0
+Number of buf/inv:                        812
+Number of references:                      45
+
+Combinational area:             106202.576233
+Buf/Inv area:                     5118.422346
+Noncombinational area:            5596.516914
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                111799.093148
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area             Local cell area
+                                  --------------------  ------------------------------ 
+Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-  Black-
+                                  Total        Total    national     national   boxes   Design
+--------------------------------  -----------  -------  -----------  ---------  ------  -------------------------------------------------------
+SECdecoder_location_28bits_clk    111799.0931    100.0    7099.5456  5596.5169  0.0000  SECdecoder_location_28bits_clk
+add_0_root_add_32_C146_ni            237.4848      0.2     237.4848     0.0000  0.0000  SECdecoder_location_28bits_clk_DW01_inc_0
+div_138                            12717.9358     11.4   12717.9358     0.0000  0.0000  SECdecoder_location_28bits_clk_DW_div_uns_14
+div_151                            80929.1941     72.4      18.7488     0.0000  0.0000  SECdecoder_location_28bits_clk_DW_div_uns_2
+div_151/u_div_add_308_DP_OP_359_7387_7
+                                   80910.4453     72.4   80910.4453     0.0000  0.0000  SECdecoder_location_28bits_clk_add_308_DP_OP_359_7387_0
+mult_146                            2434.2191      2.2    2434.2191     0.0000  0.0000  SECdecoder_location_28bits_clk_DW_mult_uns_1
+sub_142                              440.5968      0.4     440.5968     0.0000  0.0000  SECdecoder_location_28bits_clk_DW01_sub_0
+sub_146_2                           2343.6000      2.1    2343.6000     0.0000  0.0000  SECdecoder_location_28bits_clk_DW01_sub_2
+--------------------------------  -----------  -------  -----------  ---------  ------  -------------------------------------------------------
+Total                                                   106202.5762  5596.5169  0.0000
+
+1

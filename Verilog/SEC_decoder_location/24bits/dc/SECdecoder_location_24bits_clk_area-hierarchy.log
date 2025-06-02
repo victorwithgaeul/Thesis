@@ -1,0 +1,97 @@
+ 
+****************************************
+Report : area
+Design : SECdecoder_location_24bits_clk
+Version: U-2022.12-SP6
+Date   : Fri May 23 17:17:46 2025
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                         1369
+Number of nets:                          3545
+Number of cells:                         2630
+Number of combinational cells:           2492
+Number of sequential cells:                93
+Number of macros/black boxes:               0
+Number of buf/inv:                        592
+Number of references:                      42
+
+Combinational area:              41562.964467
+Buf/Inv area:                     3737.260760
+Noncombinational area:            5065.300827
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 46628.265294
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  --------------------------------------------
+SECdecoder_location_24bits_clk    46628.2653    100.0   6015.2400  5065.3008  0.0000  SECdecoder_location_24bits_clk
+add_0_root_add_32_C130_ni           237.4848      0.5    237.4848     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_inc_0
+div_122                           10989.9215     23.6  10989.9215     0.0000  0.0000  SECdecoder_location_24bits_clk_DW_div_uns_14
+div_135                           19639.3679     42.1   7849.4976     0.0000  0.0000  SECdecoder_location_24bits_clk_DW_div_uns_8
+div_135/u_div_u_add_PartRem_0_0_1   137.4912      0.3    137.4912     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_238
+div_135/u_div_u_add_PartRem_0_0_2   134.3664      0.3    134.3664     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_239
+div_135/u_div_u_add_PartRem_0_0_3   134.3664      0.3    134.3664     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_240
+div_135/u_div_u_add_PartRem_0_10_1
+                                    318.7296      0.7    318.7296     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_208
+div_135/u_div_u_add_PartRem_0_10_2
+                                    324.9792      0.7    324.9792     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_209
+div_135/u_div_u_add_PartRem_0_10_3
+                                    293.7312      0.6    293.7312     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_210
+div_135/u_div_u_add_PartRem_0_11_1
+                                    318.7296      0.7    318.7296     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_205
+div_135/u_div_u_add_PartRem_0_11_2
+                                    324.9792      0.7    324.9792     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_206
+div_135/u_div_u_add_PartRem_0_11_3
+                                    293.7312      0.6    293.7312     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_207
+div_135/u_div_u_add_PartRem_0_1_1   318.7296      0.7    318.7296     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_235
+div_135/u_div_u_add_PartRem_0_1_2   331.2288      0.7    331.2288     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_236
+div_135/u_div_u_add_PartRem_0_1_3   303.1056      0.7    303.1056     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_237
+div_135/u_div_u_add_PartRem_0_2_1   318.7296      0.7    318.7296     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_232
+div_135/u_div_u_add_PartRem_0_2_2   331.2288      0.7    331.2288     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_233
+div_135/u_div_u_add_PartRem_0_2_3   303.1056      0.7    303.1056     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_234
+div_135/u_div_u_add_PartRem_0_3_1   318.7296      0.7    318.7296     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_229
+div_135/u_div_u_add_PartRem_0_3_2   331.2288      0.7    331.2288     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_230
+div_135/u_div_u_add_PartRem_0_3_3   303.1056      0.7    303.1056     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_231
+div_135/u_div_u_add_PartRem_0_4_1   318.7296      0.7    318.7296     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_226
+div_135/u_div_u_add_PartRem_0_4_2   331.2288      0.7    331.2288     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_227
+div_135/u_div_u_add_PartRem_0_4_3   303.1056      0.7    303.1056     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_228
+div_135/u_div_u_add_PartRem_0_5_1   318.7296      0.7    318.7296     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_223
+div_135/u_div_u_add_PartRem_0_5_2   331.2288      0.7    331.2288     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_224
+div_135/u_div_u_add_PartRem_0_5_3   303.1056      0.7    303.1056     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_225
+div_135/u_div_u_add_PartRem_0_6_1   318.7296      0.7    318.7296     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_220
+div_135/u_div_u_add_PartRem_0_6_2   331.2288      0.7    331.2288     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_221
+div_135/u_div_u_add_PartRem_0_6_3   303.1056      0.7    303.1056     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_222
+div_135/u_div_u_add_PartRem_0_7_1   318.7296      0.7    318.7296     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_217
+div_135/u_div_u_add_PartRem_0_7_2   331.2288      0.7    331.2288     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_218
+div_135/u_div_u_add_PartRem_0_7_3   303.1056      0.7    303.1056     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_219
+div_135/u_div_u_add_PartRem_0_8_1   318.7296      0.7    318.7296     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_214
+div_135/u_div_u_add_PartRem_0_8_2   331.2288      0.7    331.2288     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_215
+div_135/u_div_u_add_PartRem_0_8_3   303.1056      0.7    303.1056     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_216
+div_135/u_div_u_add_PartRem_0_9_1   318.7296      0.7    318.7296     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_211
+div_135/u_div_u_add_PartRem_0_9_2   331.2288      0.7    331.2288     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_212
+div_135/u_div_u_add_PartRem_0_9_3   303.1056      0.7    303.1056     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_213
+div_135/u_div_u_add_PartRem_1_12_1
+                                    312.4800      0.7    312.4800     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_202
+div_135/u_div_u_add_PartRem_1_12_2
+                                    299.9808      0.6    299.9808     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_203
+div_135/u_div_u_add_PartRem_1_12_3
+                                    318.7296      0.7    318.7296     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_add_204
+mult_130                           2159.2367      4.6   2159.2367     0.0000  0.0000  SECdecoder_location_24bits_clk_DW_mult_uns_1
+sub_126                             440.5968      0.9    440.5968     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_sub_0
+sub_130_2                          2081.1168      4.5   2081.1168     0.0000  0.0000  SECdecoder_location_24bits_clk_DW01_sub_2
+--------------------------------  ----------  -------  ----------  ---------  ------  --------------------------------------------
+Total                                                  41562.9645  5065.3008  0.0000
+
+1

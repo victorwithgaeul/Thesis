@@ -1,0 +1,94 @@
+ 
+****************************************
+Report : area
+Design : DEC_LUT_Decoder16bits_clk
+Version: U-2022.12-SP6
+Date   : Mon May  5 20:49:36 2025
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                         2880
+Number of nets:                         10097
+Number of cells:                         8388
+Number of combinational cells:           8287
+Number of sequential cells:                50
+Number of macros/black boxes:               0
+Number of buf/inv:                       1820
+Number of references:                     111
+
+Combinational area:             128404.281260
+Buf/Inv area:                    15039.662264
+Noncombinational area:            2752.948807
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                131157.230066
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area             Local cell area
+                                  --------------------  ------------------------------ 
+Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-  Black-
+                                  Total        Total    national     national   boxes   Design
+--------------------------------  -----------  -------  -----------  ---------  ------  ---------------------------------------
+DEC_LUT_Decoder16bits_clk         131157.2301    100.0   55230.8401  2752.9488  0.0000  DEC_LUT_Decoder16bits_clk
+div_1623                           14052.2254     10.7   14052.2254     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW_div_uns_5
+div_1632                           52509.1389     40.0   15224.0256     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW_div_tc_1
+div_1632/u_div_u_absval_AAbs        2537.3376      1.9    1028.0592     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_absval_1
+div_1632/u_div_u_absval_AAbs/NEG    1509.2784      1.2    1509.2784     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_inc_1
+div_1632/u_div_u_add_PartRem_0_1     199.9872      0.2     199.9872     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_124
+div_1632/u_div_u_add_PartRem_0_2     193.7376      0.1     193.7376     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_125
+div_1632/u_div_u_add_PartRem_0_3     287.4816      0.2     287.4816     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_126
+div_1632/u_div_u_add_PartRem_0_4     184.3632      0.1     184.3632     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_127
+div_1632/u_div_u_add_PartRem_0_5     249.9840      0.2     249.9840     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_128
+div_1632/u_div_u_add_PartRem_0_6     303.1056      0.2     303.1056     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_129
+div_1632/u_div_u_add_PartRem_0_7     299.9808      0.2     299.9808     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_130
+div_1632/u_div_u_add_PartRem_1_1     809.3232      0.6     809.3232     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_117
+div_1632/u_div_u_add_PartRem_1_2     737.4528      0.6     737.4528     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_118
+div_1632/u_div_u_add_PartRem_1_3    1049.9328      0.8    1049.9328     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_119
+div_1632/u_div_u_add_PartRem_1_4     874.9440      0.7     874.9440     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_120
+div_1632/u_div_u_add_PartRem_1_5     912.4416      0.7     912.4416     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_121
+div_1632/u_div_u_add_PartRem_1_6     990.5616      0.8     990.5616     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_122
+div_1632/u_div_u_add_PartRem_1_7     928.0656      0.7     928.0656     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_123
+div_1632/u_div_u_add_PartRem_2_1     824.9472      0.6     824.9472     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_110
+div_1632/u_div_u_add_PartRem_2_2     746.8272      0.6     746.8272     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_111
+div_1632/u_div_u_add_PartRem_2_3    1003.0608      0.8    1003.0608     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_112
+div_1632/u_div_u_add_PartRem_2_4     843.6960      0.6     843.6960     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_113
+div_1632/u_div_u_add_PartRem_2_5     915.5664      0.7     915.5664     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_114
+div_1632/u_div_u_add_PartRem_2_6     921.8160      0.7     921.8160     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_115
+div_1632/u_div_u_add_PartRem_2_7     956.1888      0.7     956.1888     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_116
+div_1632/u_div_u_add_PartRem_3_1     818.6976      0.6     818.6976     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_103
+div_1632/u_div_u_add_PartRem_3_2     768.7008      0.6     768.7008     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_104
+div_1632/u_div_u_add_PartRem_3_3     999.9360      0.8     999.9360     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_105
+div_1632/u_div_u_add_PartRem_3_4     840.5712      0.6     840.5712     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_106
+div_1632/u_div_u_add_PartRem_3_5     931.1904      0.7     931.1904     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_107
+div_1632/u_div_u_add_PartRem_3_6     899.9424      0.7     899.9424     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_108
+div_1632/u_div_u_add_PartRem_3_7     931.1904      0.7     931.1904     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_109
+div_1632/u_div_u_add_PartRem_4_1     846.8208      0.6     846.8208     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_96
+div_1632/u_div_u_add_PartRem_4_2     743.7024      0.6     743.7024     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_97
+div_1632/u_div_u_add_PartRem_4_3    1009.3104      0.8    1009.3104     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_98
+div_1632/u_div_u_add_PartRem_4_4     846.8208      0.6     846.8208     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_99
+div_1632/u_div_u_add_PartRem_4_5     924.9408      0.7     924.9408     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_100
+div_1632/u_div_u_add_PartRem_4_6     918.6912      0.7     918.6912     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_101
+div_1632/u_div_u_add_PartRem_4_7     965.5632      0.7     965.5632     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_102
+div_1632/u_div_u_add_PartRem_5_1     824.9472      0.6     824.9472     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_89
+div_1632/u_div_u_add_PartRem_5_2     740.5776      0.6     740.5776     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_90
+div_1632/u_div_u_add_PartRem_5_3     984.3120      0.8     984.3120     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_91
+div_1632/u_div_u_add_PartRem_5_4     878.0688      0.7     878.0688     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_92
+div_1632/u_div_u_add_PartRem_5_5     956.1888      0.7     956.1888     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_93
+div_1632/u_div_u_add_PartRem_5_6     874.9440      0.7     874.9440     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_94
+div_1632/u_div_u_add_PartRem_5_7     912.4416      0.7     912.4416     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_95
+div_1632/u_div_u_add_PartRem_6_1     787.4496      0.6     787.4496     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_add_82
+div_1632/u_div_u_inc_QInc           1109.3040      0.8    1109.3040     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW_inc_1
+mult_1627                           1356.1632      1.0    1356.1632     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW_mult_uns_0
+sub_1608                            4427.8416      3.4    4427.8416     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_sub_2
+sub_1627                             828.0720      0.6     828.0720     0.0000  0.0000  DEC_LUT_Decoder16bits_clk_DW01_sub_1
+--------------------------------  -----------  -------  -----------  ---------  ------  ---------------------------------------
+Total                                                   128404.2813  2752.9488  0.0000
+
+1

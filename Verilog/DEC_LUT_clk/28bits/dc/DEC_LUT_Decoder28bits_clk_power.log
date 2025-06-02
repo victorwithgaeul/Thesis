@@ -1,0 +1,215 @@
+Loading db file '/usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : DEC_LUT_Decoder28bits_clk
+Version: U-2022.12-SP6
+Date   : Tue May  6 04:46:41 2025
+****************************************
+
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+
+Operating Conditions: WCCOM   Library: fsa0m_a_generic_core_ss1p62v125c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+DEC_LUT_Decoder28bits_clk
+                       enG50K            fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_sub_1
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW_mult_uns_0
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_118
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_186
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_187
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_188
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_189
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_190
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_191
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_192
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_193
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_194
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_195
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_196
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_inc_2
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW_inc_3
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_sub_4
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_197
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_198
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_199
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_200
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_201
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_202
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_203
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_204
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_205
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_206
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_207
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_208
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_209
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_210
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_211
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_212
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_213
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_214
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_215
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_216
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_217
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_218
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_219
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_220
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_221
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_223
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_224
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_225
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_226
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_227
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_228
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_229
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_230
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_231
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_232
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_233
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_234
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_235
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_236
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_237
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_238
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_239
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_240
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_241
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_242
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_243
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_244
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_245
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_246
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_247
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_248
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_249
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_250
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_251
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_252
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_253
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_254
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW01_add_255
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+DEC_LUT_Decoder28bits_clk_DW_div_uns_5
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+
+
+Global Operating Voltage = 1.62 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =   2.0215 mW   (46%)
+  Net Switching Power  =   2.3772 mW   (54%)
+                         ---------
+Total Dynamic Power    =   4.3987 mW  (100%)
+
+Cell Leakage Power     =  18.6713 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network  6.8197e-02            0.0000            0.0000        6.8197e-02  (   1.54%)  i
+register       2.1671e-02        1.5454e-02        3.0837e+05        3.7434e-02  (   0.85%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      1.9316            2.3617        1.8363e+07            4.3117  (  97.61%)
+--------------------------------------------------------------------------------------------------
+Total              2.0215 mW         2.3772 mW     1.8671e+07 pW         4.4173 mW
+1

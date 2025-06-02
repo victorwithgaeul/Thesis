@@ -1,0 +1,182 @@
+ 
+****************************************
+Report : area
+Design : Tradeoff_52bits
+Version: U-2022.12-SP6
+Date   : Sun May 11 17:04:07 2025
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                         8963
+Number of nets:                         20952
+Number of cells:                        15160
+Number of combinational cells:          14769
+Number of sequential cells:               252
+Number of macros/black boxes:               0
+Number of buf/inv:                       3649
+Number of references:                     263
+
+Combinational area:             268173.458896
+Buf/Inv area:                    37606.967624
+Noncombinational area:           16667.683044
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                284841.141941
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area              Local cell area
+                                  --------------------  ------------------------------- 
+Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-   Black-
+                                  Total        Total    national     national    boxes   Design
+--------------------------------  -----------  -------  -----------  ----------  ------  -----------------------------
+Tradeoff_52bits                   284841.1419    100.0   69195.5711  16667.6830  0.0000  Tradeoff_52bits
+add_0_root_add_46_C113_2_ni          278.1072      0.1     278.1072      0.0000  0.0000  Tradeoff_52bits_DW01_inc_1
+add_0_root_add_46_C113_ni            278.1072      0.1     278.1072      0.0000  0.0000  Tradeoff_52bits_DW01_inc_2
+div_118_u_div_u_add_PartRem_0_1      265.6080      0.1     265.6080      0.0000  0.0000  Tradeoff_52bits_DW01_add_337
+div_118_u_div_u_add_PartRem_0_2      299.9808      0.1     299.9808      0.0000  0.0000  Tradeoff_52bits_DW01_add_341
+div_118_u_div_u_add_PartRem_0_3      256.2336      0.1     256.2336      0.0000  0.0000  Tradeoff_52bits_DW01_add_339
+div_118_u_div_u_add_PartRem_0_4      293.7312      0.1     293.7312      0.0000  0.0000  Tradeoff_52bits_DW01_add_293
+div_118_u_div_u_add_PartRem_0_5      265.6080      0.1     265.6080      0.0000  0.0000  Tradeoff_52bits_DW01_add_383
+div_118_u_div_u_add_PartRem_0_6      278.1072      0.1     278.1072      0.0000  0.0000  Tradeoff_52bits_DW01_add_368
+div_118_u_div_u_add_PartRem_0_7      293.7312      0.1     293.7312      0.0000  0.0000  Tradeoff_52bits_DW01_add_403
+div_118_u_div_u_add_PartRem_10_1     865.5696      0.3     865.5696      0.0000  0.0000  Tradeoff_52bits_DW01_add_356
+div_118_u_div_u_add_PartRem_10_2     899.9424      0.3     899.9424      0.0000  0.0000  Tradeoff_52bits_DW01_add_370
+div_118_u_div_u_add_PartRem_10_3     840.5712      0.3     840.5712      0.0000  0.0000  Tradeoff_52bits_DW01_add_320
+div_118_u_div_u_add_PartRem_10_4     937.4400      0.3     937.4400      0.0000  0.0000  Tradeoff_52bits_DW01_add_343
+div_118_u_div_u_add_PartRem_10_5     934.3152      0.3     934.3152      0.0000  0.0000  Tradeoff_52bits_DW01_add_398
+div_118_u_div_u_add_PartRem_10_6     940.5648      0.3     940.5648      0.0000  0.0000  Tradeoff_52bits_DW01_add_303
+div_118_u_div_u_add_PartRem_10_7     915.5664      0.3     915.5664      0.0000  0.0000  Tradeoff_52bits_DW01_add_333
+div_118_u_div_u_add_PartRem_11_1     890.5680      0.3     890.5680      0.0000  0.0000  Tradeoff_52bits_DW01_add_357
+div_118_u_div_u_add_PartRem_11_2     856.1952      0.3     856.1952      0.0000  0.0000  Tradeoff_52bits_DW01_add_371
+div_118_u_div_u_add_PartRem_11_3     853.0704      0.3     853.0704      0.0000  0.0000  Tradeoff_52bits_DW01_add_321
+div_118_u_div_u_add_PartRem_11_4     953.0640      0.3     953.0640      0.0000  0.0000  Tradeoff_52bits_DW01_add_344
+div_118_u_div_u_add_PartRem_11_5     887.4432      0.3     887.4432      0.0000  0.0000  Tradeoff_52bits_DW01_add_399
+div_118_u_div_u_add_PartRem_11_6     987.4368      0.3     987.4368      0.0000  0.0000  Tradeoff_52bits_DW01_add_304
+div_118_u_div_u_add_PartRem_11_7     915.5664      0.3     915.5664      0.0000  0.0000  Tradeoff_52bits_DW01_add_334
+div_118_u_div_u_add_PartRem_12_1     971.8128      0.3     971.8128      0.0000  0.0000  Tradeoff_52bits_DW01_add_358
+div_118_u_div_u_add_PartRem_12_2     874.9440      0.3     874.9440      0.0000  0.0000  Tradeoff_52bits_DW01_add_372
+div_118_u_div_u_add_PartRem_12_3     884.3184      0.3     884.3184      0.0000  0.0000  Tradeoff_52bits_DW01_add_322
+div_118_u_div_u_add_PartRem_12_4     881.1936      0.3     881.1936      0.0000  0.0000  Tradeoff_52bits_DW01_add_345
+div_118_u_div_u_add_PartRem_12_5     928.0656      0.3     928.0656      0.0000  0.0000  Tradeoff_52bits_DW01_add_400
+div_118_u_div_u_add_PartRem_12_6     862.4448      0.3     862.4448      0.0000  0.0000  Tradeoff_52bits_DW01_add_305
+div_118_u_div_u_add_PartRem_12_7     962.4384      0.3     962.4384      0.0000  0.0000  Tradeoff_52bits_DW01_add_335
+div_118_u_div_u_add_PartRem_13_1     871.8192      0.3     871.8192      0.0000  0.0000  Tradeoff_52bits_DW01_add_359
+div_118_u_div_u_add_PartRem_13_2     846.8208      0.3     846.8208      0.0000  0.0000  Tradeoff_52bits_DW01_add_373
+div_118_u_div_u_add_PartRem_13_3     856.1952      0.3     856.1952      0.0000  0.0000  Tradeoff_52bits_DW01_add_323
+div_118_u_div_u_add_PartRem_13_4     968.6880      0.3     968.6880      0.0000  0.0000  Tradeoff_52bits_DW01_add_346
+div_118_u_div_u_add_PartRem_13_5    1028.0592      0.4    1028.0592      0.0000  0.0000  Tradeoff_52bits_DW01_add_401
+div_118_u_div_u_add_PartRem_13_6     956.1888      0.3     956.1888      0.0000  0.0000  Tradeoff_52bits_DW01_add_306
+div_118_u_div_u_add_PartRem_13_7     887.4432      0.3     887.4432      0.0000  0.0000  Tradeoff_52bits_DW01_add_336
+div_118_u_div_u_add_PartRem_14_1     874.9440      0.3     874.9440      0.0000  0.0000  Tradeoff_52bits_DW01_add_384
+div_118_u_div_u_add_PartRem_14_2     853.0704      0.3     853.0704      0.0000  0.0000  Tradeoff_52bits_DW01_add_385
+div_118_u_div_u_add_PartRem_14_3     887.4432      0.3     887.4432      0.0000  0.0000  Tradeoff_52bits_DW01_add_402
+div_118_u_div_u_add_PartRem_14_4     884.3184      0.3     884.3184      0.0000  0.0000  Tradeoff_52bits_DW01_add_405
+div_118_u_div_u_add_PartRem_14_5     893.6928      0.3     893.6928      0.0000  0.0000  Tradeoff_52bits_DW01_add_404
+div_118_u_div_u_add_PartRem_14_6     946.8144      0.3     946.8144      0.0000  0.0000  Tradeoff_52bits_DW01_add_338
+div_118_u_div_u_add_PartRem_14_7     918.6912      0.3     918.6912      0.0000  0.0000  Tradeoff_52bits_DW01_add_307
+div_118_u_div_u_add_PartRem_15_1     903.0672      0.3     903.0672      0.0000  0.0000  Tradeoff_52bits_DW01_add_388
+div_118_u_div_u_add_PartRem_15_2    1128.0528      0.4    1128.0528      0.0000  0.0000  Tradeoff_52bits_DW01_add_411
+div_118_u_div_u_add_PartRem_15_3     871.8192      0.3     871.8192      0.0000  0.0000  Tradeoff_52bits_DW01_add_386
+div_118_u_div_u_add_PartRem_15_4     912.4416      0.3     912.4416      0.0000  0.0000  Tradeoff_52bits_DW01_add_415
+div_118_u_div_u_add_PartRem_15_5     893.6928      0.3     893.6928      0.0000  0.0000  Tradeoff_52bits_DW01_add_408
+div_118_u_div_u_add_PartRem_15_6     965.5632      0.3     965.5632      0.0000  0.0000  Tradeoff_52bits_DW01_add_407
+div_118_u_div_u_add_PartRem_15_7     931.1904      0.3     931.1904      0.0000  0.0000  Tradeoff_52bits_DW01_add_308
+div_118_u_div_u_add_PartRem_16_1     868.6944      0.3     868.6944      0.0000  0.0000  Tradeoff_52bits_DW01_add_410
+div_118_u_div_u_add_PartRem_16_2     931.1904      0.3     931.1904      0.0000  0.0000  Tradeoff_52bits_DW01_add_406
+div_118_u_div_u_add_PartRem_16_3     859.3200      0.3     859.3200      0.0000  0.0000  Tradeoff_52bits_DW01_add_413
+div_118_u_div_u_add_PartRem_16_4    1028.0592      0.4    1028.0592      0.0000  0.0000  Tradeoff_52bits_DW01_add_416
+div_118_u_div_u_add_PartRem_16_5     896.8176      0.3     896.8176      0.0000  0.0000  Tradeoff_52bits_DW01_add_414
+div_118_u_div_u_add_PartRem_16_6     928.0656      0.3     928.0656      0.0000  0.0000  Tradeoff_52bits_DW01_add_309
+div_118_u_div_u_add_PartRem_16_7     931.1904      0.3     931.1904      0.0000  0.0000  Tradeoff_52bits_DW01_add_340
+div_118_u_div_u_add_PartRem_17_1     771.8256      0.3     771.8256      0.0000  0.0000  Tradeoff_52bits_DW01_add_412
+div_118_u_div_u_add_PartRem_17_2     878.0688      0.3     878.0688      0.0000  0.0000  Tradeoff_52bits_DW01_add_382
+div_118_u_div_u_add_PartRem_17_3     871.8192      0.3     871.8192      0.0000  0.0000  Tradeoff_52bits_DW01_add_387
+div_118_u_div_u_add_PartRem_17_4     784.3248      0.3     784.3248      0.0000  0.0000  Tradeoff_52bits_DW01_add_409
+div_118_u_div_u_add_PartRem_17_5     812.4480      0.3     812.4480      0.0000  0.0000  Tradeoff_52bits_DW01_add_310
+div_118_u_div_u_add_PartRem_17_6     849.9456      0.3     849.9456      0.0000  0.0000  Tradeoff_52bits_DW01_add_172
+div_118_u_div_u_add_PartRem_17_7     943.6896      0.3     943.6896      0.0000  0.0000  Tradeoff_52bits_DW01_add_173
+div_118_u_div_u_add_PartRem_1_1      928.0656      0.3     928.0656      0.0000  0.0000  Tradeoff_52bits_DW01_add_360
+div_118_u_div_u_add_PartRem_1_2      909.3168      0.3     909.3168      0.0000  0.0000  Tradeoff_52bits_DW01_add_374
+div_118_u_div_u_add_PartRem_1_3      924.9408      0.3     924.9408      0.0000  0.0000  Tradeoff_52bits_DW01_add_311
+div_118_u_div_u_add_PartRem_1_4      912.4416      0.3     912.4416      0.0000  0.0000  Tradeoff_52bits_DW01_add_347
+div_118_u_div_u_add_PartRem_1_5      965.5632      0.3     965.5632      0.0000  0.0000  Tradeoff_52bits_DW01_add_389
+div_118_u_div_u_add_PartRem_1_6      962.4384      0.3     962.4384      0.0000  0.0000  Tradeoff_52bits_DW01_add_294
+div_118_u_div_u_add_PartRem_1_7      903.0672      0.3     903.0672      0.0000  0.0000  Tradeoff_52bits_DW01_add_324
+div_118_u_div_u_add_PartRem_2_1      946.8144      0.3     946.8144      0.0000  0.0000  Tradeoff_52bits_DW01_add_361
+div_118_u_div_u_add_PartRem_2_2      874.9440      0.3     874.9440      0.0000  0.0000  Tradeoff_52bits_DW01_add_375
+div_118_u_div_u_add_PartRem_2_3      924.9408      0.3     924.9408      0.0000  0.0000  Tradeoff_52bits_DW01_add_312
+div_118_u_div_u_add_PartRem_2_4     1131.1776      0.4    1131.1776      0.0000  0.0000  Tradeoff_52bits_DW01_add_348
+div_118_u_div_u_add_PartRem_2_5     1031.1840      0.4    1031.1840      0.0000  0.0000  Tradeoff_52bits_DW01_add_390
+div_118_u_div_u_add_PartRem_2_6     1059.3072      0.4    1059.3072      0.0000  0.0000  Tradeoff_52bits_DW01_add_295
+div_118_u_div_u_add_PartRem_2_7      934.3152      0.3     934.3152      0.0000  0.0000  Tradeoff_52bits_DW01_add_325
+div_118_u_div_u_add_PartRem_3_1      865.5696      0.3     865.5696      0.0000  0.0000  Tradeoff_52bits_DW01_add_362
+div_118_u_div_u_add_PartRem_3_2      843.6960      0.3     843.6960      0.0000  0.0000  Tradeoff_52bits_DW01_add_376
+div_118_u_div_u_add_PartRem_3_3      903.0672      0.3     903.0672      0.0000  0.0000  Tradeoff_52bits_DW01_add_313
+div_118_u_div_u_add_PartRem_3_4      921.8160      0.3     921.8160      0.0000  0.0000  Tradeoff_52bits_DW01_add_349
+div_118_u_div_u_add_PartRem_3_5      909.3168      0.3     909.3168      0.0000  0.0000  Tradeoff_52bits_DW01_add_391
+div_118_u_div_u_add_PartRem_3_6      884.3184      0.3     884.3184      0.0000  0.0000  Tradeoff_52bits_DW01_add_296
+div_118_u_div_u_add_PartRem_3_7      918.6912      0.3     918.6912      0.0000  0.0000  Tradeoff_52bits_DW01_add_326
+div_118_u_div_u_add_PartRem_4_1      878.0688      0.3     878.0688      0.0000  0.0000  Tradeoff_52bits_DW01_add_363
+div_118_u_div_u_add_PartRem_4_2      865.5696      0.3     865.5696      0.0000  0.0000  Tradeoff_52bits_DW01_add_377
+div_118_u_div_u_add_PartRem_4_3      856.1952      0.3     856.1952      0.0000  0.0000  Tradeoff_52bits_DW01_add_314
+div_118_u_div_u_add_PartRem_4_4      890.5680      0.3     890.5680      0.0000  0.0000  Tradeoff_52bits_DW01_add_350
+div_118_u_div_u_add_PartRem_4_5      881.1936      0.3     881.1936      0.0000  0.0000  Tradeoff_52bits_DW01_add_392
+div_118_u_div_u_add_PartRem_4_6      959.3136      0.3     959.3136      0.0000  0.0000  Tradeoff_52bits_DW01_add_297
+div_118_u_div_u_add_PartRem_4_7      959.3136      0.3     959.3136      0.0000  0.0000  Tradeoff_52bits_DW01_add_327
+div_118_u_div_u_add_PartRem_5_1      865.5696      0.3     865.5696      0.0000  0.0000  Tradeoff_52bits_DW01_add_364
+div_118_u_div_u_add_PartRem_5_2      859.3200      0.3     859.3200      0.0000  0.0000  Tradeoff_52bits_DW01_add_378
+div_118_u_div_u_add_PartRem_5_3      896.8176      0.3     896.8176      0.0000  0.0000  Tradeoff_52bits_DW01_add_315
+div_118_u_div_u_add_PartRem_5_4      909.3168      0.3     909.3168      0.0000  0.0000  Tradeoff_52bits_DW01_add_351
+div_118_u_div_u_add_PartRem_5_5      890.5680      0.3     890.5680      0.0000  0.0000  Tradeoff_52bits_DW01_add_393
+div_118_u_div_u_add_PartRem_5_6     1028.0592      0.4    1028.0592      0.0000  0.0000  Tradeoff_52bits_DW01_add_298
+div_118_u_div_u_add_PartRem_5_7      934.3152      0.3     934.3152      0.0000  0.0000  Tradeoff_52bits_DW01_add_328
+div_118_u_div_u_add_PartRem_6_1      849.9456      0.3     849.9456      0.0000  0.0000  Tradeoff_52bits_DW01_add_365
+div_118_u_div_u_add_PartRem_6_2      837.4464      0.3     837.4464      0.0000  0.0000  Tradeoff_52bits_DW01_add_379
+div_118_u_div_u_add_PartRem_6_3      849.9456      0.3     849.9456      0.0000  0.0000  Tradeoff_52bits_DW01_add_316
+div_118_u_div_u_add_PartRem_6_4      862.4448      0.3     862.4448      0.0000  0.0000  Tradeoff_52bits_DW01_add_352
+div_118_u_div_u_add_PartRem_6_5      915.5664      0.3     915.5664      0.0000  0.0000  Tradeoff_52bits_DW01_add_394
+div_118_u_div_u_add_PartRem_6_6      918.6912      0.3     918.6912      0.0000  0.0000  Tradeoff_52bits_DW01_add_299
+div_118_u_div_u_add_PartRem_6_7      868.6944      0.3     868.6944      0.0000  0.0000  Tradeoff_52bits_DW01_add_329
+div_118_u_div_u_add_PartRem_7_1      884.3184      0.3     884.3184      0.0000  0.0000  Tradeoff_52bits_DW01_add_366
+div_118_u_div_u_add_PartRem_7_2      915.5664      0.3     915.5664      0.0000  0.0000  Tradeoff_52bits_DW01_add_380
+div_118_u_div_u_add_PartRem_7_3      865.5696      0.3     865.5696      0.0000  0.0000  Tradeoff_52bits_DW01_add_317
+div_118_u_div_u_add_PartRem_7_4      940.5648      0.3     940.5648      0.0000  0.0000  Tradeoff_52bits_DW01_add_353
+div_118_u_div_u_add_PartRem_7_5      924.9408      0.3     924.9408      0.0000  0.0000  Tradeoff_52bits_DW01_add_395
+div_118_u_div_u_add_PartRem_7_6      934.3152      0.3     934.3152      0.0000  0.0000  Tradeoff_52bits_DW01_add_300
+div_118_u_div_u_add_PartRem_7_7      946.8144      0.3     946.8144      0.0000  0.0000  Tradeoff_52bits_DW01_add_330
+div_118_u_div_u_add_PartRem_8_1      865.5696      0.3     865.5696      0.0000  0.0000  Tradeoff_52bits_DW01_add_367
+div_118_u_div_u_add_PartRem_8_2      843.6960      0.3     843.6960      0.0000  0.0000  Tradeoff_52bits_DW01_add_381
+div_118_u_div_u_add_PartRem_8_3      871.8192      0.3     871.8192      0.0000  0.0000  Tradeoff_52bits_DW01_add_318
+div_118_u_div_u_add_PartRem_8_4      896.8176      0.3     896.8176      0.0000  0.0000  Tradeoff_52bits_DW01_add_354
+div_118_u_div_u_add_PartRem_8_5      937.4400      0.3     937.4400      0.0000  0.0000  Tradeoff_52bits_DW01_add_396
+div_118_u_div_u_add_PartRem_8_6      946.8144      0.3     946.8144      0.0000  0.0000  Tradeoff_52bits_DW01_add_301
+div_118_u_div_u_add_PartRem_8_7      978.0624      0.3     978.0624      0.0000  0.0000  Tradeoff_52bits_DW01_add_331
+div_118_u_div_u_add_PartRem_9_1      865.5696      0.3     865.5696      0.0000  0.0000  Tradeoff_52bits_DW01_add_355
+div_118_u_div_u_add_PartRem_9_2      918.6912      0.3     918.6912      0.0000  0.0000  Tradeoff_52bits_DW01_add_369
+div_118_u_div_u_add_PartRem_9_3      856.1952      0.3     856.1952      0.0000  0.0000  Tradeoff_52bits_DW01_add_319
+div_118_u_div_u_add_PartRem_9_4     1078.0560      0.4    1078.0560      0.0000  0.0000  Tradeoff_52bits_DW01_add_342
+div_118_u_div_u_add_PartRem_9_5      865.5696      0.3     865.5696      0.0000  0.0000  Tradeoff_52bits_DW01_add_397
+div_118_u_div_u_add_PartRem_9_6     1024.9344      0.4    1024.9344      0.0000  0.0000  Tradeoff_52bits_DW01_add_302
+div_118_u_div_u_add_PartRem_9_7      903.0672      0.3     903.0672      0.0000  0.0000  Tradeoff_52bits_DW01_add_332
+div_85                             52846.6170     18.6   52846.6170      0.0000  0.0000  Tradeoff_52bits_DW_div_uns_7
+lLUT_inst                           5462.1504      1.9    5462.1504      0.0000  0.0000  SEC_lLUT52bits
+mult_113                            4702.8239      1.7    4702.8239      0.0000  0.0000  Tradeoff_52bits_DW_mult_uns_1
+mult_113_2                          4715.3231      1.7    4715.3231      0.0000  0.0000  Tradeoff_52bits_DW_mult_uns_2
+mult_89                             2899.8144      1.0    2899.8144      0.0000  0.0000  Tradeoff_52bits_DW_mult_uns_0
+r468                                 278.1072      0.1     278.1072      0.0000  0.0000  Tradeoff_52bits_DW01_inc_0
+rLUT_inst                           6099.6096      2.1    6099.6096      0.0000  0.0000  SEC_rLUT52bits
+sub_0_root_sub_0_root_sub_113_4     4509.0864      1.6    4509.0864      0.0000  0.0000  Tradeoff_52bits_DW01_sub_5
+sub_1_root_sub_0_root_sub_113_4     4509.0864      1.6    4509.0864      0.0000  0.0000  Tradeoff_52bits_DW01_sub_6
+sub_59                              1040.5584      0.4    1040.5584      0.0000  0.0000  Tradeoff_52bits_DW01_sub_1
+sub_89                              1031.1840      0.4    1031.1840      0.0000  0.0000  Tradeoff_52bits_DW01_sub_4
+--------------------------------  -----------  -------  -----------  ----------  ------  -----------------------------
+Total                                                   268173.4589  16667.6830  0.0000
+
+1

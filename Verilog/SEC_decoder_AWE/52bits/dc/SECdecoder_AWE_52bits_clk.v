@@ -1,0 +1,207 @@
+// Product (AN) Code Conventional SECdecoder
+// SECdecoder_AWE_24bits.v
+// Used to do SEC by Galois Field, and corrected AWE
+// Received remainder r, output single AWE.
+module SECdecoder_AWE_52bits_clk(clk, rst_n, W, found, N);
+
+//=========================================================================
+//   PARAMETER AND LOCALPARAM FOR FSM
+//   W_BITS 要考慮 OVERFLOW 問題
+//   N_BITS 也要考慮 OVERFLOW 問題
+//=========================================================================
+parameter A = 131 , W_BITS = 61, A_BITS = 8 , N_BITS = 53;
+
+
+localparam [2:0] idle=3'b000, pre=3'b001,load=3'b010, LUT=3'b011, done=3'd100;
+reg [2:0] ps;
+//==========================================
+//   INPUT AND OUTPUT DECLARATION
+//==========================================
+input   clk, rst_n;
+input 	[W_BITS-1:0]	W;
+output	reg  [N_BITS-1:0] N;
+output  reg  found;
+
+reg 	[N_BITS-1:0]	Q;
+reg 	[A_BITS-1:0]	r;
+
+reg	signed	[65:0]	AWE;
+always@(*) begin
+	case(r)
+		1: AWE = +(1 << 0);
+		2: AWE = +(1 << 1);
+		4: AWE = +(1 << 2);
+		8: AWE = +(1 << 3);
+		16: AWE = +(1 << 4);
+		32: AWE = +(1 << 5);
+		64: AWE = +(1 << 6);
+		128: AWE = +(1 << 7);
+		125: AWE = +(1 << 8);
+		119: AWE = +(1 << 9);
+		107: AWE = +(1 << 10);
+		83: AWE = +(1 << 11);
+		35: AWE = +(1 << 12);
+		70: AWE = +(1 << 13);
+		9: AWE = +(1 << 14);
+		18: AWE = +(1 << 15);
+		36: AWE = +(1 << 16);
+		72: AWE = +(1 << 17);
+		13: AWE = +(1 << 18);
+		26: AWE = +(1 << 19);
+		52: AWE = +(1 << 20);
+		104: AWE = +(1 << 21);
+		77: AWE = +(1 << 22);
+		23: AWE = +(1 << 23);
+		46: AWE = +(1 << 24);
+		92: AWE = +(1 << 25);
+		53: AWE = +(1 << 26);
+		106: AWE = +(1 << 27);
+		81: AWE = +(1 << 28);
+		31: AWE = +(1 << 29);
+		62: AWE = +(1 << 30);
+		124: AWE = +(1 << 31);
+		117: AWE = +(1 << 32);
+		103: AWE = +(1 << 33);
+		75: AWE = +(1 << 34);
+		19: AWE = +(1 << 35);
+		38: AWE = +(1 << 36);
+		76: AWE = +(1 << 37);
+		21: AWE = +(1 << 38);
+		42: AWE = +(1 << 39);
+		84: AWE = +(1 << 40);
+		37: AWE = +(1 << 41);
+		74: AWE = +(1 << 42);
+		17: AWE = +(1 << 43);
+		34: AWE = +(1 << 44);
+		68: AWE = +(1 << 45);
+		5: AWE = +(1 << 46);
+		10: AWE = +(1 << 47);
+		20: AWE = +(1 << 48);
+		40: AWE = +(1 << 49);
+		80: AWE = +(1 << 50);
+		29: AWE = +(1 << 51);
+		58: AWE = +(1 << 52);
+		116: AWE = +(1 << 53);
+		101: AWE = +(1 << 54);
+		71: AWE = +(1 << 55);
+		11: AWE = +(1 << 56);
+		22: AWE = +(1 << 57);
+		44: AWE = +(1 << 58);
+		88: AWE = +(1 << 59);
+		45: AWE = +(1 << 60);
+		90: AWE = +(1 << 61);
+		49: AWE = +(1 << 62);
+		98: AWE = +(1 << 63);
+		65: AWE = +(1 << 64);
+		130: AWE = -(1 << 0);
+		129: AWE = -(1 << 1);
+		127: AWE = -(1 << 2);
+		123: AWE = -(1 << 3);
+		115: AWE = -(1 << 4);
+		99: AWE = -(1 << 5);
+		67: AWE = -(1 << 6);
+		3: AWE = -(1 << 7);
+		6: AWE = -(1 << 8);
+		12: AWE = -(1 << 9);
+		24: AWE = -(1 << 10);
+		48: AWE = -(1 << 11);
+		96: AWE = -(1 << 12);
+		61: AWE = -(1 << 13);
+		122: AWE = -(1 << 14);
+		113: AWE = -(1 << 15);
+		95: AWE = -(1 << 16);
+		59: AWE = -(1 << 17);
+		118: AWE = -(1 << 18);
+		105: AWE = -(1 << 19);
+		79: AWE = -(1 << 20);
+		27: AWE = -(1 << 21);
+		54: AWE = -(1 << 22);
+		108: AWE = -(1 << 23);
+		85: AWE = -(1 << 24);
+		39: AWE = -(1 << 25);
+		78: AWE = -(1 << 26);
+		25: AWE = -(1 << 27);
+		50: AWE = -(1 << 28);
+		100: AWE = -(1 << 29);
+		69: AWE = -(1 << 30);
+		7: AWE = -(1 << 31);
+		14: AWE = -(1 << 32);
+		28: AWE = -(1 << 33);
+		56: AWE = -(1 << 34);
+		112: AWE = -(1 << 35);
+		93: AWE = -(1 << 36);
+		55: AWE = -(1 << 37);
+		110: AWE = -(1 << 38);
+		89: AWE = -(1 << 39);
+		47: AWE = -(1 << 40);
+		94: AWE = -(1 << 41);
+		57: AWE = -(1 << 42);
+		114: AWE = -(1 << 43);
+		97: AWE = -(1 << 44);
+		63: AWE = -(1 << 45);
+		126: AWE = -(1 << 46);
+		121: AWE = -(1 << 47);
+		111: AWE = -(1 << 48);
+		91: AWE = -(1 << 49);
+		51: AWE = -(1 << 50);
+		102: AWE = -(1 << 51);
+		73: AWE = -(1 << 52);
+		15: AWE = -(1 << 53);
+		30: AWE = -(1 << 54);
+		60: AWE = -(1 << 55);
+		120: AWE = -(1 << 56);
+		109: AWE = -(1 << 57);
+		87: AWE = -(1 << 58);
+		43: AWE = -(1 << 59);
+		86: AWE = -(1 << 60);
+		41: AWE = -(1 << 61);
+		82: AWE = -(1 << 62);
+		33: AWE = -(1 << 63);
+		66: AWE = -(1 << 64);
+		default: AWE = 0;
+	endcase
+end
+
+
+reg [W_BITS-1:0]  W_new;
+always@(posedge clk or negedge rst_n) begin
+   if(!rst_n) begin
+     	ps <= idle;
+    end
+   else begin
+        case(ps)
+            idle: begin
+                found <= 0;
+                r <= 0;
+        	Q <= 0;
+                ps <= pre;
+                end
+	    pre: begin
+		 Q <= W / A;
+		 ps <= load;
+		end
+            load: begin
+                 r <= W - (A * Q);
+		 ps <= LUT;
+		end
+	    LUT: begin
+		 W_new <= W - AWE;
+		 ps <= done;
+		end
+	    done: begin
+		  if(AWE != 0)begin
+		      N <=  W_new / A ;	
+		      found <= 1;
+                      ps <= idle;
+		  end
+		  else begin
+		      N <= Q;
+		      found <= 1;
+                      ps <= idle;
+		  end
+		end
+	endcase
+    end
+end
+
+endmodule

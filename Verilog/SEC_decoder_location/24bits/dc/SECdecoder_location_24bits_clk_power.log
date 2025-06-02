@@ -1,0 +1,153 @@
+Loading db file '/usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : SECdecoder_location_24bits_clk
+Version: U-2022.12-SP6
+Date   : Fri May 23 17:17:46 2025
+****************************************
+
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+
+Operating Conditions: WCCOM   Library: fsa0m_a_generic_core_ss1p62v125c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+SECdecoder_location_24bits_clk
+                       enG10K            fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_sub_0
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_inc_0
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_sub_2
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW_mult_uns_1
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW_div_uns_8
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_202
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_203
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_204
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_205
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_206
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_207
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_208
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_209
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_210
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_211
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_212
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_213
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_214
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_215
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_216
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_217
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_218
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_219
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_220
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_221
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_222
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_223
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_224
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_225
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_226
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_227
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_228
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_229
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_230
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_231
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_232
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_233
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_234
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_235
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_236
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_237
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_238
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_239
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW01_add_240
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_24bits_clk_DW_div_uns_14
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+
+
+Global Operating Voltage = 1.62 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 353.7244 uW   (62%)
+  Net Switching Power  = 216.4650 uW   (38%)
+                         ---------
+Total Dynamic Power    = 570.1895 uW  (100%)
+
+Cell Leakage Power     =   3.3732 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network  8.9803e-02            0.0000            0.0000        8.9803e-02  (  15.66%)  i
+register       1.6105e-02        6.7702e-03        3.5199e+05        2.3228e-02  (   4.05%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.2478            0.2097        3.0212e+06            0.4605  (  80.29%)
+--------------------------------------------------------------------------------------------------
+Total              0.3537 mW         0.2165 mW     3.3732e+06 pW         0.5736 mW
+1

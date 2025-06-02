@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : Tradeoff_8bits
+Version: U-2022.12-SP6
+Date   : Mon May  5 19:59:56 2025
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                          589
+Number of nets:                          2146
+Number of cells:                         1529
+Number of combinational cells:           1424
+Number of sequential cells:                94
+Number of macros/black boxes:               0
+Number of buf/inv:                        225
+Number of references:                      41
+
+Combinational area:              29170.007733
+Buf/Inv area:                     1449.907185
+Noncombinational area:            5521.521606
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 34691.529340
+Total area:                 undefined
+1

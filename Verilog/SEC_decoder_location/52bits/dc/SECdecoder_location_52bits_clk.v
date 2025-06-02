@@ -1,0 +1,214 @@
+// Product (AN) Code Conventional SECdecoder
+// SECdecoder_location_52bits.v
+// Used to do SEC by Galois Field, and corrected AWE
+// Received remainder r, output single AWE.
+module SECdecoder_location_52bits_clk(clk, rst_n, W, found, N);
+
+//=========================================================================
+//   PARAMETER AND LOCALPARAM FOR FSM
+//   W_BITS 要考慮 OVERFLOW 問題
+//   N_BITS 也要考慮 OVERFLOW 問題
+//=========================================================================
+parameter A = 131 , W_BITS = 61, A_BITS = 8 , N_BITS = 53, L_BITS = 7;
+
+localparam [2:0] idle=3'b000, pre=3'b001,load=3'b010, LUT=3'b011, done=3'd100;
+reg [2:0] ps;
+//==========================================
+//   INPUT AND OUTPUT DECLARATION
+//==========================================
+input   clk, rst_n;
+input 	[W_BITS-1:0]	W;
+output	reg  [N_BITS-1:0] N;
+output  reg  found;
+
+reg 	[N_BITS-1:0]	Q;
+reg 	[A_BITS-1:0]	r;
+
+//==========================================
+//    FUNCTION FOR |h1| |h2| value 
+//==========================================
+function [L_BITS:0] abs;
+    input signed [L_BITS:0] val;
+    abs = val[L_BITS] ? ~val + 1 : val;
+endfunction
+
+
+reg	signed	[L_BITS:0]   l;
+always@(*) begin
+	case(r)
+		1: l = +1;
+		2: l = +2;
+		4: l = +3;
+		8: l = +4;
+		16: l = +5;
+		32: l = +6;
+		64: l = +7;
+		128: l = +8;
+		125: l = +9;
+		119: l = +10;
+		107: l = +11;
+		83: l = +12;
+		35: l = +13;
+		70: l = +14;
+		9: l = +15;
+		18: l = +16;
+		36: l = +17;
+		72: l = +18;
+		13: l = +19;
+		26: l = +20;
+		52: l = +21;
+		104: l = +22;
+		77: l = +23;
+		23: l = +24;
+		46: l = +25;
+		92: l = +26;
+		53: l = +27;
+		106: l = +28;
+		81: l = +29;
+		31: l = +30;
+		62: l = +31;
+		124: l = +32;
+		117: l = +33;
+		103: l = +34;
+		75: l = +35;
+		19: l = +36;
+		38: l = +37;
+		76: l = +38;
+		21: l = +39;
+		42: l = +40;
+		84: l = +41;
+		37: l = +42;
+		74: l = +43;
+		17: l = +44;
+		34: l = +45;
+		68: l = +46;
+		5: l = +47;
+		10: l = +48;
+		20: l = +49;
+		40: l = +50;
+		80: l = +51;
+		29: l = +52;
+		58: l = +53;
+		116: l = +54;
+		101: l = +55;
+		71: l = +56;
+		11: l = +57;
+		22: l = +58;
+		44: l = +59;
+		88: l = +60;
+		45: l = +61;
+		90: l = +62;
+		49: l = +63;
+		98: l = +64;
+		65: l = +65;
+		130: l = -1;
+		129: l = -2;
+		127: l = -3;
+		123: l = -4;
+		115: l = -5;
+		99: l = -6;
+		67: l = -7;
+		3: l = -8;
+		6: l = -9;
+		12: l = -10;
+		24: l = -11;
+		48: l = -12;
+		96: l = -13;
+		61: l = -14;
+		122: l = -15;
+		113: l = -16;
+		95: l = -17;
+		59: l = -18;
+		118: l = -19;
+		105: l = -20;
+		79: l = -21;
+		27: l = -22;
+		54: l = -23;
+		108: l = -24;
+		85: l = -25;
+		39: l = -26;
+		78: l = -27;
+		25: l = -28;
+		50: l = -29;
+		100: l = -30;
+		69: l = -31;
+		7: l = -32;
+		14: l = -33;
+		28: l = -34;
+		56: l = -35;
+		112: l = -36;
+		93: l = -37;
+		55: l = -38;
+		110: l = -39;
+		89: l = -40;
+		47: l = -41;
+		94: l = -42;
+		57: l = -43;
+		114: l = -44;
+		97: l = -45;
+		63: l = -46;
+		126: l = -47;
+		121: l = -48;
+		111: l = -49;
+		91: l = -50;
+		51: l = -51;
+		102: l = -52;
+		73: l = -53;
+		15: l = -54;
+		30: l = -55;
+		60: l = -56;
+		120: l = -57;
+		109: l = -58;
+		87: l = -59;
+		43: l = -60;
+		86: l = -61;
+		41: l = -62;
+		82: l = -63;
+		33: l = -64;
+		66: l = -65;
+		default: l = 0;
+	endcase
+end
+
+reg [W_BITS-1:0]  W_new;
+always@(posedge clk or negedge rst_n) begin
+   if(!rst_n) begin
+     	ps <= idle;
+    end
+   else begin
+        case(ps)
+            idle: begin
+                found <= 0;
+                r <= 0;
+        	Q <= 0;
+                ps <= pre;
+                end
+	    pre: begin
+		 Q <= W / A;
+		 ps <= load;
+		end
+            load: begin
+                 r <= W - (A * Q);
+		 ps <= LUT;
+		end
+	    LUT: begin
+		 W_new <= W - ((l[L_BITS] ? -1 : 1) * (1 << (abs(l) - 1)));
+		 ps <= done;
+		end
+	    done: begin
+		  if(l != 0)begin
+		      N <=  W_new / A ;	
+		      found <= 1;
+                      ps <= idle;
+		  end
+		  else begin
+		      N <= Q;
+		      found <= 1;
+                      ps <= idle;
+		  end
+		end
+	endcase
+    end
+end
+
+endmodule

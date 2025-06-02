@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : SECdecoder_AWE_30bits_clk
+Version: U-2022.12-SP6
+Date   : Fri May 23 18:16:24 2025
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                         1488
+Number of nets:                          3974
+Number of cells:                         3011
+Number of combinational cells:           2848
+Number of sequential cells:               111
+Number of macros/black boxes:               0
+Number of buf/inv:                        707
+Number of references:                      39
+
+Combinational area:              47034.489259
+Buf/Inv area:                     4443.465553
+Noncombinational area:            5915.246521
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 52949.735780
+Total area:                 undefined
+1

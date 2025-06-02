@@ -1,0 +1,461 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : DEC_LUT_Decoder52bits_clk
+Version: U-2022.12-SP6
+Date   : Sat May 17 18:31:21 2025
+****************************************
+
+Operating Conditions: WCCOM   Library: fsa0m_a_generic_core_ss1p62v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: R_reg_10_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: N_reg_4_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  DEC_LUT_Decoder52bits_clk
+                     enG100K               fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_sub_8
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_inc_5
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_add_484
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_add_490
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_add_605
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_add_635
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_add_537
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_add_352
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_add_614
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_add_613
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_add_695
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_add_602
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_add_619
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_add_668
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_add_492
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_add_650
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_add_684
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_add_540
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_add_606
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW01_add_699
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder52bits_clk_DW_inc_6
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+
+  Point                                                                                 Incr       Path
+  --------------------------------------------------------------------------------------------------------
+  clock clk (rise edge)                                                                 0.00       0.00
+  clock network delay (ideal)                                                           1.00       1.00
+  R_reg_10_/CK (DFCLRBN)                                                                0.00       1.00 r
+  R_reg_10_/QB (DFCLRBN)                                                                0.61       1.61 f
+  U22354/O (INV3)                                                                       0.12       1.73 r
+  U22353/O (BUF12CK)                                                                    0.21       1.93 r
+  U39998/O (AN3)                                                                        0.38       2.32 r
+  U40973/O (AN2T)                                                                       0.29       2.61 r
+  U40527/O (BUF12CK)                                                                    0.23       2.84 r
+  U41763/O (AN2T)                                                                       0.32       3.16 r
+  U32026/O (ND2)                                                                        0.38       3.54 f
+  U31320/O (INV1S)                                                                      0.40       3.94 r
+  U31373/O (ND2)                                                                        0.22       4.16 f
+  U36270/O (ND2)                                                                        0.18       4.34 r
+  U36269/O (OR3)                                                                        0.34       4.68 r
+  U31431/O (INV1S)                                                                      0.21       4.89 f
+  U46987/O (OR3B2)                                                                      0.26       5.14 r
+  U36662/O (INV2)                                                                       0.08       5.23 f
+  U32885/O (AN3)                                                                        0.26       5.49 f
+  U33034/O (AN4B1)                                                                      0.23       5.72 f
+  U23439/O (ND2P)                                                                       0.11       5.84 r
+  U27983/O (AN4B1)                                                                      0.13       5.97 f
+  U29423/O (AN4B1)                                                                      0.23       6.19 f
+  U41852/O (AN4)                                                                        0.23       6.42 f
+  U48881/O (OR3B2)                                                                      0.19       6.61 r
+  U29633/O (INV3CK)                                                                     0.13       6.74 f
+  U23464/O (ND2P)                                                                       0.21       6.95 r
+  sub_9017/B[26] (DEC_LUT_Decoder52bits_clk_DW01_sub_8)                                 0.00       6.95 r
+  sub_9017/U920/O (INV2CK)                                                              0.10       7.05 f
+  sub_9017/U919/O (ND2P)                                                                0.10       7.15 r
+  sub_9017/U987/O (OA12P)                                                               0.31       7.46 r
+  sub_9017/U863/O (OAI12H)                                                              0.11       7.58 f
+  sub_9017/U1310/O (AOI12H)                                                             0.19       7.77 r
+  sub_9017/U1276/O (INV1S)                                                              0.12       7.89 f
+  sub_9017/U1341/O (AO12T)                                                              0.35       8.24 f
+  sub_9017/U1342/O (XNR2HP)                                                             0.16       8.41 f
+  sub_9017/DIFF[28] (DEC_LUT_Decoder52bits_clk_DW01_sub_8)                              0.00       8.41 f
+  U26589/O (INV4CK)                                                                     0.12       8.52 r
+  div_9041_u_div_u_absval_AAbs_NEG/A[28] (DEC_LUT_Decoder52bits_clk_DW01_inc_5)         0.00       8.52 r
+  div_9041_u_div_u_absval_AAbs_NEG/U26/O (AN2)                                          0.21       8.74 r
+  div_9041_u_div_u_absval_AAbs_NEG/U2/O (AN4B1)                                         0.26       9.00 r
+  div_9041_u_div_u_absval_AAbs_NEG/U217/O (ND3HT)                                       0.18       9.17 f
+  div_9041_u_div_u_absval_AAbs_NEG/U3/O (INV8CK)                                        0.09       9.26 r
+  div_9041_u_div_u_absval_AAbs_NEG/U118/O (ND3HT)                                       0.13       9.39 f
+  div_9041_u_div_u_absval_AAbs_NEG/U122/O (NR2F)                                        0.15       9.55 r
+  div_9041_u_div_u_absval_AAbs_NEG/U55/O (INV4)                                         0.07       9.62 f
+  div_9041_u_div_u_absval_AAbs_NEG/U114/O (OR2T)                                        0.18       9.80 f
+  div_9041_u_div_u_absval_AAbs_NEG/U75/O (NR2T)                                         0.09       9.89 r
+  div_9041_u_div_u_absval_AAbs_NEG/U23/O (XNR2HS)                                       0.16      10.05 r
+  div_9041_u_div_u_absval_AAbs_NEG/SUM[55] (DEC_LUT_Decoder52bits_clk_DW01_inc_5)       0.00      10.05 r
+  U42626/O (MUX2T)                                                                      0.39      10.44 r
+  U33045/O (BUF6)                                                                       0.16      10.60 r
+  div_9041_u_div_u_add_PartRem_17_4/A[4] (DEC_LUT_Decoder52bits_clk_DW01_add_484)       0.00      10.60 r
+  div_9041_u_div_u_add_PartRem_17_4/U83/O (ND2P)                                        0.10      10.70 f
+  div_9041_u_div_u_add_PartRem_17_4/U121/O (NR2F)                                       0.14      10.84 r
+  div_9041_u_div_u_add_PartRem_17_4/U103/O (NR2F)                                       0.07      10.92 f
+  div_9041_u_div_u_add_PartRem_17_4/U82/O (OAI12HP)                                     0.18      11.10 r
+  div_9041_u_div_u_add_PartRem_17_4/U96/O (ND2F)                                        0.09      11.19 f
+  div_9041_u_div_u_add_PartRem_17_4/U95/O (ND2F)                                        0.08      11.27 r
+  div_9041_u_div_u_add_PartRem_17_4/U84/O (ND2P)                                        0.11      11.38 f
+  div_9041_u_div_u_add_PartRem_17_4/U90/O (OAI12HP)                                     0.19      11.57 r
+  div_9041_u_div_u_add_PartRem_17_4/U86/O (AOI12H)                                      0.15      11.72 f
+  div_9041_u_div_u_add_PartRem_17_4/U4/O (NR2F)                                         0.19      11.91 r
+  div_9041_u_div_u_add_PartRem_17_4/CO (DEC_LUT_Decoder52bits_clk_DW01_add_484)         0.00      11.91 r
+  U42578/O (OR2T)                                                                       0.22      12.13 r
+  U21930/O (INV6CK)                                                                     0.08      12.21 f
+  U42416/O (ND2F)                                                                       0.17      12.38 r
+  U41883/O (INV12)                                                                      0.14      12.52 f
+  U22937/O (AO222)                                                                      0.40      12.92 f
+  U26862/O (MAOI1H)                                                                     0.18      13.11 r
+  U26863/O (INV2)                                                                       0.06      13.17 f
+  U42406/O (AO13P)                                                                      0.29      13.46 f
+  U27895/O (OR2T)                                                                       0.28      13.74 f
+  div_9041_u_div_u_add_PartRem_16_3/A[3] (DEC_LUT_Decoder52bits_clk_DW01_add_490)       0.00      13.74 f
+  div_9041_u_div_u_add_PartRem_16_3/U186/O (INV1)                                       0.14      13.88 r
+  div_9041_u_div_u_add_PartRem_16_3/U190/O (ND2P)                                       0.11      14.00 f
+  div_9041_u_div_u_add_PartRem_16_3/U188/O (NR2F)                                       0.14      14.14 r
+  div_9041_u_div_u_add_PartRem_16_3/U228/O (OAI12H)                                     0.15      14.29 f
+  div_9041_u_div_u_add_PartRem_16_3/U181/O (INV4CK)                                     0.08      14.37 r
+  div_9041_u_div_u_add_PartRem_16_3/U180/O (NR2F)                                       0.05      14.43 f
+  div_9041_u_div_u_add_PartRem_16_3/U192/O (NR2T)                                       0.11      14.53 r
+  div_9041_u_div_u_add_PartRem_16_3/U218/O (ND2P)                                       0.09      14.63 f
+  div_9041_u_div_u_add_PartRem_16_3/CO (DEC_LUT_Decoder52bits_clk_DW01_add_490)         0.00      14.63 f
+  U29017/O (INV4CK)                                                                     0.07      14.70 r
+  U42400/O (OR3B2)                                                                      0.17      14.87 f
+  U37029/O (AN2T)                                                                       0.30      15.17 f
+  U29299/O (BUF12CK)                                                                    0.20      15.37 f
+  U33393/O (AOI22H)                                                                     0.27      15.64 r
+  U29393/O (ND2P)                                                                       0.09      15.73 f
+  U22312/O (AO222P)                                                                     0.49      16.22 f
+  U45465/O (OR2B1T)                                                                     0.27      16.48 f
+  U41978/O (BUF12CK)                                                                    0.16      16.65 f
+  div_9041_u_div_u_add_PartRem_15_2/A[12] (DEC_LUT_Decoder52bits_clk_DW01_add_605)      0.00      16.65 f
+  div_9041_u_div_u_add_PartRem_15_2/U162/O (NR2F)                                       0.12      16.77 r
+  div_9041_u_div_u_add_PartRem_15_2/U159/O (INV4)                                       0.08      16.84 f
+  div_9041_u_div_u_add_PartRem_15_2/U140/O (AOI12HT)                                    0.16      17.01 r
+  div_9041_u_div_u_add_PartRem_15_2/U148/O (OAI12HP)                                    0.11      17.11 f
+  div_9041_u_div_u_add_PartRem_15_2/U163/O (NR2F)                                       0.14      17.25 r
+  div_9041_u_div_u_add_PartRem_15_2/U133/O (INV8)                                       0.08      17.33 f
+  div_9041_u_div_u_add_PartRem_15_2/CO (DEC_LUT_Decoder52bits_clk_DW01_add_605)         0.00      17.33 f
+  U28870/O (INV3)                                                                       0.07      17.39 r
+  U42475/O (OR2T)                                                                       0.16      17.56 r
+  U42417/O (OA22P)                                                                      0.26      17.82 r
+  U43409/O (AN2T)                                                                       0.28      18.10 r
+  U42673/O (AN2T)                                                                       0.29      18.39 r
+  U29461/O (BUF12CK)                                                                    0.19      18.59 r
+  U21967/O (AOI22HT)                                                                    0.11      18.70 f
+  U33104/O (ND2T)                                                                       0.14      18.84 r
+  U21807/O (INV2)                                                                       0.05      18.89 f
+  U38708/O (AN3T)                                                                       0.31      19.21 f
+  U33875/O (INV12)                                                                      0.17      19.38 r
+  div_9041_u_div_u_add_PartRem_14_2/A[4] (DEC_LUT_Decoder52bits_clk_DW01_add_635)       0.00      19.38 r
+  div_9041_u_div_u_add_PartRem_14_2/U133/O (INV8)                                       0.05      19.43 f
+  div_9041_u_div_u_add_PartRem_14_2/U137/O (INV4)                                       0.07      19.49 r
+  div_9041_u_div_u_add_PartRem_14_2/U135/O (ND2F)                                       0.07      19.56 f
+  div_9041_u_div_u_add_PartRem_14_2/U136/O (ND2F)                                       0.11      19.67 r
+  div_9041_u_div_u_add_PartRem_14_2/U139/O (AOI12HP)                                    0.10      19.77 f
+  div_9041_u_div_u_add_PartRem_14_2/U156/O (OAI12H)                                     0.16      19.93 r
+  div_9041_u_div_u_add_PartRem_14_2/U180/O (OR2T)                                       0.29      20.22 r
+  div_9041_u_div_u_add_PartRem_14_2/CO (DEC_LUT_Decoder52bits_clk_DW01_add_635)         0.00      20.22 r
+  U40032/O (NR3HP)                                                                      0.17      20.39 f
+  U40388/O (AOI13H)                                                                     0.30      20.69 r
+  U42537/O (ND2F)                                                                       0.16      20.85 f
+  U42084/O (AN2T)                                                                       0.42      21.27 f
+  U41877/O (AOI22S)                                                                     0.31      21.58 r
+  U27661/O (AN4P)                                                                       0.28      21.86 r
+  U27662/O (INV6CK)                                                                     0.21      22.07 f
+  div_9041_u_div_u_add_PartRem_13_5/A[5] (DEC_LUT_Decoder52bits_clk_DW01_add_537)       0.00      22.07 f
+  div_9041_u_div_u_add_PartRem_13_5/U202/O (INV1S)                                      0.19      22.26 r
+  div_9041_u_div_u_add_PartRem_13_5/U204/O (NR2)                                        0.13      22.39 f
+  div_9041_u_div_u_add_PartRem_13_5/U203/O (AOI12H)                                     0.23      22.63 r
+  div_9041_u_div_u_add_PartRem_13_5/U194/O (OAI12HP)                                    0.11      22.74 f
+  div_9041_u_div_u_add_PartRem_13_5/U219/O (AOI12HP)                                    0.16      22.90 r
+  div_9041_u_div_u_add_PartRem_13_5/U198/O (ND2F)                                       0.10      23.00 f
+  div_9041_u_div_u_add_PartRem_13_5/CO (DEC_LUT_Decoder52bits_clk_DW01_add_537)         0.00      23.00 f
+  U29265/O (OR3B1)                                                                      0.37      23.38 f
+  U29264/O (ND2T)                                                                       0.14      23.52 r
+  U38645/O (INV4)                                                                       0.06      23.58 f
+  U42543/O (BUF12CK)                                                                    0.19      23.77 f
+  U29622/O (AO222P)                                                                     0.52      24.29 f
+  U44727/O (OR2T)                                                                       0.32      24.61 f
+  div_9041_u_div_u_add_PartRem_12_5/A[3] (DEC_LUT_Decoder52bits_clk_DW01_add_352)       0.00      24.61 f
+  div_9041_u_div_u_add_PartRem_12_5/U230/O (INV1S)                                      0.23      24.84 r
+  div_9041_u_div_u_add_PartRem_12_5/U229/O (ND2P)                                       0.13      24.96 f
+  div_9041_u_div_u_add_PartRem_12_5/U242/O (AOI12HP)                                    0.23      25.19 r
+  div_9041_u_div_u_add_PartRem_12_5/U197/O (OAI12HT)                                    0.10      25.29 f
+  div_9041_u_div_u_add_PartRem_12_5/U196/O (MAOI1HP)                                    0.19      25.49 r
+  div_9041_u_div_u_add_PartRem_12_5/U241/O (ND2F)                                       0.09      25.58 f
+  div_9041_u_div_u_add_PartRem_12_5/CO (DEC_LUT_Decoder52bits_clk_DW01_add_352)         0.00      25.58 f
+  U29477/O (INV4)                                                                       0.06      25.64 r
+  U29046/O (AN3)                                                                        0.35      25.99 r
+  U29178/O (AOI13HP)                                                                    0.08      26.07 f
+  U39646/O (OAI112HP)                                                                   0.13      26.20 r
+  U21786/O (BUF12CK)                                                                    0.22      26.43 r
+  U21634/O (ND2T)                                                                       0.14      26.56 f
+  U21768/O (INV12)                                                                      0.19      26.75 r
+  U33041/O (AOI22HP)                                                                    0.08      26.84 f
+  U33280/O (OA12P)                                                                      0.28      27.12 f
+  U33281/O (ND2F)                                                                       0.22      27.34 r
+  div_9041_u_div_u_add_PartRem_11_4/A[3] (DEC_LUT_Decoder52bits_clk_DW01_add_614)       0.00      27.34 r
+  div_9041_u_div_u_add_PartRem_11_4/U145/O (OR2B1T)                                     0.27      27.61 r
+  div_9041_u_div_u_add_PartRem_11_4/U142/O (ND2F)                                       0.09      27.70 f
+  div_9041_u_div_u_add_PartRem_11_4/U137/O (OAI12HT)                                    0.17      27.87 r
+  div_9041_u_div_u_add_PartRem_11_4/U143/O (AOI12HT)                                    0.15      28.02 f
+  div_9041_u_div_u_add_PartRem_11_4/U4/O (OAI12HT)                                      0.31      28.33 r
+  div_9041_u_div_u_add_PartRem_11_4/CO (DEC_LUT_Decoder52bits_clk_DW01_add_614)         0.00      28.33 r
+  U33010/O (INV8CK)                                                                     0.10      28.43 f
+  U38181/O (BUF12CK)                                                                    0.18      28.60 f
+  U29718/O (INV12)                                                                      0.07      28.67 r
+  U29586/O (INV8)                                                                       0.04      28.71 f
+  U29715/O (NR3HT)                                                                      0.19      28.90 r
+  U29716/O (NR2F)                                                                       0.10      29.00 f
+  U38945/O (ND2F)                                                                       0.11      29.11 r
+  U21800/O (INV8)                                                                       0.10      29.21 f
+  U29424/O (ND2F)                                                                       0.19      29.40 r
+  U40659/O (INV12)                                                                      0.12      29.52 f
+  U22646/O (AOI22H)                                                                     0.27      29.79 r
+  U24772/O (ND2P)                                                                       0.12      29.91 f
+  U22366/O (INV4CK)                                                                     0.08      29.99 r
+  U33277/O (ND2F)                                                                       0.09      30.08 f
+  U22935/O (INV8)                                                                       0.11      30.19 r
+  U28850/O (INV8)                                                                       0.05      30.24 f
+  div_9041_u_div_u_add_PartRem_10_4/A[3] (DEC_LUT_Decoder52bits_clk_DW01_add_613)       0.00      30.24 f
+  div_9041_u_div_u_add_PartRem_10_4/U130/O (INV6)                                       0.05      30.29 r
+  div_9041_u_div_u_add_PartRem_10_4/U133/O (ND2F)                                       0.07      30.37 f
+  div_9041_u_div_u_add_PartRem_10_4/U129/O (ND2F)                                       0.13      30.50 r
+  div_9041_u_div_u_add_PartRem_10_4/U137/O (OAI12HP)                                    0.10      30.60 f
+  div_9041_u_div_u_add_PartRem_10_4/U143/O (AOI12HP)                                    0.18      30.78 r
+  div_9041_u_div_u_add_PartRem_10_4/U144/O (OAI12H)                                     0.09      30.87 f
+  div_9041_u_div_u_add_PartRem_10_4/U151/O (OR2T)                                       0.28      31.15 f
+  div_9041_u_div_u_add_PartRem_10_4/CO (DEC_LUT_Decoder52bits_clk_DW01_add_613)         0.00      31.15 f
+  U22091/O (INV4)                                                                       0.16      31.31 r
+  U22092/O (ND3P)                                                                       0.15      31.46 f
+  U22088/O (ND2S)                                                                       0.21      31.67 r
+  U43436/O (OR2T)                                                                       0.26      31.93 r
+  U22585/O (INV12)                                                                      0.09      32.02 f
+  U42570/O (AN2T)                                                                       0.34      32.35 f
+  U30470/O (AOI22S)                                                                     0.34      32.69 r
+  U29574/O (ND2P)                                                                       0.09      32.78 f
+  U40923/O (OR3B1T)                                                                     0.59      33.37 f
+  div_9041_u_div_u_add_PartRem_9_3/A[15] (DEC_LUT_Decoder52bits_clk_DW01_add_695)       0.00      33.37 f
+  div_9041_u_div_u_add_PartRem_9_3/U185/O (INV2CK)                                      0.14      33.51 r
+  div_9041_u_div_u_add_PartRem_9_3/U180/O (ND2P)                                        0.06      33.57 f
+  div_9041_u_div_u_add_PartRem_9_3/U176/O (ND2)                                         0.10      33.67 r
+  div_9041_u_div_u_add_PartRem_9_3/U178/O (AN2T)                                        0.21      33.87 r
+  div_9041_u_div_u_add_PartRem_9_3/U204/O (OAI12H)                                      0.11      33.98 f
+  div_9041_u_div_u_add_PartRem_9_3/U186/O (AOI12HP)                                     0.16      34.15 r
+  div_9041_u_div_u_add_PartRem_9_3/U184/O (ND2F)                                        0.10      34.24 f
+  div_9041_u_div_u_add_PartRem_9_3/CO (DEC_LUT_Decoder52bits_clk_DW01_add_695)          0.00      34.24 f
+  U21656/O (ND2F)                                                                       0.09      34.33 r
+  U29255/O (OAI112H)                                                                    0.13      34.46 f
+  U43465/O (AN2T)                                                                       0.32      34.78 f
+  U21952/O (ND2F)                                                                       0.10      34.88 r
+  U29080/O (INV4)                                                                       0.06      34.94 f
+  U29708/O (BUF12CK)                                                                    0.18      35.12 f
+  U29711/O (AN2T)                                                                       0.26      35.38 f
+  U29712/O (NR2F)                                                                       0.11      35.49 r
+  U21895/O (ND2F)                                                                       0.08      35.57 f
+  U22040/O (INV4)                                                                       0.06      35.62 r
+  U40903/O (AN3T)                                                                       0.38      36.00 r
+  U33123/O (INV12CK)                                                                    0.16      36.16 f
+  div_9041_u_div_u_add_PartRem_8_4/A[3] (DEC_LUT_Decoder52bits_clk_DW01_add_602)        0.00      36.16 f
+  div_9041_u_div_u_add_PartRem_8_4/U165/O (NR2F)                                        0.14      36.29 r
+  div_9041_u_div_u_add_PartRem_8_4/U167/O (NR2F)                                        0.09      36.38 f
+  div_9041_u_div_u_add_PartRem_8_4/U147/O (AOI12HT)                                     0.15      36.53 r
+  div_9041_u_div_u_add_PartRem_8_4/U169/O (OAI12HP)                                     0.11      36.64 f
+  div_9041_u_div_u_add_PartRem_8_4/U3/O (NR2F)                                          0.14      36.78 r
+  div_9041_u_div_u_add_PartRem_8_4/U150/O (INV8)                                        0.11      36.89 f
+  div_9041_u_div_u_add_PartRem_8_4/CO (DEC_LUT_Decoder52bits_clk_DW01_add_602)          0.00      36.89 f
+  U42316/O (AN3)                                                                        0.28      37.17 f
+  U42540/O (AO13P)                                                                      0.31      37.48 f
+  U38321/O (OR2T)                                                                       0.28      37.76 f
+  U39924/O (ND2F)                                                                       0.17      37.93 r
+  U41075/O (INV12)                                                                      0.13      38.06 f
+  U37361/O (AOI22H)                                                                     0.27      38.33 r
+  U45362/O (ND2P)                                                                       0.12      38.45 f
+  U33244/O (NR3HT)                                                                      0.25      38.70 r
+  U33243/O (INV12)                                                                      0.15      38.85 f
+  div_9041_u_div_u_add_PartRem_7_6/A[13] (DEC_LUT_Decoder52bits_clk_DW01_add_619)       0.00      38.85 f
+  div_9041_u_div_u_add_PartRem_7_6/U219/O (INV1S)                                       0.17      39.03 r
+  div_9041_u_div_u_add_PartRem_7_6/U192/O (NR2T)                                        0.13      39.16 f
+  div_9041_u_div_u_add_PartRem_7_6/U204/O (AOI12H)                                      0.22      39.38 r
+  div_9041_u_div_u_add_PartRem_7_6/U227/O (OAI12H)                                      0.12      39.50 f
+  div_9041_u_div_u_add_PartRem_7_6/U210/O (AOI12HP)                                     0.19      39.69 r
+  div_9041_u_div_u_add_PartRem_7_6/U208/O (INV6)                                        0.09      39.78 f
+  div_9041_u_div_u_add_PartRem_7_6/CO (DEC_LUT_Decoder52bits_clk_DW01_add_619)          0.00      39.78 f
+  U29748/O (INV4CK)                                                                     0.11      39.89 r
+  U29201/O (INV4)                                                                       0.05      39.93 f
+  U29283/O (NR3HP)                                                                      0.19      40.12 r
+  U21814/O (NR2F)                                                                       0.11      40.24 f
+  U42510/O (ND2F)                                                                       0.18      40.42 r
+  U42574/O (AN2T)                                                                       0.44      40.86 r
+  U37012/O (AO22P)                                                                      0.38      41.24 r
+  U22213/O (NR2F)                                                                       0.10      41.34 f
+  U21775/O (INV6)                                                                       0.07      41.41 r
+  U22214/O (NR2F)                                                                       0.10      41.51 f
+  U22163/O (INV12CK)                                                                    0.10      41.61 r
+  div_9041_u_div_u_add_PartRem_6_6/A[5] (DEC_LUT_Decoder52bits_clk_DW01_add_668)        0.00      41.61 r
+  div_9041_u_div_u_add_PartRem_6_6/U180/O (INV1CK)                                      0.14      41.75 f
+  div_9041_u_div_u_add_PartRem_6_6/U206/O (ND2)                                         0.17      41.92 r
+  div_9041_u_div_u_add_PartRem_6_6/U198/O (NR2T)                                        0.14      42.05 f
+  div_9041_u_div_u_add_PartRem_6_6/U179/O (ND2F)                                        0.10      42.15 r
+  div_9041_u_div_u_add_PartRem_6_6/U224/O (AOI12HP)                                     0.11      42.25 f
+  div_9041_u_div_u_add_PartRem_6_6/U3/O (OAI12HT)                                       0.23      42.48 r
+  div_9041_u_div_u_add_PartRem_6_6/CO (DEC_LUT_Decoder52bits_clk_DW01_add_668)          0.00      42.48 r
+  U31510/O (AN3)                                                                        0.38      42.86 r
+  U36919/O (AOI13HP)                                                                    0.08      42.95 f
+  U45358/O (ND2F)                                                                       0.18      43.13 r
+  U43428/O (AN2T)                                                                       0.26      43.39 r
+  U45489/O (BUF12CK)                                                                    0.23      43.62 r
+  U22161/O (ND2S)                                                                       0.16      43.78 f
+  U22162/O (ND2P)                                                                       0.20      43.98 r
+  U41672/O (NR3HT)                                                                      0.19      44.17 f
+  U25672/O (INV4)                                                                       0.22      44.39 r
+  div_9041_u_div_u_add_PartRem_5_2/A[8] (DEC_LUT_Decoder52bits_clk_DW01_add_492)        0.00      44.39 r
+  div_9041_u_div_u_add_PartRem_5_2/U144/O (AN2B1)                                       0.34      44.73 r
+  div_9041_u_div_u_add_PartRem_5_2/U158/O (AOI12HT)                                     0.13      44.85 f
+  div_9041_u_div_u_add_PartRem_5_2/U137/O (INV4)                                        0.08      44.94 r
+  div_9041_u_div_u_add_PartRem_5_2/U157/O (ND2F)                                        0.06      45.00 f
+  div_9041_u_div_u_add_PartRem_5_2/U164/O (ND2F)                                        0.09      45.09 r
+  div_9041_u_div_u_add_PartRem_5_2/U3/O (NR2F)                                          0.08      45.17 f
+  div_9041_u_div_u_add_PartRem_5_2/U161/O (INV8)                                        0.12      45.29 r
+  div_9041_u_div_u_add_PartRem_5_2/CO (DEC_LUT_Decoder52bits_clk_DW01_add_492)          0.00      45.29 r
+  U21632/O (INV6)                                                                       0.06      45.34 f
+  U33214/O (MUX2T)                                                                      0.33      45.67 f
+  U29696/O (ND2F)                                                                       0.12      45.79 r
+  U26330/O (INV6CK)                                                                     0.14      45.93 f
+  U49892/O (AOI22S)                                                                     0.29      46.23 r
+  U27213/O (ND2)                                                                        0.15      46.38 f
+  U28894/O (MOAI1H)                                                                     0.27      46.65 f
+  U35528/O (INV4)                                                                       0.13      46.79 r
+  U36434/O (INV4)                                                                       0.12      46.91 f
+  div_9041_u_div_u_add_PartRem_4_4/A[3] (DEC_LUT_Decoder52bits_clk_DW01_add_650)        0.00      46.91 f
+  div_9041_u_div_u_add_PartRem_4_4/U157/O (OR2B1)                                       0.28      47.18 f
+  div_9041_u_div_u_add_PartRem_4_4/U126/O (ND2T)                                        0.16      47.34 r
+  div_9041_u_div_u_add_PartRem_4_4/U125/O (INV4)                                        0.05      47.39 f
+  div_9041_u_div_u_add_PartRem_4_4/U122/O (ND2T)                                        0.10      47.49 r
+  div_9041_u_div_u_add_PartRem_4_4/U123/O (ND2F)                                        0.09      47.58 f
+  div_9041_u_div_u_add_PartRem_4_4/U121/O (AOI12HP)                                     0.15      47.73 r
+  div_9041_u_div_u_add_PartRem_4_4/U151/O (OAI12HP)                                     0.09      47.83 f
+  div_9041_u_div_u_add_PartRem_4_4/U154/O (NR2F)                                        0.17      47.99 r
+  div_9041_u_div_u_add_PartRem_4_4/U147/O (INV12)                                       0.11      48.10 f
+  div_9041_u_div_u_add_PartRem_4_4/CO (DEC_LUT_Decoder52bits_clk_DW01_add_650)          0.00      48.10 f
+  U40149/O (ND2F)                                                                       0.19      48.29 r
+  U42535/O (OAI222HT)                                                                   0.29      48.58 f
+  U29438/O (ND2T)                                                                       0.23      48.81 r
+  U37875/O (INV4)                                                                       0.07      48.88 f
+  U33204/O (BUF12CK)                                                                    0.19      49.07 f
+  U41867/O (AO222P)                                                                     0.54      49.61 f
+  U40306/O (NR2F)                                                                       0.19      49.81 r
+  U29522/O (INV12)                                                                      0.11      49.92 f
+  div_9041_u_div_u_add_PartRem_3_1/A[7] (DEC_LUT_Decoder52bits_clk_DW01_add_684)        0.00      49.92 f
+  div_9041_u_div_u_add_PartRem_3_1/U137/O (ND2S)                                        0.17      50.09 r
+  div_9041_u_div_u_add_PartRem_3_1/U140/O (OAI12H)                                      0.17      50.26 f
+  div_9041_u_div_u_add_PartRem_3_1/U124/O (AOI12HT)                                     0.19      50.44 r
+  div_9041_u_div_u_add_PartRem_3_1/U134/O (OAI12HS)                                     0.13      50.58 f
+  div_9041_u_div_u_add_PartRem_3_1/CO (DEC_LUT_Decoder52bits_clk_DW01_add_684)          0.00      50.58 f
+  U49925/O (OR3B2)                                                                      0.27      50.85 f
+  U28905/O (INV2)                                                                       0.15      50.99 r
+  U42128/O (AO13P)                                                                      0.21      51.21 r
+  U43426/O (OR2T)                                                                       0.29      51.49 r
+  U38551/O (AN2T)                                                                       0.44      51.93 r
+  U21754/O (ND2)                                                                        0.19      52.12 f
+  U21753/O (ND2P)                                                                       0.17      52.28 r
+  U29587/O (OR2T)                                                                       0.22      52.51 r
+  U36979/O (NR2F)                                                                       0.12      52.63 f
+  U33198/O (INV8)                                                                       0.16      52.79 r
+  div_9041_u_div_u_add_PartRem_2_1/A[12] (DEC_LUT_Decoder52bits_clk_DW01_add_540)       0.00      52.79 r
+  div_9041_u_div_u_add_PartRem_2_1/U167/O (OR2T)                                        0.17      52.95 r
+  div_9041_u_div_u_add_PartRem_2_1/U148/O (OR2T)                                        0.20      53.15 r
+  div_9041_u_div_u_add_PartRem_2_1/U146/O (INV4CK)                                      0.07      53.22 f
+  div_9041_u_div_u_add_PartRem_2_1/U143/O (NR2F)                                        0.09      53.31 r
+  div_9041_u_div_u_add_PartRem_2_1/U144/O (NR2T)                                        0.09      53.40 f
+  div_9041_u_div_u_add_PartRem_2_1/U171/O (OAI12H)                                      0.08      53.48 r
+  div_9041_u_div_u_add_PartRem_2_1/U169/O (OR2T)                                        0.20      53.68 r
+  div_9041_u_div_u_add_PartRem_2_1/CO (DEC_LUT_Decoder52bits_clk_DW01_add_540)          0.00      53.68 r
+  U29037/O (NR2T)                                                                       0.12      53.80 f
+  U33257/O (NR2F)                                                                       0.15      53.94 r
+  U30014/O (OAI222HT)                                                                   0.22      54.16 f
+  U29782/O (AN2T)                                                                       0.28      54.44 f
+  U45490/O (BUF12CK)                                                                    0.19      54.63 f
+  U33135/O (AO222)                                                                      0.50      55.13 f
+  U32985/O (OR3B1)                                                                      0.36      55.49 f
+  U37025/O (INV6CK)                                                                     0.13      55.62 r
+  U38893/O (INV12)                                                                      0.10      55.72 f
+  div_9041_u_div_u_add_PartRem_1_2/A[5] (DEC_LUT_Decoder52bits_clk_DW01_add_606)        0.00      55.72 f
+  div_9041_u_div_u_add_PartRem_1_2/U138/O (ND2T)                                        0.10      55.81 r
+  div_9041_u_div_u_add_PartRem_1_2/U137/O (OAI12HP)                                     0.11      55.93 f
+  div_9041_u_div_u_add_PartRem_1_2/U156/O (AOI12HT)                                     0.22      56.15 r
+  div_9041_u_div_u_add_PartRem_1_2/U130/O (INV2)                                        0.05      56.20 f
+  div_9041_u_div_u_add_PartRem_1_2/U157/O (AO12T)                                       0.37      56.57 f
+  div_9041_u_div_u_add_PartRem_1_2/CO (DEC_LUT_Decoder52bits_clk_DW01_add_606)          0.00      56.57 f
+  U40399/O (NR3HT)                                                                      0.19      56.76 r
+  U39129/O (AOI13HP)                                                                    0.09      56.84 f
+  U38892/O (ND2F)                                                                       0.20      57.04 r
+  U41901/O (INV12)                                                                      0.10      57.14 f
+  U29865/O (INV8)                                                                       0.20      57.34 r
+  U40396/O (AO222P)                                                                     0.40      57.74 r
+  U37043/O (OR2T)                                                                       0.35      58.10 r
+  div_9041_u_div_u_add_PartRem_0_3/A[10] (DEC_LUT_Decoder52bits_clk_DW01_add_699)       0.00      58.10 r
+  div_9041_u_div_u_add_PartRem_0_3/U185/O (AN2T)                                        0.28      58.38 r
+  div_9041_u_div_u_add_PartRem_0_3/U167/O (INV3)                                        0.05      58.43 f
+  div_9041_u_div_u_add_PartRem_0_3/U188/O (OAI12H)                                      0.20      58.62 r
+  div_9041_u_div_u_add_PartRem_0_3/U170/O (INV3)                                        0.05      58.68 f
+  div_9041_u_div_u_add_PartRem_0_3/U174/O (OAI12H)                                      0.24      58.91 r
+  div_9041_u_div_u_add_PartRem_0_3/CO (DEC_LUT_Decoder52bits_clk_DW01_add_699)          0.00      58.91 r
+  U38574/O (OAI22HP)                                                                    0.14      59.05 f
+  U33054/O (OAI12HP)                                                                    0.23      59.28 r
+  U21784/O (XOR2HT)                                                                     0.19      59.47 r
+  div_9041_u_div_u_inc_QInc/a[0] (DEC_LUT_Decoder52bits_clk_DW_inc_6)                   0.00      59.47 r
+  div_9041_u_div_u_inc_QInc/U468/O (ND2F)                                               0.11      59.58 f
+  div_9041_u_div_u_inc_QInc/U472/O (BUF12CK)                                            0.21      59.79 f
+  div_9041_u_div_u_inc_QInc/U670/O (NR2)                                                0.20      59.99 r
+  div_9041_u_div_u_inc_QInc/U669/O (XNR2HS)                                             0.18      60.17 r
+  div_9041_u_div_u_inc_QInc/sum[4] (DEC_LUT_Decoder52bits_clk_DW_inc_6)                 0.00      60.17 r
+  U50019/O (MUX2)                                                                       0.29      60.46 r
+  N_reg_4_/D (DFCLRBN)                                                                  0.00      60.46 r
+  data arrival time                                                                               60.46
+
+  clock clk (rise edge)                                                                60.00      60.00
+  clock network delay (ideal)                                                           1.00      61.00
+  clock uncertainty                                                                    -0.30      60.70
+  N_reg_4_/CK (DFCLRBN)                                                                 0.00      60.70 r
+  library setup time                                                                   -0.24      60.46
+  data required time                                                                              60.46
+  --------------------------------------------------------------------------------------------------------
+  data required time                                                                              60.46
+  data arrival time                                                                              -60.46
+  --------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                                      0.01
+
+
+1

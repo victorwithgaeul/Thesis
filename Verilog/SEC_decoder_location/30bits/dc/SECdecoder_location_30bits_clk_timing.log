@@ -1,0 +1,259 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : SECdecoder_location_30bits_clk
+Version: U-2022.12-SP6
+Date   : Fri May 23 17:05:57 2025
+****************************************
+
+Operating Conditions: WCCOM   Library: fsa0m_a_generic_core_ss1p62v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: W_new_reg_34_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: N_reg_0_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SECdecoder_location_30bits_clk
+                     enG10K                fsa0m_a_generic_core_ss1p62v125c
+  SECdecoder_location_30bits_clk_DW_div_uns_8
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  SECdecoder_location_30bits_clk_DW01_add_244
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  SECdecoder_location_30bits_clk_DW01_add_247
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  SECdecoder_location_30bits_clk_DW01_add_250
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  SECdecoder_location_30bits_clk_DW01_add_253
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  SECdecoder_location_30bits_clk_DW01_add_256
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  SECdecoder_location_30bits_clk_DW01_add_259
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  SECdecoder_location_30bits_clk_DW01_add_262
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  SECdecoder_location_30bits_clk_DW01_add_265
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  SECdecoder_location_30bits_clk_DW01_add_268
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  SECdecoder_location_30bits_clk_DW01_add_271
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  SECdecoder_location_30bits_clk_DW01_add_274
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  SECdecoder_location_30bits_clk_DW01_add_277
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  SECdecoder_location_30bits_clk_DW01_add_280
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  SECdecoder_location_30bits_clk_DW01_add_283
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  SECdecoder_location_30bits_clk_DW01_add_286
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  SECdecoder_location_30bits_clk_DW01_add_289
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+
+  Point                                                                                      Incr       Path
+  -------------------------------------------------------------------------------------------------------------
+  clock clk (rise edge)                                                                      0.00       0.00
+  clock network delay (ideal)                                                                1.00       1.00
+  W_new_reg_34_/CK (QDFFN)                                                                   0.00       1.00 r
+  W_new_reg_34_/Q (QDFFN)                                                                    0.38       1.38 f
+  div_154/a[34] (SECdecoder_location_30bits_clk_DW_div_uns_8)                                0.00       1.38 f
+  div_154/U519/O (INV1S)                                                                     0.13       1.51 r
+  div_154/U439/O (INV1S)                                                                     0.45       1.97 f
+  div_154/u_div_u_add_PartRem_1_15_2/A[2] (SECdecoder_location_30bits_clk_DW01_add_244)      0.00       1.97 f
+  div_154/u_div_u_add_PartRem_1_15_2/U57/O (INV1S)                                           0.37       2.33 r
+  div_154/u_div_u_add_PartRem_1_15_2/U65/O (ND2)                                             0.11       2.45 f
+  div_154/u_div_u_add_PartRem_1_15_2/U50/O (NR2)                                             0.35       2.80 r
+  div_154/u_div_u_add_PartRem_1_15_2/U51/OB (MXL2HS)                                         0.39       3.19 r
+  div_154/u_div_u_add_PartRem_1_15_2/CO (SECdecoder_location_30bits_clk_DW01_add_244)        0.00       3.19 r
+  div_154/U240/OB (MXL2HS)                                                                   0.41       3.60 r
+  div_154/U224/O (OR2)                                                                       0.30       3.90 r
+  div_154/U119/O (INV1S)                                                                     0.23       4.13 f
+  div_154/U452/O (MOAI1S)                                                                    0.36       4.49 f
+  div_154/U451/O (OR2)                                                                       0.40       4.90 f
+  div_154/u_div_u_add_PartRem_0_14_2/A[2] (SECdecoder_location_30bits_clk_DW01_add_247)      0.00       4.90 f
+  div_154/u_div_u_add_PartRem_0_14_2/U72/O (INV1S)                                           0.21       5.11 r
+  div_154/u_div_u_add_PartRem_0_14_2/U80/O (ND2)                                             0.10       5.21 f
+  div_154/u_div_u_add_PartRem_0_14_2/U71/O (NR2)                                             0.35       5.55 r
+  div_154/u_div_u_add_PartRem_0_14_2/U60/OB (MXL2HS)                                         0.47       6.02 r
+  div_154/u_div_u_add_PartRem_0_14_2/CO (SECdecoder_location_30bits_clk_DW01_add_247)        0.00       6.02 r
+  div_154/U241/OB (MXL2HS)                                                                   0.43       6.45 r
+  div_154/U216/O (OR2)                                                                       0.30       6.75 r
+  div_154/U112/O (INV1S)                                                                     0.25       7.00 f
+  div_154/U284/O (MOAI1S)                                                                    0.37       7.38 f
+  div_154/U282/O (OR2)                                                                       0.40       7.78 f
+  div_154/u_div_u_add_PartRem_0_13_2/A[2] (SECdecoder_location_30bits_clk_DW01_add_250)      0.00       7.78 f
+  div_154/u_div_u_add_PartRem_0_13_2/U68/O (INV1S)                                           0.21       7.99 r
+  div_154/u_div_u_add_PartRem_0_13_2/U80/O (ND2)                                             0.10       8.09 f
+  div_154/u_div_u_add_PartRem_0_13_2/U67/O (NR2)                                             0.31       8.40 r
+  div_154/u_div_u_add_PartRem_0_13_2/U60/O (MUX2)                                            0.50       8.90 f
+  div_154/u_div_u_add_PartRem_0_13_2/CO (SECdecoder_location_30bits_clk_DW01_add_250)        0.00       8.90 f
+  div_154/U175/OB (MXL2HS)                                                                   0.37       9.27 r
+  div_154/U110/O (OR2)                                                                       0.38       9.65 r
+  div_154/U65/O (INV1S)                                                                      0.19       9.83 f
+  div_154/U245/O (MOAI1S)                                                                    0.34      10.17 f
+  div_154/U244/O (OR2)                                                                       0.40      10.57 f
+  div_154/u_div_u_add_PartRem_0_12_2/A[2] (SECdecoder_location_30bits_clk_DW01_add_253)      0.00      10.57 f
+  div_154/u_div_u_add_PartRem_0_12_2/U72/O (INV1S)                                           0.27      10.85 r
+  div_154/u_div_u_add_PartRem_0_12_2/U80/O (ND2)                                             0.11      10.96 f
+  div_154/u_div_u_add_PartRem_0_12_2/U60/O (NR2)                                             0.35      11.31 r
+  div_154/u_div_u_add_PartRem_0_12_2/U63/OB (MXL2HS)                                         0.47      11.78 r
+  div_154/u_div_u_add_PartRem_0_12_2/CO (SECdecoder_location_30bits_clk_DW01_add_253)        0.00      11.78 r
+  div_154/U186/OB (MXL2HS)                                                                   0.43      12.21 r
+  div_154/U106/O (OR2)                                                                       0.31      12.52 r
+  div_154/U60/O (INV1S)                                                                      0.26      12.78 f
+  div_154/U371/O (MOAI1S)                                                                    0.38      13.16 f
+  div_154/U369/O (OR2)                                                                       0.41      13.56 f
+  div_154/u_div_u_add_PartRem_0_11_2/A[2] (SECdecoder_location_30bits_clk_DW01_add_256)      0.00      13.56 f
+  div_154/u_div_u_add_PartRem_0_11_2/U69/O (INV1S)                                           0.27      13.84 r
+  div_154/u_div_u_add_PartRem_0_11_2/U80/O (ND2)                                             0.11      13.95 f
+  div_154/u_div_u_add_PartRem_0_11_2/U68/O (NR2)                                             0.31      14.26 r
+  div_154/u_div_u_add_PartRem_0_11_2/U63/O (MUX2)                                            0.50      14.76 f
+  div_154/u_div_u_add_PartRem_0_11_2/CO (SECdecoder_location_30bits_clk_DW01_add_256)        0.00      14.76 f
+  div_154/U176/OB (MXL2HS)                                                                   0.37      15.13 r
+  div_154/U109/O (OR2)                                                                       0.31      15.44 r
+  div_154/U64/O (INV1S)                                                                      0.26      15.70 f
+  div_154/U363/O (MOAI1S)                                                                    0.38      16.08 f
+  div_154/U361/O (OR2)                                                                       0.40      16.48 f
+  div_154/u_div_u_add_PartRem_0_10_2/A[2] (SECdecoder_location_30bits_clk_DW01_add_259)      0.00      16.48 f
+  div_154/u_div_u_add_PartRem_0_10_2/U69/O (INV1S)                                           0.21      16.69 r
+  div_154/u_div_u_add_PartRem_0_10_2/U79/O (ND2)                                             0.10      16.79 f
+  div_154/u_div_u_add_PartRem_0_10_2/U68/O (NR2)                                             0.31      17.10 r
+  div_154/u_div_u_add_PartRem_0_10_2/U61/O (MUX2)                                            0.50      17.60 f
+  div_154/u_div_u_add_PartRem_0_10_2/CO (SECdecoder_location_30bits_clk_DW01_add_259)        0.00      17.60 f
+  div_154/U177/OB (MXL2HS)                                                                   0.37      17.97 r
+  div_154/U107/O (OR2)                                                                       0.34      18.31 r
+  div_154/U62/O (INV1S)                                                                      0.22      18.54 f
+  div_154/U254/O (MOAI1S)                                                                    0.36      18.89 f
+  div_154/U253/O (OR2)                                                                       0.40      19.30 f
+  div_154/u_div_u_add_PartRem_0_9_2/A[2] (SECdecoder_location_30bits_clk_DW01_add_262)       0.00      19.30 f
+  div_154/u_div_u_add_PartRem_0_9_2/U70/O (INV1S)                                            0.27      19.57 r
+  div_154/u_div_u_add_PartRem_0_9_2/U81/O (ND2)                                              0.11      19.68 f
+  div_154/u_div_u_add_PartRem_0_9_2/U69/O (NR2)                                              0.35      20.03 r
+  div_154/u_div_u_add_PartRem_0_9_2/U61/OB (MXL2HS)                                          0.47      20.50 r
+  div_154/u_div_u_add_PartRem_0_9_2/CO (SECdecoder_location_30bits_clk_DW01_add_262)         0.00      20.50 r
+  div_154/U178/OB (MXL2HS)                                                                   0.43      20.93 r
+  div_154/U89/O (OR2)                                                                        0.31      21.24 r
+  div_154/U47/O (INV1S)                                                                      0.26      21.51 f
+  div_154/U335/O (MOAI1S)                                                                    0.38      21.88 f
+  div_154/U333/O (OR2)                                                                       0.41      22.29 f
+  div_154/u_div_u_add_PartRem_0_8_2/A[2] (SECdecoder_location_30bits_clk_DW01_add_265)       0.00      22.29 f
+  div_154/u_div_u_add_PartRem_0_8_2/U70/O (INV1S)                                            0.27      22.56 r
+  div_154/u_div_u_add_PartRem_0_8_2/U79/O (ND2)                                              0.11      22.67 f
+  div_154/u_div_u_add_PartRem_0_8_2/U69/O (NR2)                                              0.31      22.99 r
+  div_154/u_div_u_add_PartRem_0_8_2/U62/O (MUX2)                                             0.50      23.48 f
+  div_154/u_div_u_add_PartRem_0_8_2/CO (SECdecoder_location_30bits_clk_DW01_add_265)         0.00      23.48 f
+  div_154/U179/OB (MXL2HS)                                                                   0.37      23.86 r
+  div_154/U85/O (OR2)                                                                        0.31      24.17 r
+  div_154/U43/O (INV1S)                                                                      0.26      24.43 f
+  div_154/U339/O (MOAI1S)                                                                    0.38      24.81 f
+  div_154/U337/O (OR2)                                                                       0.40      25.21 f
+  div_154/u_div_u_add_PartRem_0_7_2/A[2] (SECdecoder_location_30bits_clk_DW01_add_268)       0.00      25.21 f
+  div_154/u_div_u_add_PartRem_0_7_2/U69/O (INV1S)                                            0.27      25.48 r
+  div_154/u_div_u_add_PartRem_0_7_2/U80/O (ND2)                                              0.11      25.59 f
+  div_154/u_div_u_add_PartRem_0_7_2/U68/O (NR2)                                              0.31      25.91 r
+  div_154/u_div_u_add_PartRem_0_7_2/U61/O (MUX2)                                             0.50      26.41 f
+  div_154/u_div_u_add_PartRem_0_7_2/CO (SECdecoder_location_30bits_clk_DW01_add_268)         0.00      26.41 f
+  div_154/U180/OB (MXL2HS)                                                                   0.37      26.78 r
+  div_154/U90/O (OR2)                                                                        0.31      27.09 r
+  div_154/U48/O (INV1S)                                                                      0.26      27.35 f
+  div_154/U343/O (MOAI1S)                                                                    0.38      27.73 f
+  div_154/U341/O (OR2)                                                                       0.40      28.13 f
+  div_154/u_div_u_add_PartRem_0_6_2/A[2] (SECdecoder_location_30bits_clk_DW01_add_271)       0.00      28.13 f
+  div_154/u_div_u_add_PartRem_0_6_2/U69/O (INV1S)                                            0.27      28.41 r
+  div_154/u_div_u_add_PartRem_0_6_2/U79/O (ND2)                                              0.11      28.52 f
+  div_154/u_div_u_add_PartRem_0_6_2/U68/O (NR2)                                              0.31      28.83 r
+  div_154/u_div_u_add_PartRem_0_6_2/U61/O (MUX2)                                             0.50      29.33 f
+  div_154/u_div_u_add_PartRem_0_6_2/CO (SECdecoder_location_30bits_clk_DW01_add_271)         0.00      29.33 f
+  div_154/U181/OB (MXL2HS)                                                                   0.37      29.70 r
+  div_154/U86/O (OR2)                                                                        0.31      30.01 r
+  div_154/U44/O (INV1S)                                                                      0.26      30.27 f
+  div_154/U347/O (MOAI1S)                                                                    0.38      30.65 f
+  div_154/U345/O (OR2)                                                                       0.40      31.05 f
+  div_154/u_div_u_add_PartRem_0_5_2/A[2] (SECdecoder_location_30bits_clk_DW01_add_274)       0.00      31.05 f
+  div_154/u_div_u_add_PartRem_0_5_2/U69/O (INV1S)                                            0.27      31.33 r
+  div_154/u_div_u_add_PartRem_0_5_2/U80/O (ND2)                                              0.11      31.44 f
+  div_154/u_div_u_add_PartRem_0_5_2/U68/O (NR2)                                              0.31      31.75 r
+  div_154/u_div_u_add_PartRem_0_5_2/U61/O (MUX2)                                             0.50      32.25 f
+  div_154/u_div_u_add_PartRem_0_5_2/CO (SECdecoder_location_30bits_clk_DW01_add_274)         0.00      32.25 f
+  div_154/U182/OB (MXL2HS)                                                                   0.37      32.62 r
+  div_154/U91/O (OR2)                                                                        0.31      32.93 r
+  div_154/U49/O (INV1S)                                                                      0.26      33.19 f
+  div_154/U351/O (MOAI1S)                                                                    0.38      33.57 f
+  div_154/U349/O (OR2)                                                                       0.40      33.98 f
+  div_154/u_div_u_add_PartRem_0_4_2/A[2] (SECdecoder_location_30bits_clk_DW01_add_277)       0.00      33.98 f
+  div_154/u_div_u_add_PartRem_0_4_2/U69/O (INV1S)                                            0.27      34.25 r
+  div_154/u_div_u_add_PartRem_0_4_2/U79/O (ND2)                                              0.11      34.36 f
+  div_154/u_div_u_add_PartRem_0_4_2/U68/O (NR2)                                              0.31      34.67 r
+  div_154/u_div_u_add_PartRem_0_4_2/U61/O (MUX2)                                             0.50      35.17 f
+  div_154/u_div_u_add_PartRem_0_4_2/CO (SECdecoder_location_30bits_clk_DW01_add_277)         0.00      35.17 f
+  div_154/U183/OB (MXL2HS)                                                                   0.37      35.54 r
+  div_154/U87/O (OR2)                                                                        0.31      35.85 r
+  div_154/U45/O (INV1S)                                                                      0.26      36.12 f
+  div_154/U355/O (MOAI1S)                                                                    0.38      36.49 f
+  div_154/U353/O (OR2)                                                                       0.40      36.90 f
+  div_154/u_div_u_add_PartRem_0_3_2/A[2] (SECdecoder_location_30bits_clk_DW01_add_280)       0.00      36.90 f
+  div_154/u_div_u_add_PartRem_0_3_2/U69/O (INV1S)                                            0.27      37.17 r
+  div_154/u_div_u_add_PartRem_0_3_2/U80/O (ND2)                                              0.11      37.28 f
+  div_154/u_div_u_add_PartRem_0_3_2/U68/O (NR2)                                              0.31      37.59 r
+  div_154/u_div_u_add_PartRem_0_3_2/U61/O (MUX2)                                             0.50      38.09 f
+  div_154/u_div_u_add_PartRem_0_3_2/CO (SECdecoder_location_30bits_clk_DW01_add_280)         0.00      38.09 f
+  div_154/U184/OB (MXL2HS)                                                                   0.37      38.46 r
+  div_154/U92/O (OR2)                                                                        0.31      38.77 r
+  div_154/U50/O (INV1S)                                                                      0.26      39.04 f
+  div_154/U359/O (MOAI1S)                                                                    0.38      39.41 f
+  div_154/U357/O (OR2)                                                                       0.40      39.82 f
+  div_154/u_div_u_add_PartRem_0_2_2/A[2] (SECdecoder_location_30bits_clk_DW01_add_283)       0.00      39.82 f
+  div_154/u_div_u_add_PartRem_0_2_2/U69/O (INV1S)                                            0.27      40.09 r
+  div_154/u_div_u_add_PartRem_0_2_2/U79/O (ND2)                                              0.11      40.20 f
+  div_154/u_div_u_add_PartRem_0_2_2/U68/O (NR2)                                              0.31      40.52 r
+  div_154/u_div_u_add_PartRem_0_2_2/U61/O (MUX2)                                             0.50      41.01 f
+  div_154/u_div_u_add_PartRem_0_2_2/CO (SECdecoder_location_30bits_clk_DW01_add_283)         0.00      41.01 f
+  div_154/U185/OB (MXL2HS)                                                                   0.37      41.39 r
+  div_154/U88/O (OR2)                                                                        0.31      41.69 r
+  div_154/U46/O (INV1S)                                                                      0.26      41.96 f
+  div_154/U367/O (MOAI1S)                                                                    0.38      42.34 f
+  div_154/U365/O (OR2)                                                                       0.41      42.74 f
+  div_154/u_div_u_add_PartRem_0_1_2/A[2] (SECdecoder_location_30bits_clk_DW01_add_286)       0.00      42.74 f
+  div_154/u_div_u_add_PartRem_0_1_2/U69/O (INV1S)                                            0.27      43.02 r
+  div_154/u_div_u_add_PartRem_0_1_2/U80/O (ND2)                                              0.11      43.13 f
+  div_154/u_div_u_add_PartRem_0_1_2/U68/O (NR2)                                              0.31      43.44 r
+  div_154/u_div_u_add_PartRem_0_1_2/U61/O (MUX2)                                             0.51      43.95 f
+  div_154/u_div_u_add_PartRem_0_1_2/CO (SECdecoder_location_30bits_clk_DW01_add_286)         0.00      43.95 f
+  div_154/U174/OB (MXL2HS)                                                                   0.35      44.30 r
+  div_154/U93/O (OR2)                                                                        0.37      44.67 r
+  div_154/U52/O (INV1S)                                                                      0.19      44.86 f
+  div_154/U257/O (MOAI1S)                                                                    0.34      45.20 f
+  div_154/U712/O (OR3B2)                                                                     0.39      45.58 f
+  div_154/u_div_u_add_PartRem_0_0_2/A[4] (SECdecoder_location_30bits_clk_DW01_add_289)       0.00      45.58 f
+  div_154/u_div_u_add_PartRem_0_0_2/U62/O (INV1S)                                            0.14      45.72 r
+  div_154/u_div_u_add_PartRem_0_0_2/U64/O (OR2B1S)                                           0.10      45.82 f
+  div_154/u_div_u_add_PartRem_0_0_2/U69/O (MUX2)                                             0.29      46.11 f
+  div_154/u_div_u_add_PartRem_0_0_2/U67/O (MUX2)                                             0.33      46.44 f
+  div_154/u_div_u_add_PartRem_0_0_2/CO (SECdecoder_location_30bits_clk_DW01_add_289)         0.00      46.44 f
+  div_154/U455/OB (MXL2HS)                                                                   0.17      46.60 f
+  div_154/quotient[0] (SECdecoder_location_30bits_clk_DW_div_uns_8)                          0.00      46.60 f
+  U643/O (AO222)                                                                             0.48      47.08 f
+  N_reg_0_/D (QDFFN)                                                                         0.00      47.08 f
+  data arrival time                                                                                    47.08
+
+  clock clk (rise edge)                                                                     50.00      50.00
+  clock network delay (ideal)                                                                1.00      51.00
+  clock uncertainty                                                                         -0.30      50.70
+  N_reg_0_/CK (QDFFN)                                                                        0.00      50.70 r
+  library setup time                                                                        -0.13      50.57
+  data required time                                                                                   50.57
+  -------------------------------------------------------------------------------------------------------------
+  data required time                                                                                   50.57
+  data arrival time                                                                                   -47.08
+  -------------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                                           3.49
+
+
+1

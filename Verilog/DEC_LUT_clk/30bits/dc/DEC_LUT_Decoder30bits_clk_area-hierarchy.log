@@ -1,0 +1,122 @@
+ 
+****************************************
+Report : area
+Design : DEC_LUT_Decoder30bits_clk
+Version: S-2021.06-SP2
+Date   : Thu May  8 18:52:06 2025
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                         4943
+Number of nets:                         20960
+Number of cells:                        17940
+Number of combinational cells:          17781
+Number of sequential cells:                80
+Number of macros/black boxes:               0
+Number of buf/inv:                       3844
+Number of references:                     226
+
+Combinational area:             288619.026597
+Buf/Inv area:                    42319.166061
+Noncombinational area:            4487.212784
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                293106.239380
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area             Local cell area
+                                  --------------------  ------------------------------ 
+Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-  Black-
+                                  Total        Total    national     national   boxes   Design
+--------------------------------  -----------  -------  -----------  ---------  ------  ---------------------------------------
+DEC_LUT_Decoder30bits_clk         293106.2394    100.0  181447.7619  4487.2128  0.0000  DEC_LUT_Decoder30bits_clk
+div_3926                           29310.6237     10.0   29310.6237     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW_div_uns_5
+div_3935_u_div_u_absval_AAbs_NEG    3181.0464      1.1    3181.0464     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_inc_2
+div_3935_u_div_u_add_PartRem_0_1     221.8608      0.1     221.8608     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_252
+div_3935_u_div_u_add_PartRem_0_2     349.9776      0.1     349.9776     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_260
+div_3935_u_div_u_add_PartRem_0_3     318.7296      0.1     318.7296     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_197
+div_3935_u_div_u_add_PartRem_0_4     290.6064      0.1     290.6064     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_269
+div_3935_u_div_u_add_PartRem_0_5     334.3536      0.1     334.3536     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_223
+div_3935_u_div_u_add_PartRem_0_6     278.1072      0.1     278.1072     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_209
+div_3935_u_div_u_add_PartRem_0_7     287.4816      0.1     287.4816     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_218
+div_3935_u_div_u_add_PartRem_10_1    859.3200      0.3     859.3200     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_234
+div_3935_u_div_u_add_PartRem_10_2    818.6976      0.3     818.6976     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_207
+div_3935_u_div_u_add_PartRem_10_3    759.3264      0.3     759.3264     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_219
+div_3935_u_div_u_add_PartRem_1_1     831.1968      0.3     831.1968     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_243
+div_3935_u_div_u_add_PartRem_1_2     881.1936      0.3     881.1936     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_246
+div_3935_u_div_u_add_PartRem_1_3     974.9376      0.3     974.9376     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_198
+div_3935_u_div_u_add_PartRem_1_4     896.8176      0.3     896.8176     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_261
+div_3935_u_div_u_add_PartRem_1_5     978.0624      0.3     978.0624     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_226
+div_3935_u_div_u_add_PartRem_1_6     893.6928      0.3     893.6928     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_211
+div_3935_u_div_u_add_PartRem_1_7     865.5696      0.3     865.5696     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_229
+div_3935_u_div_u_add_PartRem_2_1     815.5728      0.3     815.5728     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_244
+div_3935_u_div_u_add_PartRem_2_2     868.6944      0.3     868.6944     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_247
+div_3935_u_div_u_add_PartRem_2_3    1128.0528      0.4    1128.0528     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_199
+div_3935_u_div_u_add_PartRem_2_4     818.6976      0.3     818.6976     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_262
+div_3935_u_div_u_add_PartRem_2_5    1015.5600      0.3    1015.5600     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_227
+div_3935_u_div_u_add_PartRem_2_6     918.6912      0.3     918.6912     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_213
+div_3935_u_div_u_add_PartRem_2_7     843.6960      0.3     843.6960     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_230
+div_3935_u_div_u_add_PartRem_3_1     815.5728      0.3     815.5728     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_239
+div_3935_u_div_u_add_PartRem_3_2     865.5696      0.3     865.5696     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_253
+div_3935_u_div_u_add_PartRem_3_3    1106.1792      0.4    1106.1792     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_200
+div_3935_u_div_u_add_PartRem_3_4     809.3232      0.3     809.3232     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_265
+div_3935_u_div_u_add_PartRem_3_5    1003.0608      0.3    1003.0608     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_235
+div_3935_u_div_u_add_PartRem_3_6    1046.8080      0.4    1046.8080     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_214
+div_3935_u_div_u_add_PartRem_3_7     849.9456      0.3     849.9456     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_224
+div_3935_u_div_u_add_PartRem_4_1     890.5680      0.3     890.5680     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_245
+div_3935_u_div_u_add_PartRem_4_2     928.0656      0.3     928.0656     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_248
+div_3935_u_div_u_add_PartRem_4_3    1103.0544      0.4    1103.0544     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_201
+div_3935_u_div_u_add_PartRem_4_4     865.5696      0.3     865.5696     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_263
+div_3935_u_div_u_add_PartRem_4_5    1074.9312      0.4    1074.9312     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_228
+div_3935_u_div_u_add_PartRem_4_6     993.6864      0.3     993.6864     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_217
+div_3935_u_div_u_add_PartRem_4_7     868.6944      0.3     868.6944     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_231
+div_3935_u_div_u_add_PartRem_5_1     846.8208      0.3     846.8208     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_250
+div_3935_u_div_u_add_PartRem_5_2    1003.0608      0.3    1003.0608     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_259
+div_3935_u_div_u_add_PartRem_5_3     949.9392      0.3     949.9392     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_202
+div_3935_u_div_u_add_PartRem_5_4     974.9376      0.3     974.9376     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_267
+div_3935_u_div_u_add_PartRem_5_5     978.0624      0.3     978.0624     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_236
+div_3935_u_div_u_add_PartRem_5_6     915.5664      0.3     915.5664     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_222
+div_3935_u_div_u_add_PartRem_5_7     868.6944      0.3     868.6944     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_233
+div_3935_u_div_u_add_PartRem_6_1     828.0720      0.3     828.0720     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_249
+div_3935_u_div_u_add_PartRem_6_2    1024.9344      0.3    1024.9344     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_258
+div_3935_u_div_u_add_PartRem_6_3     946.8144      0.3     946.8144     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_203
+div_3935_u_div_u_add_PartRem_6_4     953.0640      0.3     953.0640     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_268
+div_3935_u_div_u_add_PartRem_6_5    1012.4352      0.3    1012.4352     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_225
+div_3935_u_div_u_add_PartRem_6_6     984.3120      0.3     984.3120     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_210
+div_3935_u_div_u_add_PartRem_6_7     856.1952      0.3     856.1952     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_220
+div_3935_u_div_u_add_PartRem_7_1     840.5712      0.3     840.5712     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_237
+div_3935_u_div_u_add_PartRem_7_2     968.6880      0.3     968.6880     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_251
+div_3935_u_div_u_add_PartRem_7_3     937.4400      0.3     937.4400     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_215
+div_3935_u_div_u_add_PartRem_7_4     840.5712      0.3     840.5712     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_241
+div_3935_u_div_u_add_PartRem_7_5    1028.0592      0.4    1028.0592     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_221
+div_3935_u_div_u_add_PartRem_7_6     899.9424      0.3     899.9424     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_204
+div_3935_u_div_u_add_PartRem_7_7     887.4432      0.3     887.4432     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_212
+div_3935_u_div_u_add_PartRem_8_1     834.3216      0.3     834.3216     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_257
+div_3935_u_div_u_add_PartRem_8_2     918.6912      0.3     918.6912     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_256
+div_3935_u_div_u_add_PartRem_8_3     943.6896      0.3     943.6896     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_242
+div_3935_u_div_u_add_PartRem_8_4     853.0704      0.3     853.0704     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_264
+div_3935_u_div_u_add_PartRem_8_5     999.9360      0.3     999.9360     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_240
+div_3935_u_div_u_add_PartRem_8_6     893.6928      0.3     893.6928     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_205
+div_3935_u_div_u_add_PartRem_8_7     840.5712      0.3     840.5712     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_238
+div_3935_u_div_u_add_PartRem_9_1     837.4464      0.3     837.4464     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_255
+div_3935_u_div_u_add_PartRem_9_2     874.9440      0.3     874.9440     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_266
+div_3935_u_div_u_add_PartRem_9_3     896.8176      0.3     896.8176     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_208
+div_3935_u_div_u_add_PartRem_9_4     881.1936      0.3     881.1936     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_254
+div_3935_u_div_u_add_PartRem_9_5     924.9408      0.3     924.9408     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_232
+div_3935_u_div_u_add_PartRem_9_6     881.1936      0.3     881.1936     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_206
+div_3935_u_div_u_add_PartRem_9_7     846.8208      0.3     846.8208     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_add_216
+div_3935_u_div_u_inc_QInc           2343.6000      0.8    2343.6000     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW_inc_3
+mult_3930                           2606.0832      0.9    2606.0832     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW_mult_uns_0
+sub_3911                            6327.7200      2.2    6327.7200     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_sub_4
+sub_3930                             959.3136      0.3     959.3136     0.0000  0.0000  DEC_LUT_Decoder30bits_clk_DW01_sub_1
+--------------------------------  -----------  -------  -----------  ---------  ------  ---------------------------------------
+Total                                                   288619.0266  4487.2128  0.0000
+
+1

@@ -1,0 +1,127 @@
+ 
+****************************************
+Report : area
+Design : Tradeoff_28bits
+Version: U-2022.12-SP6
+Date   : Wed Apr 30 20:45:48 2025
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                         5097
+Number of nets:                         12889
+Number of cells:                         9583
+Number of combinational cells:           9326
+Number of sequential cells:               173
+Number of macros/black boxes:               0
+Number of buf/inv:                       2559
+Number of references:                      52
+
+Combinational area:             153687.037447
+Buf/Inv area:                    21136.147003
+Noncombinational area:           10139.976013
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                163827.013461
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area              Local cell area
+                                  --------------------  ------------------------------- 
+Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-   Black-
+                                  Total        Total    national     national    boxes   Design
+--------------------------------  -----------  -------  -----------  ----------  ------  -----------------------------
+Tradeoff_28bits                   163827.0135    100.0    8130.7296  10139.9760  0.0000  Tradeoff_28bits
+add_0_root_add_46_C113_2_ni          237.4848      0.1     237.4848      0.0000  0.0000  Tradeoff_28bits_DW01_inc_2
+add_0_root_add_46_C113_ni            237.4848      0.1     237.4848      0.0000  0.0000  Tradeoff_28bits_DW01_inc_1
+div_118                            93781.4971     57.2   29935.5840      0.0000  0.0000  Tradeoff_28bits_DW_div_uns_2
+div_118/u_div_u_add_PartRem_0_1      315.6048      0.2     315.6048      0.0000  0.0000  Tradeoff_28bits_DW01_add_180
+div_118/u_div_u_add_PartRem_0_2      318.7296      0.2     318.7296      0.0000  0.0000  Tradeoff_28bits_DW01_add_181
+div_118/u_div_u_add_PartRem_0_3      306.2304      0.2     306.2304      0.0000  0.0000  Tradeoff_28bits_DW01_add_182
+div_118/u_div_u_add_PartRem_0_4      315.6048      0.2     315.6048      0.0000  0.0000  Tradeoff_28bits_DW01_add_183
+div_118/u_div_u_add_PartRem_0_5      303.1056      0.2     303.1056      0.0000  0.0000  Tradeoff_28bits_DW01_add_184
+div_118/u_div_u_add_PartRem_0_6      290.6064      0.2     290.6064      0.0000  0.0000  Tradeoff_28bits_DW01_add_185
+div_118/u_div_u_add_PartRem_0_7      278.1072      0.2     278.1072      0.0000  0.0000  Tradeoff_28bits_DW01_add_186
+div_118/u_div_u_add_PartRem_1_1     1006.1856      0.6    1006.1856      0.0000  0.0000  Tradeoff_28bits_DW01_add_173
+div_118/u_div_u_add_PartRem_1_2      903.0672      0.6     903.0672      0.0000  0.0000  Tradeoff_28bits_DW01_add_174
+div_118/u_div_u_add_PartRem_1_3      999.9360      0.6     999.9360      0.0000  0.0000  Tradeoff_28bits_DW01_add_175
+div_118/u_div_u_add_PartRem_1_4      893.6928      0.5     893.6928      0.0000  0.0000  Tradeoff_28bits_DW01_add_176
+div_118/u_div_u_add_PartRem_1_5      990.5616      0.6     990.5616      0.0000  0.0000  Tradeoff_28bits_DW01_add_177
+div_118/u_div_u_add_PartRem_1_6     1024.9344      0.6    1024.9344      0.0000  0.0000  Tradeoff_28bits_DW01_add_178
+div_118/u_div_u_add_PartRem_1_7      953.0640      0.6     953.0640      0.0000  0.0000  Tradeoff_28bits_DW01_add_179
+div_118/u_div_u_add_PartRem_2_1      993.6864      0.6     993.6864      0.0000  0.0000  Tradeoff_28bits_DW01_add_166
+div_118/u_div_u_add_PartRem_2_2      962.4384      0.6     962.4384      0.0000  0.0000  Tradeoff_28bits_DW01_add_167
+div_118/u_div_u_add_PartRem_2_3     1028.0592      0.6    1028.0592      0.0000  0.0000  Tradeoff_28bits_DW01_add_168
+div_118/u_div_u_add_PartRem_2_4      915.5664      0.6     915.5664      0.0000  0.0000  Tradeoff_28bits_DW01_add_169
+div_118/u_div_u_add_PartRem_2_5      965.5632      0.6     965.5632      0.0000  0.0000  Tradeoff_28bits_DW01_add_170
+div_118/u_div_u_add_PartRem_2_6      996.8112      0.6     996.8112      0.0000  0.0000  Tradeoff_28bits_DW01_add_171
+div_118/u_div_u_add_PartRem_2_7      987.4368      0.6     987.4368      0.0000  0.0000  Tradeoff_28bits_DW01_add_172
+div_118/u_div_u_add_PartRem_3_1      990.5616      0.6     990.5616      0.0000  0.0000  Tradeoff_28bits_DW01_add_159
+div_118/u_div_u_add_PartRem_3_2      968.6880      0.6     968.6880      0.0000  0.0000  Tradeoff_28bits_DW01_add_160
+div_118/u_div_u_add_PartRem_3_3     1015.5600      0.6    1015.5600      0.0000  0.0000  Tradeoff_28bits_DW01_add_161
+div_118/u_div_u_add_PartRem_3_4      956.1888      0.6     956.1888      0.0000  0.0000  Tradeoff_28bits_DW01_add_162
+div_118/u_div_u_add_PartRem_3_5      984.3120      0.6     984.3120      0.0000  0.0000  Tradeoff_28bits_DW01_add_163
+div_118/u_div_u_add_PartRem_3_6     1006.1856      0.6    1006.1856      0.0000  0.0000  Tradeoff_28bits_DW01_add_164
+div_118/u_div_u_add_PartRem_3_7     1012.4352      0.6    1012.4352      0.0000  0.0000  Tradeoff_28bits_DW01_add_165
+div_118/u_div_u_add_PartRem_4_1      978.0624      0.6     978.0624      0.0000  0.0000  Tradeoff_28bits_DW01_add_152
+div_118/u_div_u_add_PartRem_4_2      940.5648      0.6     940.5648      0.0000  0.0000  Tradeoff_28bits_DW01_add_153
+div_118/u_div_u_add_PartRem_4_3     1012.4352      0.6    1012.4352      0.0000  0.0000  Tradeoff_28bits_DW01_add_154
+div_118/u_div_u_add_PartRem_4_4      940.5648      0.6     940.5648      0.0000  0.0000  Tradeoff_28bits_DW01_add_155
+div_118/u_div_u_add_PartRem_4_5      971.8128      0.6     971.8128      0.0000  0.0000  Tradeoff_28bits_DW01_add_156
+div_118/u_div_u_add_PartRem_4_6      996.8112      0.6     996.8112      0.0000  0.0000  Tradeoff_28bits_DW01_add_157
+div_118/u_div_u_add_PartRem_4_7      978.0624      0.6     978.0624      0.0000  0.0000  Tradeoff_28bits_DW01_add_158
+div_118/u_div_u_add_PartRem_5_1      984.3120      0.6     984.3120      0.0000  0.0000  Tradeoff_28bits_DW01_add_145
+div_118/u_div_u_add_PartRem_5_2      918.6912      0.6     918.6912      0.0000  0.0000  Tradeoff_28bits_DW01_add_146
+div_118/u_div_u_add_PartRem_5_3     1024.9344      0.6    1024.9344      0.0000  0.0000  Tradeoff_28bits_DW01_add_147
+div_118/u_div_u_add_PartRem_5_4      912.4416      0.6     912.4416      0.0000  0.0000  Tradeoff_28bits_DW01_add_148
+div_118/u_div_u_add_PartRem_5_5     1003.0608      0.6    1003.0608      0.0000  0.0000  Tradeoff_28bits_DW01_add_149
+div_118/u_div_u_add_PartRem_5_6      987.4368      0.6     987.4368      0.0000  0.0000  Tradeoff_28bits_DW01_add_150
+div_118/u_div_u_add_PartRem_5_7      953.0640      0.6     953.0640      0.0000  0.0000  Tradeoff_28bits_DW01_add_151
+div_118/u_div_u_add_PartRem_6_1     1006.1856      0.6    1006.1856      0.0000  0.0000  Tradeoff_28bits_DW01_add_138
+div_118/u_div_u_add_PartRem_6_2      940.5648      0.6     940.5648      0.0000  0.0000  Tradeoff_28bits_DW01_add_139
+div_118/u_div_u_add_PartRem_6_3     1006.1856      0.6    1006.1856      0.0000  0.0000  Tradeoff_28bits_DW01_add_140
+div_118/u_div_u_add_PartRem_6_4     1034.3088      0.6    1034.3088      0.0000  0.0000  Tradeoff_28bits_DW01_add_141
+div_118/u_div_u_add_PartRem_6_5      984.3120      0.6     984.3120      0.0000  0.0000  Tradeoff_28bits_DW01_add_142
+div_118/u_div_u_add_PartRem_6_6     1009.3104      0.6    1009.3104      0.0000  0.0000  Tradeoff_28bits_DW01_add_143
+div_118/u_div_u_add_PartRem_6_7      993.6864      0.6     993.6864      0.0000  0.0000  Tradeoff_28bits_DW01_add_144
+div_118/u_div_u_add_PartRem_7_1     1009.3104      0.6    1009.3104      0.0000  0.0000  Tradeoff_28bits_DW01_add_131
+div_118/u_div_u_add_PartRem_7_2      949.9392      0.6     949.9392      0.0000  0.0000  Tradeoff_28bits_DW01_add_132
+div_118/u_div_u_add_PartRem_7_3     1078.0560      0.7    1078.0560      0.0000  0.0000  Tradeoff_28bits_DW01_add_133
+div_118/u_div_u_add_PartRem_7_4      881.1936      0.5     881.1936      0.0000  0.0000  Tradeoff_28bits_DW01_add_134
+div_118/u_div_u_add_PartRem_7_5      968.6880      0.6     968.6880      0.0000  0.0000  Tradeoff_28bits_DW01_add_135
+div_118/u_div_u_add_PartRem_7_6      996.8112      0.6     996.8112      0.0000  0.0000  Tradeoff_28bits_DW01_add_136
+div_118/u_div_u_add_PartRem_7_7      956.1888      0.6     956.1888      0.0000  0.0000  Tradeoff_28bits_DW01_add_137
+div_118/u_div_u_add_PartRem_8_1      974.9376      0.6     974.9376      0.0000  0.0000  Tradeoff_28bits_DW01_add_124
+div_118/u_div_u_add_PartRem_8_2      934.3152      0.6     934.3152      0.0000  0.0000  Tradeoff_28bits_DW01_add_125
+div_118/u_div_u_add_PartRem_8_3     1028.0592      0.6    1028.0592      0.0000  0.0000  Tradeoff_28bits_DW01_add_126
+div_118/u_div_u_add_PartRem_8_4      931.1904      0.6     931.1904      0.0000  0.0000  Tradeoff_28bits_DW01_add_127
+div_118/u_div_u_add_PartRem_8_5      956.1888      0.6     956.1888      0.0000  0.0000  Tradeoff_28bits_DW01_add_128
+div_118/u_div_u_add_PartRem_8_6     1053.0576      0.6    1053.0576      0.0000  0.0000  Tradeoff_28bits_DW01_add_129
+div_118/u_div_u_add_PartRem_8_7      981.1872      0.6     981.1872      0.0000  0.0000  Tradeoff_28bits_DW01_add_130
+div_118/u_div_u_add_PartRem_9_1      981.1872      0.6     981.1872      0.0000  0.0000  Tradeoff_28bits_DW01_add_117
+div_118/u_div_u_add_PartRem_9_2      940.5648      0.6     940.5648      0.0000  0.0000  Tradeoff_28bits_DW01_add_118
+div_118/u_div_u_add_PartRem_9_3     1018.6848      0.6    1018.6848      0.0000  0.0000  Tradeoff_28bits_DW01_add_119
+div_118/u_div_u_add_PartRem_9_4      903.0672      0.6     903.0672      0.0000  0.0000  Tradeoff_28bits_DW01_add_120
+div_118/u_div_u_add_PartRem_9_5     1021.8096      0.6    1021.8096      0.0000  0.0000  Tradeoff_28bits_DW01_add_121
+div_118/u_div_u_add_PartRem_9_6     1006.1856      0.6    1006.1856      0.0000  0.0000  Tradeoff_28bits_DW01_add_122
+div_118/u_div_u_add_PartRem_9_7     1015.5600      0.6    1015.5600      0.0000  0.0000  Tradeoff_28bits_DW01_add_123
+div_85                             27438.8685     16.7   27438.8685      0.0000  0.0000  Tradeoff_28bits_DW_div_uns_7
+lLUT_inst                           3552.8976      2.2    3552.8976      0.0000  0.0000  SEC_lLUT28bits
+mult_113                            2984.1839      1.8    2984.1839      0.0000  0.0000  Tradeoff_28bits_DW_mult_uns_1
+mult_113_2                          2984.1839      1.8    2984.1839      0.0000  0.0000  Tradeoff_28bits_DW_mult_uns_2
+mult_89                             2534.2128      1.5    2534.2128      0.0000  0.0000  Tradeoff_28bits_DW_mult_uns_0
+r468                                 237.4848      0.1     237.4848      0.0000  0.0000  Tradeoff_28bits_DW01_inc_0
+rLUT_inst                           3890.3760      2.4    3890.3760      0.0000  0.0000  SEC_rLUT28bits
+sub_0_root_sub_0_root_sub_113_4     2868.5664      1.8    2868.5664      0.0000  0.0000  Tradeoff_28bits_DW01_sub_5
+sub_1_root_sub_0_root_sub_113_4     2868.5664      1.8    2868.5664      0.0000  0.0000  Tradeoff_28bits_DW01_sub_6
+sub_59                               974.9376      0.6     974.9376      0.0000  0.0000  Tradeoff_28bits_DW01_sub_1
+sub_89                               965.5632      0.6     965.5632      0.0000  0.0000  Tradeoff_28bits_DW01_sub_3
+--------------------------------  -----------  -------  -----------  ----------  ------  -----------------------------
+Total                                                   153687.0374  10139.9760  0.0000
+
+1

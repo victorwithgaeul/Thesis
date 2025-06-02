@@ -1,0 +1,77 @@
+Loading db file '/usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : SECdecoder_location_28bits_clk
+Version: U-2022.12-SP6
+Date   : Fri May 23 17:28:59 2025
+****************************************
+
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+
+Operating Conditions: WCCOM   Library: fsa0m_a_generic_core_ss1p62v125c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+SECdecoder_location_28bits_clk
+                       enG30K            fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_28bits_clk_DW01_sub_0
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_28bits_clk_DW01_inc_0
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_28bits_clk_DW01_sub_2
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_28bits_clk_DW_mult_uns_1
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_28bits_clk_DW_div_uns_2
+                       enG10K            fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_28bits_clk_add_308_DP_OP_359_7387_0
+                       enG10K            fsa0m_a_generic_core_ss1p62v125c
+SECdecoder_location_28bits_clk_DW_div_uns_14
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+
+
+Global Operating Voltage = 1.62 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 507.9311 uW   (58%)
+  Net Switching Power  = 368.0567 uW   (42%)
+                         ---------
+Total Dynamic Power    = 875.9879 uW  (100%)
+
+Cell Leakage Power     =   7.2662 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.1018            0.0000            0.0000            0.1018  (  11.53%)  i
+register       1.7707e-02        1.5921e-02        3.7376e+05        3.4001e-02  (   3.85%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.3884            0.3521        6.8924e+06            0.7474  (  84.62%)
+--------------------------------------------------------------------------------------------------
+Total              0.5079 mW         0.3681 mW     7.2662e+06 pW         0.8833 mW
+1

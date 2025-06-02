@@ -1,0 +1,51 @@
+ 
+****************************************
+Report : area
+Design : SECdecoder_location_52bits_clk
+Version: U-2022.12-SP6
+Date   : Fri May 23 17:50:04 2025
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                         1126
+Number of nets:                          9381
+Number of cells:                         8487
+Number of combinational cells:           8301
+Number of sequential cells:               179
+Number of macros/black boxes:               0
+Number of buf/inv:                       1523
+Number of references:                      44
+
+Combinational area:             218311.023823
+Buf/Inv area:                     9886.867095
+Noncombinational area:           14477.197830
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                232788.221653
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area              Local cell area
+                                  --------------------  ------------------------------- 
+Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-   Black-
+                                  Total        Total    national     national    boxes   Design
+--------------------------------  -----------  -------  -----------  ----------  ------  -------------------------------------------------------
+SECdecoder_location_52bits_clk    232788.2217    100.0    7477.6464  14477.1978  0.0000  SECdecoder_location_52bits_clk
+add_0_root_add_32_C195_ni            278.1072      0.1     278.1072      0.0000  0.0000  SECdecoder_location_52bits_clk_DW01_inc_0
+div_187                            26160.8253     11.2   26160.8253      0.0000  0.0000  SECdecoder_location_52bits_clk_DW_div_uns_14
+div_200                           175738.7490     75.5     181.2384      0.0000  0.0000  SECdecoder_location_52bits_clk_DW_div_uns_2
+div_200/u_div_add_308_DP_OP_359_9162_7
+                                  175557.5106     75.4  175557.5106      0.0000  0.0000  SECdecoder_location_52bits_clk_add_308_DP_OP_359_9162_0
+mult_195                            4165.3583      1.8    4165.3583      0.0000  0.0000  SECdecoder_location_52bits_clk_DW_mult_uns_1
+sub_191                              506.2176      0.2     506.2176      0.0000  0.0000  SECdecoder_location_52bits_clk_DW01_sub_0
+sub_195_2                           3984.1200      1.7    3984.1200      0.0000  0.0000  SECdecoder_location_52bits_clk_DW01_sub_2
+--------------------------------  -----------  -------  -----------  ----------  ------  -------------------------------------------------------
+Total                                                   218311.0238  14477.1978  0.0000
+
+1

@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : DEC_LUT_Decoder52bits_clk
+Version: U-2022.12-SP6
+Date   : Sat May 17 18:31:20 2025
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                         8585
+Number of nets:                         46405
+Number of cells:                        41142
+Number of combinational cells:          40887
+Number of sequential cells:               125
+Number of macros/black boxes:               0
+Number of buf/inv:                       8299
+Number of references:                     317
+
+Combinational area:             741171.310013
+Buf/Inv area:                   108274.319214
+Noncombinational area:           10111.852402
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                751283.162415
+Total area:                 undefined
+1

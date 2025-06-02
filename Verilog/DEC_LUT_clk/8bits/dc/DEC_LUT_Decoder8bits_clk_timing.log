@@ -1,0 +1,231 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : DEC_LUT_Decoder8bits_clk
+Version: U-2022.12-SP6
+Date   : Mon May  5 17:38:33 2025
+****************************************
+
+Operating Conditions: WCCOM   Library: fsa0m_a_generic_core_ss1p62v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: R_reg_8_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: N_reg_8_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  DEC_LUT_Decoder8bits_clk
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder8bits_clk_DW01_sub_0
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  DEC_LUT_Decoder8bits_clk_DW_div_tc_0
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+
+  Point                                                                                Incr       Path
+  -------------------------------------------------------------------------------------------------------
+  clock clk (rise edge)                                                                0.00       0.00
+  clock network delay (ideal)                                                          1.00       1.00
+  R_reg_8_/CK (QDFFN)                                                                  0.00       1.00 r
+  R_reg_8_/Q (QDFFN)                                                                   0.50       1.50 f
+  U1594/O (INV4)                                                                       0.15       1.65 r
+  U1638/O (ND3)                                                                        0.19       1.84 f
+  U1677/O (BUF4CK)                                                                     0.24       2.08 f
+  U1483/O (INV4CK)                                                                     0.15       2.23 r
+  U1632/O (AN2T)                                                                       0.23       2.46 r
+  U1665/O (AN2T)                                                                       0.21       2.68 r
+  U2201/O (AN2S)                                                                       0.28       2.95 r
+  U2464/O (AN2B1S)                                                                     0.16       3.12 f
+  U1489/O (ND3P)                                                                       0.14       3.25 r
+  U1875/O (AO112S)                                                                     0.23       3.48 r
+  U2461/O (AN4B1S)                                                                     0.14       3.62 f
+  U2459/O (ND3)                                                                        0.18       3.80 r
+  U2458/O (NR3)                                                                        0.13       3.93 f
+  U939/O (AN3)                                                                         0.29       4.22 f
+  U1681/O (OAI112H)                                                                    0.11       4.34 r
+  U1494/O (AN4B1P)                                                                     0.13       4.46 f
+  U1493/O (ND3HT)                                                                      0.14       4.60 r
+  sub_685/B[1] (DEC_LUT_Decoder8bits_clk_DW01_sub_0)                                   0.00       4.60 r
+  sub_685/U15/O (INV2)                                                                 0.05       4.66 f
+  sub_685/U2_1/CO (FA1)                                                                0.37       5.03 f
+  sub_685/U2_2/CO (FA1S)                                                               0.48       5.52 f
+  sub_685/U2_3/CO (FA1)                                                                0.38       5.90 f
+  sub_685/U2_4/CO (FA1S)                                                               0.47       6.36 f
+  sub_685/U2_5/CO (FA1S)                                                               0.51       6.87 f
+  sub_685/U2_6/CO (FA1)                                                                0.38       7.26 f
+  sub_685/U2_7/CO (FA1)                                                                0.35       7.61 f
+  sub_685/U2_8/CO (FA1S)                                                               0.48       8.09 f
+  sub_685/U2_9/CO (FA1)                                                                0.38       8.48 f
+  sub_685/U2_10/CO (FA1)                                                               0.36       8.83 f
+  sub_685/U2_11/CO (FA1)                                                               0.35       9.18 f
+  sub_685/U2_12/CO (FA1S)                                                              0.48       9.67 f
+  sub_685/U2_13/CO (FA1)                                                               0.38      10.05 f
+  sub_685/U2_14/CO (FA1)                                                               0.35      10.40 f
+  sub_685/U2_15/CO (FA1S)                                                              0.48      10.89 f
+  sub_685/U2_16/CO (FA1)                                                               0.38      11.27 f
+  sub_685/U2_17/CO (FA1)                                                               0.35      11.62 f
+  sub_685/U2_18/CO (FA1S)                                                              0.44      12.06 f
+  sub_685/U2_19/O (XOR3)                                                               0.34      12.40 f
+  sub_685/DIFF[19] (DEC_LUT_Decoder8bits_clk_DW01_sub_0)                               0.00      12.40 f
+  U1682/O (INV2CK)                                                                     0.10      12.50 r
+  U1683/O (INV3)                                                                       0.08      12.58 f
+  div_709/a[19] (DEC_LUT_Decoder8bits_clk_DW_div_tc_0)                                 0.00      12.58 f
+  div_709/u_div_u_absval_AAbs/A[19] (DEC_LUT_Decoder8bits_clk_DW01_absval_0)           0.00      12.58 f
+  div_709/u_div_u_absval_AAbs/U1/O (MUX2)                                              0.34      12.91 f
+  div_709/u_div_u_absval_AAbs/ABSVAL[10] (DEC_LUT_Decoder8bits_clk_DW01_absval_0)      0.00      12.91 f
+  div_709/U18/C (HA1)                                                                  0.30      13.22 f
+  div_709/U21/O (NR2T)                                                                 0.12      13.33 r
+  div_709/U101/O (OR2B1S)                                                              0.13      13.47 f
+  div_709/U39/C (HA1P)                                                                 0.23      13.70 f
+  div_709/U66/O (NR2T)                                                                 0.11      13.81 r
+  div_709/U100/O (OR2B1S)                                                              0.13      13.94 f
+  div_709/U10/C (HA1P)                                                                 0.21      14.15 f
+  div_709/u_div_u_add_PartRem_3_10_U4/C (HA1)                                          0.20      14.36 f
+  div_709/U12/C (HA1P)                                                                 0.19      14.54 f
+  div_709/U11/C (HA1T)                                                                 0.30      14.84 f
+  div_709/u_div_u_mx_PartRem_1_10_0/O (MUX2)                                           0.34      15.18 r
+  div_709/U55/C (HA1P)                                                                 0.22      15.40 r
+  div_709/U54/O (NR2T)                                                                 0.08      15.48 f
+  div_709/U107/O (OR2B1S)                                                              0.19      15.67 r
+  div_709/u_div_u_add_PartRem_2_9_U12/C (HA1)                                          0.28      15.95 r
+  div_709/U81/O (NR2T)                                                                 0.09      16.04 f
+  div_709/U106/O (OR2B1S)                                                              0.20      16.24 r
+  div_709/U5/C (HA1P)                                                                  0.20      16.44 r
+  div_709/u_div_u_add_PartRem_2_9_U6/C (HA1)                                           0.19      16.63 r
+  div_709/u_div_u_add_PartRem_2_9_U5/C (HA1)                                           0.20      16.83 r
+  div_709/U13/C (HA1P)                                                                 0.18      17.01 r
+  div_709/U80/O (OR2T)                                                                 0.26      17.28 r
+  div_709/u_div_u_mx_PartRem_1_9_0/O (MUX2)                                            0.31      17.59 f
+  div_709/U49/C (HA1P)                                                                 0.23      17.82 f
+  div_709/U48/O (NR2T)                                                                 0.11      17.93 r
+  div_709/U113/O (OR2B1S)                                                              0.13      18.06 f
+  div_709/U41/C (HA1P)                                                                 0.25      18.31 f
+  div_709/U8/O (NR2F)                                                                  0.10      18.40 r
+  div_709/U112/O (OR2B1S)                                                              0.13      18.54 f
+  div_709/U45/C (HA1P)                                                                 0.21      18.74 f
+  div_709/U65/C (HA1)                                                                  0.20      18.95 f
+  div_709/u_div_u_add_PartRem_2_8_U5/C (HA1)                                           0.21      19.16 f
+  div_709/U42/C (HA1P)                                                                 0.19      19.34 f
+  div_709/U61/O (OR2T)                                                                 0.27      19.61 f
+  div_709/u_div_u_mx_PartRem_1_8_0/O (MUX2)                                            0.34      19.96 f
+  div_709/U82/C (HA1P)                                                                 0.23      20.18 f
+  div_709/U53/O (NR2P)                                                                 0.13      20.32 r
+  div_709/U119/O (OR2B1S)                                                              0.13      20.45 f
+  div_709/U22/C (HA1)                                                                  0.27      20.73 f
+  div_709/U24/O (NR2T)                                                                 0.12      20.84 r
+  div_709/U118/O (OR2B1S)                                                              0.13      20.98 f
+  div_709/U38/C (HA1P)                                                                 0.21      21.19 f
+  div_709/u_div_u_add_PartRem_2_7_U6/C (HA1)                                           0.20      21.39 f
+  div_709/u_div_u_add_PartRem_2_7_U5/C (HA1)                                           0.21      21.60 f
+  div_709/U75/C (HA1P)                                                                 0.19      21.79 f
+  div_709/U93/O (OR2T)                                                                 0.27      22.06 f
+  div_709/u_div_u_mx_PartRem_1_7_0/O (MUX2)                                            0.33      22.39 r
+  div_709/U19/C (HA1)                                                                  0.27      22.65 r
+  div_709/U20/O (NR2T)                                                                 0.09      22.74 f
+  div_709/U125/O (OR2B1S)                                                              0.20      22.94 r
+  div_709/U77/C (HA1P)                                                                 0.23      23.18 r
+  div_709/U74/O (NR2T)                                                                 0.08      23.26 f
+  div_709/U124/O (OR2B1S)                                                              0.20      23.45 r
+  div_709/U3/C (HA1P)                                                                  0.20      23.65 r
+  div_709/u_div_u_add_PartRem_2_6_U6/C (HA1)                                           0.19      23.84 r
+  div_709/u_div_u_add_PartRem_2_6_U5/C (HA1)                                           0.20      24.04 r
+  div_709/u_div_u_add_PartRem_2_6_U4/C (HA1)                                           0.21      24.25 r
+  div_709/U60/O (OR2T)                                                                 0.29      24.54 r
+  div_709/u_div_u_mx_PartRem_1_6_0/O (MUX2)                                            0.32      24.86 f
+  div_709/U56/C (HA1P)                                                                 0.23      25.09 f
+  div_709/U50/O (NR2P)                                                                 0.13      25.22 r
+  div_709/U131/O (OR2B1S)                                                              0.13      25.35 f
+  div_709/U23/C (HA1)                                                                  0.27      25.63 f
+  div_709/U25/O (NR2T)                                                                 0.12      25.75 r
+  div_709/U130/O (OR2B1S)                                                              0.13      25.88 f
+  div_709/U64/C (HA1)                                                                  0.23      26.11 f
+  div_709/u_div_u_add_PartRem_2_5_U6/C (HA1)                                           0.21      26.32 f
+  div_709/U72/C (HA1P)                                                                 0.19      26.51 f
+  div_709/U71/C (HA1P)                                                                 0.18      26.69 f
+  div_709/U94/O (OR2T)                                                                 0.27      26.96 f
+  div_709/u_div_u_mx_PartRem_1_5_0/O (MUX2)                                            0.34      27.30 f
+  div_709/U51/C (HA1P)                                                                 0.24      27.54 f
+  div_709/U36/O (NR2F)                                                                 0.10      27.64 r
+  div_709/U137/O (OR2B1S)                                                              0.13      27.77 f
+  div_709/U27/C (HA1)                                                                  0.27      28.04 f
+  div_709/U28/O (NR2T)                                                                 0.12      28.16 r
+  div_709/U136/O (OR2B1S)                                                              0.13      28.29 f
+  div_709/U43/C (HA1P)                                                                 0.21      28.50 f
+  div_709/u_div_u_add_PartRem_2_4_U6/C (HA1)                                           0.20      28.70 f
+  div_709/u_div_u_add_PartRem_2_4_U5/C (HA1)                                           0.21      28.91 f
+  div_709/u_div_u_add_PartRem_2_4_U4/C (HA1)                                           0.21      29.13 f
+  div_709/U62/O (OR2T)                                                                 0.28      29.40 f
+  div_709/u_div_u_mx_PartRem_1_4_1/O (MUX2S)                                           0.30      29.70 r
+  div_709/U26/O (BUF1CK)                                                               0.25      29.95 r
+  div_709/U7/O (NR2T)                                                                  0.12      30.06 f
+  div_709/U143/O (OR2B1S)                                                              0.19      30.26 r
+  div_709/U79/C (HA1P)                                                                 0.25      30.51 r
+  div_709/U1/O (NR2F)                                                                  0.06      30.57 f
+  div_709/U142/O (OR2B1S)                                                              0.19      30.76 r
+  div_709/U47/C (HA1P)                                                                 0.20      30.96 r
+  div_709/U73/C (HA1P)                                                                 0.17      31.13 r
+  div_709/u_div_u_add_PartRem_2_3_U5/C (HA1)                                           0.19      31.33 r
+  div_709/U70/C (HA1P)                                                                 0.18      31.51 r
+  div_709/U95/O (OR2T)                                                                 0.28      31.79 r
+  div_709/u_div_u_mx_PartRem_1_3_0/O (MUX2)                                            0.31      32.10 f
+  div_709/U29/C (HA1)                                                                  0.27      32.37 f
+  div_709/U30/O (NR2T)                                                                 0.12      32.49 r
+  div_709/U149/O (OR2B1S)                                                              0.13      32.62 f
+  div_709/U78/C (HA1P)                                                                 0.24      32.86 f
+  div_709/U32/O (NR2T)                                                                 0.11      32.97 r
+  div_709/U148/O (OR2B1S)                                                              0.13      33.10 f
+  div_709/U44/C (HA1P)                                                                 0.21      33.31 f
+  div_709/u_div_u_add_PartRem_2_2_U6/C (HA1)                                           0.20      33.51 f
+  div_709/u_div_u_add_PartRem_2_2_U5/C (HA1)                                           0.21      33.72 f
+  div_709/U2/C (HA1P)                                                                  0.19      33.91 f
+  div_709/U63/O (OR2T)                                                                 0.27      34.18 f
+  div_709/u_div_u_mx_PartRem_1_2_0/O (MUX2)                                            0.34      34.52 f
+  div_709/U58/C (HA1P)                                                                 0.23      34.75 f
+  div_709/U57/O (NR2P)                                                                 0.13      34.88 r
+  div_709/U155/O (OR2B1S)                                                              0.14      35.02 f
+  div_709/U76/C (HA1P)                                                                 0.24      35.26 f
+  div_709/U67/O (NR2T)                                                                 0.11      35.36 r
+  div_709/U154/O (OR2B1S)                                                              0.13      35.50 f
+  div_709/U46/C (HA1P)                                                                 0.21      35.71 f
+  div_709/u_div_u_add_PartRem_2_1_U6/C (HA1)                                           0.20      35.91 f
+  div_709/u_div_u_add_PartRem_2_1_U5/C (HA1)                                           0.21      36.12 f
+  div_709/U4/C (HA1P)                                                                  0.19      36.31 f
+  div_709/U69/O (OR2T)                                                                 0.27      36.58 f
+  div_709/u_div_u_mx_PartRem_1_1_0/O (MUX2)                                            0.30      36.88 f
+  div_709/U156/O (AO112)                                                               0.36      37.24 f
+  div_709/U157/O (AO112)                                                               0.35      37.58 f
+  div_709/U158/O (AN3)                                                                 0.29      37.88 f
+  div_709/U6/O (AOI13HP)                                                               0.21      38.08 r
+  div_709/U9/O (XNR2H)                                                                 0.14      38.22 f
+  div_709/U40/C (HA1P)                                                                 0.22      38.44 f
+  div_709/u_div_u_inc_QInc_U8/C (HA1)                                                  0.21      38.65 f
+  div_709/u_div_u_inc_QInc_U7/C (HA1)                                                  0.21      38.85 f
+  div_709/u_div_u_inc_QInc_U6/C (HA1)                                                  0.21      39.06 f
+  div_709/u_div_u_inc_QInc_U5/C (HA1)                                                  0.21      39.27 f
+  div_709/u_div_u_inc_QInc_U4/C (HA1)                                                  0.21      39.48 f
+  div_709/u_div_u_inc_QInc_U3/C (HA1)                                                  0.21      39.69 f
+  div_709/U68/C (HA1)                                                                  0.22      39.91 f
+  div_709/U37/O (XOR2H)                                                                0.18      40.09 f
+  div_709/quotient[8] (DEC_LUT_Decoder8bits_clk_DW_div_tc_0)                           0.00      40.09 f
+  U866/O (AO222)                                                                       0.48      40.57 f
+  N_reg_8_/D (QDFFN)                                                                   0.00      40.57 f
+  data arrival time                                                                              40.57
+
+  clock clk (rise edge)                                                               40.00      40.00
+  clock network delay (ideal)                                                          1.00      41.00
+  clock uncertainty                                                                   -0.30      40.70
+  N_reg_8_/CK (QDFFN)                                                                  0.00      40.70 r
+  library setup time                                                                  -0.13      40.57
+  data required time                                                                             40.57
+  -------------------------------------------------------------------------------------------------------
+  data required time                                                                             40.57
+  data arrival time                                                                             -40.57
+  -------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                                     0.00
+
+
+1

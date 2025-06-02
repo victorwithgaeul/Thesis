@@ -1,0 +1,49 @@
+ 
+****************************************
+Report : area
+Design : SECdecoder_AWE_28bits_clk
+Version: U-2022.12-SP6
+Date   : Fri May 23 18:08:37 2025
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                          533
+Number of nets:                          4830
+Number of cells:                         4427
+Number of combinational cells:           4317
+Number of sequential cells:               105
+Number of macros/black boxes:               0
+Number of buf/inv:                        807
+Number of references:                      37
+
+Combinational area:             102037.217900
+Buf/Inv area:                     5074.675146
+Noncombinational area:            5596.516914
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                107633.734815
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area             Local cell area
+                                  --------------------  ------------------------------ 
+Hierarchical cell                 Absolute     Percent  Combi-       Noncombi-  Black-
+                                  Total        Total    national     national   boxes   Design
+--------------------------------  -----------  -------  -----------  ---------  ------  --------------------------------------------------
+SECdecoder_AWE_28bits_clk         107633.7348    100.0    5524.6464  5596.5169  0.0000  SECdecoder_AWE_28bits_clk
+div_130                            12717.9358     11.8   12717.9358     0.0000  0.0000  SECdecoder_AWE_28bits_clk_DW_div_uns_14
+div_143                            81010.4389     75.3      18.7488     0.0000  0.0000  SECdecoder_AWE_28bits_clk_DW_div_uns_2
+div_143/u_div_add_308_DP_OP_359_7387_7
+                                   80991.6901     75.2   80991.6901     0.0000  0.0000  SECdecoder_AWE_28bits_clk_add_308_DP_OP_359_7387_0
+sub_134                              440.5968      0.4     440.5968     0.0000  0.0000  SECdecoder_AWE_28bits_clk_DW01_sub_1
+sub_138                             2343.6000      2.2    2343.6000     0.0000  0.0000  SECdecoder_AWE_28bits_clk_DW01_sub_0
+--------------------------------  -----------  -------  -----------  ---------  ------  --------------------------------------------------
+Total                                                   102037.2179  5596.5169  0.0000
+
+1

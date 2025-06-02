@@ -1,0 +1,82 @@
+Loading db file '/usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : Tradeoff_8bits
+Version: U-2022.12-SP6
+Date   : Mon May  5 19:59:57 2025
+****************************************
+
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+
+Operating Conditions: WCCOM   Library: fsa0m_a_generic_core_ss1p62v125c
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+Tradeoff_8bits         enG5K             fsa0m_a_generic_core_ss1p62v125c
+SEC_rLUT8bits          enG5K             fsa0m_a_generic_core_ss1p62v125c
+SEC_lLUT8bits          enG5K             fsa0m_a_generic_core_ss1p62v125c
+Tradeoff_8bits_DW_div_uns_0
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+Tradeoff_8bits_DW01_sub_1
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+Tradeoff_8bits_DW01_sub_4
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+Tradeoff_8bits_DW_mult_uns_0
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+Tradeoff_8bits_DW01_sub_5
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+Tradeoff_8bits_DW01_sub_6
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+Tradeoff_8bits_DW_mult_uns_1
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+Tradeoff_8bits_DW_mult_uns_2
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+Tradeoff_8bits_DW_div_uns_6
+                       enG5K             fsa0m_a_generic_core_ss1p62v125c
+
+
+Global Operating Voltage = 1.62 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 199.6284 uW   (70%)
+  Net Switching Power  =  84.8568 uW   (30%)
+                         ---------
+Total Dynamic Power    = 284.4852 uW  (100%)
+
+Cell Leakage Power     =   2.3290 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network  9.0725e-02            0.0000            0.0000        9.0725e-02  (  31.63%)  i
+register       1.1306e-02        6.8816e-03        3.5674e+05        1.8544e-02  (   6.47%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  9.7598e-02        7.7975e-02        1.9723e+06            0.1775  (  61.90%)
+--------------------------------------------------------------------------------------------------
+Total              0.1996 mW     8.4857e-02 mW     2.3290e+06 pW         0.2868 mW
+1

@@ -1,0 +1,115 @@
+ 
+****************************************
+Report : area
+Design : SECdecoder_location_30bits_clk
+Version: U-2022.12-SP6
+Date   : Fri May 23 17:05:57 2025
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /usr/cad/Library/CBDK018_UMC_Faraday_v1.0/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+
+Number of ports:                         1654
+Number of nets:                          4339
+Number of cells:                         3223
+Number of combinational cells:           3058
+Number of sequential cells:               111
+Number of macros/black boxes:               0
+Number of buf/inv:                        709
+Number of references:                      46
+
+Combinational area:              51265.468377
+Buf/Inv area:                     4468.463953
+Noncombinational area:            5915.246521
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 57180.714898
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  --------------------------------------------
+SECdecoder_location_30bits_clk    57180.7149    100.0   7221.4128  5915.2465  0.0000  SECdecoder_location_30bits_clk
+add_0_root_add_32_C149_ni           237.4848      0.4    237.4848     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_inc_0
+div_141                           13586.6302     23.8  13586.6302     0.0000  0.0000  SECdecoder_location_30bits_clk_DW_div_uns_14
+div_154                           24732.7918     43.3   9789.9984     0.0000  0.0000  SECdecoder_location_30bits_clk_DW_div_uns_8
+div_154/u_div_u_add_PartRem_0_0_1   149.9904      0.3    149.9904     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_288
+div_154/u_div_u_add_PartRem_0_0_2   165.6144      0.3    165.6144     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_289
+div_154/u_div_u_add_PartRem_0_0_3   109.3680      0.2    109.3680     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_290
+div_154/u_div_u_add_PartRem_0_10_1
+                                    337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_258
+div_154/u_div_u_add_PartRem_0_10_2
+                                    346.8528      0.6    346.8528     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_259
+div_154/u_div_u_add_PartRem_0_10_3
+                                    274.9824      0.5    274.9824     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_260
+div_154/u_div_u_add_PartRem_0_11_1
+                                    337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_255
+div_154/u_div_u_add_PartRem_0_11_2
+                                    353.1024      0.6    353.1024     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_256
+div_154/u_div_u_add_PartRem_0_11_3
+                                    278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_257
+div_154/u_div_u_add_PartRem_0_12_1
+                                    337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_252
+div_154/u_div_u_add_PartRem_0_12_2
+                                    371.8512      0.7    371.8512     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_253
+div_154/u_div_u_add_PartRem_0_12_3
+                                    278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_254
+div_154/u_div_u_add_PartRem_0_13_1
+                                    337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_249
+div_154/u_div_u_add_PartRem_0_13_2
+                                    346.8528      0.6    346.8528     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_250
+div_154/u_div_u_add_PartRem_0_13_3
+                                    287.4816      0.5    287.4816     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_251
+div_154/u_div_u_add_PartRem_0_14_1
+                                    337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_246
+div_154/u_div_u_add_PartRem_0_14_2
+                                    365.6016      0.6    365.6016     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_247
+div_154/u_div_u_add_PartRem_0_14_3
+                                    274.9824      0.5    274.9824     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_248
+div_154/u_div_u_add_PartRem_0_1_1   337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_285
+div_154/u_div_u_add_PartRem_0_1_2   353.1024      0.6    353.1024     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_286
+div_154/u_div_u_add_PartRem_0_1_3   278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_287
+div_154/u_div_u_add_PartRem_0_2_1   337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_282
+div_154/u_div_u_add_PartRem_0_2_2   353.1024      0.6    353.1024     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_283
+div_154/u_div_u_add_PartRem_0_2_3   278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_284
+div_154/u_div_u_add_PartRem_0_3_1   337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_279
+div_154/u_div_u_add_PartRem_0_3_2   353.1024      0.6    353.1024     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_280
+div_154/u_div_u_add_PartRem_0_3_3   278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_281
+div_154/u_div_u_add_PartRem_0_4_1   337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_276
+div_154/u_div_u_add_PartRem_0_4_2   353.1024      0.6    353.1024     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_277
+div_154/u_div_u_add_PartRem_0_4_3   278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_278
+div_154/u_div_u_add_PartRem_0_5_1   337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_273
+div_154/u_div_u_add_PartRem_0_5_2   353.1024      0.6    353.1024     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_274
+div_154/u_div_u_add_PartRem_0_5_3   278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_275
+div_154/u_div_u_add_PartRem_0_6_1   337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_270
+div_154/u_div_u_add_PartRem_0_6_2   353.1024      0.6    353.1024     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_271
+div_154/u_div_u_add_PartRem_0_6_3   278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_272
+div_154/u_div_u_add_PartRem_0_7_1   337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_267
+div_154/u_div_u_add_PartRem_0_7_2   353.1024      0.6    353.1024     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_268
+div_154/u_div_u_add_PartRem_0_7_3   278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_269
+div_154/u_div_u_add_PartRem_0_8_1   337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_264
+div_154/u_div_u_add_PartRem_0_8_2   353.1024      0.6    353.1024     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_265
+div_154/u_div_u_add_PartRem_0_8_3   278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_266
+div_154/u_div_u_add_PartRem_0_9_1   337.4784      0.6    337.4784     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_261
+div_154/u_div_u_add_PartRem_0_9_2   371.8512      0.7    371.8512     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_262
+div_154/u_div_u_add_PartRem_0_9_3   278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_263
+div_154/u_div_u_add_PartRem_1_15_1
+                                    324.9792      0.6    324.9792     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_243
+div_154/u_div_u_add_PartRem_1_15_2
+                                    312.4800      0.5    312.4800     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_244
+div_154/u_div_u_add_PartRem_1_15_3
+                                    278.1072      0.5    278.1072     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_add_245
+mult_149                           2571.7103      4.5   2571.7103     0.0000  0.0000  SECdecoder_location_30bits_clk_DW_mult_uns_1
+sub_145                             440.5968      0.8    440.5968     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_sub_0
+sub_149_2                          2474.8416      4.3   2474.8416     0.0000  0.0000  SECdecoder_location_30bits_clk_DW01_sub_2
+--------------------------------  ----------  -------  ----------  ---------  ------  --------------------------------------------
+Total                                                  51265.4684  5915.2465  0.0000
+
+1

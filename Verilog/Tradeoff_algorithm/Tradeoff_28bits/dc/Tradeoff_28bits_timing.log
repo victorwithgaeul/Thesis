@@ -1,0 +1,288 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : Tradeoff_28bits
+Version: U-2022.12-SP6
+Date   : Wed Apr 30 20:45:48 2025
+****************************************
+
+Operating Conditions: WCCOM   Library: fsa0m_a_generic_core_ss1p62v125c
+Wire Load Model Mode: enclosed
+
+  Startpoint: W_new_reg_38_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: N_reg_0_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Tradeoff_28bits    enG30K                fsa0m_a_generic_core_ss1p62v125c
+  Tradeoff_28bits_DW_div_uns_2
+                     enG30K                fsa0m_a_generic_core_ss1p62v125c
+  Tradeoff_28bits_DW01_add_120
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  Tradeoff_28bits_DW01_add_125
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  Tradeoff_28bits_DW01_add_132
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  Tradeoff_28bits_DW01_add_143
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  Tradeoff_28bits_DW01_add_150
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  Tradeoff_28bits_DW01_add_155
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  Tradeoff_28bits_DW01_add_160
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  Tradeoff_28bits_DW01_add_171
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  Tradeoff_28bits_DW01_add_178
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+  Tradeoff_28bits_DW01_add_181
+                     enG5K                 fsa0m_a_generic_core_ss1p62v125c
+
+  Point                                                                     Incr       Path
+  --------------------------------------------------------------------------------------------
+  clock clk (rise edge)                                                     0.00       0.00
+  clock network delay (ideal)                                               1.00       1.00
+  W_new_reg_38_/CK (QDFFN)                                                  0.00       1.00 r
+  W_new_reg_38_/Q (QDFFN)                                                   0.45       1.45 r
+  div_118/a[38] (Tradeoff_28bits_DW_div_uns_2)                              0.00       1.45 r
+  div_118/U132/O (INV2)                                                     0.10       1.55 f
+  div_118/U278/O (INV3)                                                     0.23       1.78 r
+  div_118/u_div_u_add_PartRem_9_4/A[11] (Tradeoff_28bits_DW01_add_120)      0.00       1.78 r
+  div_118/u_div_u_add_PartRem_9_4/U174/O (INV2)                             0.07       1.85 f
+  div_118/u_div_u_add_PartRem_9_4/U166/O (ND2)                              0.13       1.98 r
+  div_118/u_div_u_add_PartRem_9_4/U168/O (INV1S)                            0.19       2.17 f
+  div_118/u_div_u_add_PartRem_9_4/U186/O (AOI22H)                           0.24       2.41 r
+  div_118/u_div_u_add_PartRem_9_4/U175/O (MOAI1HP)                          0.23       2.65 r
+  div_118/u_div_u_add_PartRem_9_4/U172/O (INV2)                             0.05       2.69 f
+  div_118/u_div_u_add_PartRem_9_4/U171/O (ND2)                              0.07       2.77 r
+  div_118/u_div_u_add_PartRem_9_4/U165/O (OA12S)                            0.27       3.03 r
+  div_118/u_div_u_add_PartRem_9_4/CO (Tradeoff_28bits_DW01_add_120)         0.00       3.03 r
+  div_118/U258/O (BUF2)                                                     0.29       3.32 r
+  div_118/U726/OB (MXL2HP)                                                  0.20       3.53 r
+  div_118/U715/O (OR2P)                                                     0.26       3.78 r
+  div_118/U137/O (NR2P)                                                     0.11       3.89 f
+  div_118/U257/O (AOI12H)                                                   0.19       4.09 r
+  div_118/U1795/O (ND3HT)                                                   0.23       4.32 f
+  div_118/U844/O (OR2S)                                                     0.34       4.66 f
+  div_118/U647/O (INV2)                                                     0.12       4.78 r
+  div_118/U394/O (BUF8)                                                     0.23       5.01 r
+  div_118/U501/O (AOI22S)                                                   0.12       5.13 f
+  div_118/U500/O (OAI112HS)                                                 0.14       5.27 r
+  div_118/U281/O (OR2)                                                      0.31       5.58 r
+  div_118/U280/O (INV3)                                                     0.07       5.66 f
+  div_118/U126/O (INV2)                                                     0.21       5.87 r
+  div_118/u_div_u_add_PartRem_8_2/A[10] (Tradeoff_28bits_DW01_add_125)      0.00       5.87 r
+  div_118/u_div_u_add_PartRem_8_2/U204/O (INV1S)                            0.19       6.05 f
+  div_118/u_div_u_add_PartRem_8_2/U229/O (ND2)                              0.17       6.22 r
+  div_118/u_div_u_add_PartRem_8_2/U174/O (INV1S)                            0.18       6.40 f
+  div_118/u_div_u_add_PartRem_8_2/U203/O (AOI22H)                           0.25       6.65 r
+  div_118/u_div_u_add_PartRem_8_2/U176/O (AO22)                             0.29       6.95 r
+  div_118/u_div_u_add_PartRem_8_2/U177/O (INV1S)                            0.10       7.05 f
+  div_118/u_div_u_add_PartRem_8_2/U227/O (ND2)                              0.10       7.15 r
+  div_118/u_div_u_add_PartRem_8_2/U226/O (OA12P)                            0.28       7.43 r
+  div_118/u_div_u_add_PartRem_8_2/CO (Tradeoff_28bits_DW01_add_125)         0.00       7.43 r
+  div_118/U314/OB (MXL2HP)                                                  0.15       7.58 f
+  div_118/U612/O (OR2)                                                      0.30       7.88 f
+  div_118/U626/O (INV1S)                                                    0.12       8.00 r
+  div_118/U1803/O (ND2)                                                     0.15       8.16 f
+  div_118/U1799/O (ND3HT)                                                   0.23       8.39 r
+  div_118/U728/O (INV3CK)                                                   0.15       8.54 f
+  div_118/U762/O (OR2)                                                      0.28       8.82 f
+  div_118/U193/O (INV4CK)                                                   0.26       9.08 r
+  div_118/U127/O (ND2S)                                                     0.13       9.21 f
+  div_118/U321/O (OA12P)                                                    0.23       9.44 f
+  div_118/U858/O (AN2)                                                      0.25       9.69 f
+  div_118/U283/O (ND3P)                                                     0.20       9.89 r
+  div_118/U696/O (INV2)                                                     0.10       9.99 f
+  div_118/U622/O (INV3)                                                     0.23      10.22 r
+  div_118/u_div_u_add_PartRem_7_2/A[12] (Tradeoff_28bits_DW01_add_132)      0.00      10.22 r
+  div_118/u_div_u_add_PartRem_7_2/U179/O (INV1CK)                           0.29      10.51 f
+  div_118/u_div_u_add_PartRem_7_2/U181/O (AOI22H)                           0.33      10.83 r
+  div_118/u_div_u_add_PartRem_7_2/U178/O (MOAI1H)                           0.25      11.08 r
+  div_118/u_div_u_add_PartRem_7_2/U189/O (INV1S)                            0.10      11.19 f
+  div_118/u_div_u_add_PartRem_7_2/U228/O (ND2)                              0.09      11.28 r
+  div_118/u_div_u_add_PartRem_7_2/U184/O (OA12)                             0.35      11.62 r
+  div_118/u_div_u_add_PartRem_7_2/CO (Tradeoff_28bits_DW01_add_132)         0.00      11.62 r
+  div_118/U304/OB (MXL2HP)                                                  0.16      11.79 f
+  div_118/U732/O (ND2)                                                      0.27      12.06 r
+  div_118/U619/O (INV1S)                                                    0.15      12.21 f
+  div_118/U1806/O (ND2)                                                     0.20      12.41 r
+  div_118/U1804/O (ND3HT)                                                   0.23      12.64 f
+  div_118/U360/O (INV3CK)                                                   0.18      12.82 r
+  div_118/U639/O (OR2T)                                                     0.34      13.16 r
+  div_118/U798/O (INV8)                                                     0.10      13.27 f
+  div_118/U1253/O (AOI22S)                                                  0.27      13.54 r
+  div_118/U1625/O (ND2)                                                     0.15      13.69 f
+  div_118/U1624/O (OR2T)                                                    0.30      13.99 f
+  div_118/u_div_u_add_PartRem_6_6/A[8] (Tradeoff_28bits_DW01_add_143)       0.00      13.99 f
+  div_118/u_div_u_add_PartRem_6_6/U227/O (INV2CK)                           0.11      14.10 r
+  div_118/u_div_u_add_PartRem_6_6/U175/O (AN2)                              0.26      14.36 r
+  div_118/u_div_u_add_PartRem_6_6/U181/O (OR2)                              0.30      14.67 r
+  div_118/u_div_u_add_PartRem_6_6/U194/O (INV2)                             0.05      14.72 f
+  div_118/u_div_u_add_PartRem_6_6/U179/O (AOI22S)                           0.23      14.94 r
+  div_118/u_div_u_add_PartRem_6_6/U241/O (ND2)                              0.10      15.05 f
+  div_118/u_div_u_add_PartRem_6_6/U184/O (AN2)                              0.24      15.29 f
+  div_118/u_div_u_add_PartRem_6_6/U182/O (ND2)                              0.13      15.42 r
+  div_118/u_div_u_add_PartRem_6_6/U173/O (ND2P)                             0.13      15.55 f
+  div_118/u_div_u_add_PartRem_6_6/CO (Tradeoff_28bits_DW01_add_143)         0.00      15.55 f
+  div_118/U256/OB (MXL2HT)                                                  0.20      15.75 r
+  div_118/U1810/O (OR2T)                                                    0.24      15.98 r
+  div_118/U1459/O (NR2F)                                                    0.08      16.07 f
+  div_118/U739/O (AOI12HP)                                                  0.14      16.21 r
+  div_118/U1808/O (ND3HT)                                                   0.25      16.47 f
+  div_118/U727/O (INV4CK)                                                   0.14      16.60 r
+  div_118/U738/O (OR2)                                                      0.24      16.84 r
+  div_118/U385/O (BUF6)                                                     0.19      17.03 r
+  div_118/U485/O (INV3)                                                     0.16      17.19 f
+  div_118/U1164/O (AOI22S)                                                  0.28      17.47 r
+  div_118/U1652/O (ND2)                                                     0.18      17.65 f
+  div_118/U648/O (NR2T)                                                     0.19      17.84 r
+  div_118/U649/O (INV4)                                                     0.16      18.00 f
+  div_118/u_div_u_add_PartRem_5_6/A[8] (Tradeoff_28bits_DW01_add_150)       0.00      18.00 f
+  div_118/u_div_u_add_PartRem_5_6/U177/O (INV1S)                            0.16      18.16 r
+  div_118/u_div_u_add_PartRem_5_6/U173/O (AN2T)                             0.24      18.40 r
+  div_118/u_div_u_add_PartRem_5_6/U201/O (OR2T)                             0.20      18.61 r
+  div_118/u_div_u_add_PartRem_5_6/U181/O (INV1S)                            0.09      18.70 f
+  div_118/u_div_u_add_PartRem_5_6/U180/O (AOI22S)                           0.24      18.93 r
+  div_118/u_div_u_add_PartRem_5_6/U236/O (ND2)                              0.10      19.04 f
+  div_118/u_div_u_add_PartRem_5_6/U185/O (AN2)                              0.24      19.28 f
+  div_118/u_div_u_add_PartRem_5_6/U233/O (ND2)                              0.13      19.41 r
+  div_118/u_div_u_add_PartRem_5_6/U192/O (ND2P)                             0.13      19.55 f
+  div_118/u_div_u_add_PartRem_5_6/CO (Tradeoff_28bits_DW01_add_150)         0.00      19.55 f
+  div_118/U370/OB (MXL2HT)                                                  0.19      19.74 r
+  div_118/U222/O (ND2)                                                      0.25      19.99 f
+  div_118/U252/O (INV1S)                                                    0.17      20.16 r
+  div_118/U962/O (ND2)                                                      0.16      20.32 f
+  div_118/U1812/O (ND3HT)                                                   0.25      20.57 r
+  div_118/U758/O (OR2S)                                                     0.33      20.90 r
+  div_118/U756/O (INV3CK)                                                   0.15      21.05 f
+  div_118/U757/O (INV8)                                                     0.15      21.20 r
+  div_118/U767/O (INV4)                                                     0.11      21.31 f
+  div_118/U1394/O (AOI22S)                                                  0.26      21.57 r
+  div_118/U672/O (AN2)                                                      0.27      21.84 r
+  div_118/U32/O (ND2P)                                                      0.08      21.92 f
+  div_118/U1323/O (OR2T)                                                    0.22      22.14 f
+  div_118/U30/O (BUF8CK)                                                    0.14      22.28 f
+  div_118/u_div_u_add_PartRem_4_4/A[5] (Tradeoff_28bits_DW01_add_155)       0.00      22.28 f
+  div_118/u_div_u_add_PartRem_4_4/U159/O (INV4CK)                           0.03      22.31 r
+  div_118/u_div_u_add_PartRem_4_4/U171/O (AN3)                              0.39      22.69 r
+  div_118/u_div_u_add_PartRem_4_4/U195/O (INV1S)                            0.14      22.83 f
+  div_118/u_div_u_add_PartRem_4_4/U216/O (AO13P)                            0.34      23.17 f
+  div_118/u_div_u_add_PartRem_4_4/U210/O (OA12T)                            0.35      23.52 f
+  div_118/u_div_u_add_PartRem_4_4/CO (Tradeoff_28bits_DW01_add_155)         0.00      23.52 f
+  div_118/U1524/OB (MXL2HP)                                                 0.20      23.72 f
+  div_118/U1817/O (ND2)                                                     0.27      23.99 r
+  div_118/U618/O (INV1S)                                                    0.20      24.19 f
+  div_118/U707/O (ND2P)                                                     0.17      24.36 r
+  div_118/U1816/O (ND3HT)                                                   0.22      24.59 f
+  div_118/U374/O (NR2)                                                      0.23      24.82 r
+  div_118/U214/O (BUF3)                                                     0.41      25.23 r
+  div_118/U111/O (AOI22S)                                                   0.14      25.37 f
+  div_118/U122/O (OAI112HS)                                                 0.19      25.56 r
+  div_118/U1072/O (NR2T)                                                    0.15      25.70 f
+  div_118/U183/O (INV1S)                                                    0.23      25.94 r
+  div_118/u_div_u_add_PartRem_3_2/A[9] (Tradeoff_28bits_DW01_add_160)       0.00      25.94 r
+  div_118/u_div_u_add_PartRem_3_2/U174/O (INV1S)                            0.25      26.18 f
+  div_118/u_div_u_add_PartRem_3_2/U233/O (ND2)                              0.20      26.39 r
+  div_118/u_div_u_add_PartRem_3_2/U182/O (INV1S)                            0.19      26.57 f
+  div_118/u_div_u_add_PartRem_3_2/U180/O (AOI22H)                           0.26      26.83 r
+  div_118/u_div_u_add_PartRem_3_2/U190/O (MOAI1H)                           0.25      27.08 r
+  div_118/u_div_u_add_PartRem_3_2/U192/O (INV1S)                            0.10      27.19 f
+  div_118/u_div_u_add_PartRem_3_2/U231/O (ND2)                              0.09      27.28 r
+  div_118/u_div_u_add_PartRem_3_2/U186/O (OA12)                             0.34      27.62 r
+  div_118/u_div_u_add_PartRem_3_2/CO (Tradeoff_28bits_DW01_add_160)         0.00      27.62 r
+  div_118/U1522/OB (MXL2HP)                                                 0.17      27.80 f
+  div_118/U323/O (ND2P)                                                     0.17      27.97 r
+  div_118/U925/O (INV1S)                                                    0.18      28.15 f
+  div_118/U1783/O (AOI12H)                                                  0.24      28.39 r
+  div_118/U1782/O (ND3HT)                                                   0.24      28.63 f
+  div_118/U343/O (INV3CK)                                                   0.17      28.80 r
+  div_118/U718/O (OR2T)                                                     0.34      29.14 r
+  div_118/U717/O (INV8)                                                     0.11      29.24 f
+  div_118/U1198/O (AOI22S)                                                  0.27      29.52 r
+  div_118/U1750/O (ND2)                                                     0.15      29.67 f
+  div_118/U1749/O (OR2T)                                                    0.24      29.91 f
+  div_118/U65/O (INV12CK)                                                   0.11      30.01 r
+  div_118/U66/O (INV12CK)                                                   0.04      30.06 f
+  div_118/u_div_u_add_PartRem_2_6/A[8] (Tradeoff_28bits_DW01_add_171)       0.00      30.06 f
+  div_118/u_div_u_add_PartRem_2_6/U179/O (INV1S)                            0.15      30.21 r
+  div_118/u_div_u_add_PartRem_2_6/U176/O (AN2)                              0.29      30.49 r
+  div_118/u_div_u_add_PartRem_2_6/U174/O (OR2P)                             0.25      30.74 r
+  div_118/u_div_u_add_PartRem_2_6/U180/O (INV1S)                            0.11      30.85 f
+  div_118/u_div_u_add_PartRem_2_6/U182/O (MAOI1)                            0.23      31.08 r
+  div_118/u_div_u_add_PartRem_2_6/U202/O (ND2S)                             0.09      31.17 f
+  div_118/u_div_u_add_PartRem_2_6/U208/O (AN2S)                             0.22      31.40 f
+  div_118/u_div_u_add_PartRem_2_6/U237/O (ND2)                              0.13      31.53 r
+  div_118/u_div_u_add_PartRem_2_6/U192/O (ND2P)                             0.11      31.64 f
+  div_118/u_div_u_add_PartRem_2_6/CO (Tradeoff_28bits_DW01_add_171)         0.00      31.64 f
+  div_118/U1521/OB (MXL2HP)                                                 0.20      31.84 r
+  div_118/U27/O (OR2P)                                                      0.29      32.13 r
+  div_118/U244/O (INV1S)                                                    0.12      32.25 f
+  div_118/U1790/O (ND2)                                                     0.18      32.43 r
+  div_118/U1787/O (ND3HT)                                                   0.24      32.68 f
+  div_118/U657/O (INV3)                                                     0.20      32.88 r
+  div_118/U335/O (OR2)                                                      0.26      33.14 r
+  div_118/U334/O (BUF8)                                                     0.19      33.33 r
+  div_118/U811/O (INV8)                                                     0.09      33.41 f
+  div_118/U1180/O (AOI22S)                                                  0.27      33.68 r
+  div_118/U1764/O (ND2)                                                     0.22      33.90 f
+  div_118/U332/O (NR2F)                                                     0.16      34.06 r
+  div_118/U356/O (INV1CK)                                                   0.30      34.36 f
+  div_118/u_div_u_add_PartRem_1_6/A[9] (Tradeoff_28bits_DW01_add_178)       0.00      34.36 f
+  div_118/u_div_u_add_PartRem_1_6/U207/O (INV1S)                            0.13      34.49 r
+  div_118/u_div_u_add_PartRem_1_6/U173/O (AN2)                              0.26      34.76 r
+  div_118/u_div_u_add_PartRem_1_6/U186/O (OR2)                              0.31      35.06 r
+  div_118/u_div_u_add_PartRem_1_6/U195/O (INV2)                             0.06      35.12 f
+  div_118/u_div_u_add_PartRem_1_6/U191/O (AOI22H)                           0.16      35.28 r
+  div_118/u_div_u_add_PartRem_1_6/U239/O (ND2)                              0.10      35.38 f
+  div_118/u_div_u_add_PartRem_1_6/U189/O (AN2)                              0.26      35.64 f
+  div_118/u_div_u_add_PartRem_1_6/U180/O (ND2P)                             0.12      35.75 r
+  div_118/u_div_u_add_PartRem_1_6/U179/O (ND2T)                             0.09      35.84 f
+  div_118/u_div_u_add_PartRem_1_6/CO (Tradeoff_28bits_DW01_add_178)         0.00      35.84 f
+  div_118/U425/OB (MXL2HP)                                                  0.21      36.06 r
+  div_118/U201/O (ND2)                                                      0.26      36.31 f
+  div_118/U241/O (INV1S)                                                    0.21      36.53 r
+  div_118/U1792/O (AOI12H)                                                  0.13      36.66 f
+  div_118/U1791/O (ND3HT)                                                   0.26      36.92 r
+  div_118/U816/O (OR2S)                                                     0.28      37.20 r
+  div_118/U736/O (BUF4CK)                                                   0.23      37.43 r
+  div_118/U115/O (INV2)                                                     0.07      37.50 f
+  div_118/U777/O (BUF8CK)                                                   0.18      37.68 f
+  div_118/U831/O (AO22S)                                                    0.29      37.97 f
+  div_118/U587/O (NR2)                                                      0.18      38.15 r
+  div_118/U585/O (ND2)                                                      0.16      38.31 f
+  div_118/U288/O (BUF2)                                                     0.26      38.57 f
+  div_118/u_div_u_add_PartRem_0_2/A[16] (Tradeoff_28bits_DW01_add_181)      0.00      38.57 f
+  div_118/u_div_u_add_PartRem_0_2/U172/O (OR2)                              0.24      38.81 f
+  div_118/u_div_u_add_PartRem_0_2/U175/O (OR3)                              0.29      39.11 f
+  div_118/u_div_u_add_PartRem_0_2/U173/O (MOAI1H)                           0.26      39.37 f
+  div_118/u_div_u_add_PartRem_0_2/U174/O (OAI22H)                           0.25      39.62 r
+  div_118/u_div_u_add_PartRem_0_2/U192/O (MAOI1H)                           0.11      39.73 f
+  div_118/u_div_u_add_PartRem_0_2/CO (Tradeoff_28bits_DW01_add_181)         0.00      39.73 f
+  div_118/U673/O (MUX2)                                                     0.34      40.07 f
+  div_118/U633/OB (MXL2HS)                                                  0.17      40.24 f
+  div_118/quotient[0] (Tradeoff_28bits_DW_div_uns_2)                        0.00      40.24 f
+  U795/O (AO222)                                                            0.34      40.59 f
+  N_reg_0_/D (QDFFRBS)                                                      0.00      40.59 f
+  data arrival time                                                                   40.59
+
+  clock clk (rise edge)                                                    40.00      40.00
+  clock network delay (ideal)                                               1.00      41.00
+  clock uncertainty                                                        -0.30      40.70
+  N_reg_0_/CK (QDFFRBS)                                                     0.00      40.70 r
+  library setup time                                                       -0.11      40.59
+  data required time                                                                  40.59
+  --------------------------------------------------------------------------------------------
+  data required time                                                                  40.59
+  data arrival time                                                                  -40.59
+  --------------------------------------------------------------------------------------------
+  slack (MET)                                                                          0.00
+
+
+1
